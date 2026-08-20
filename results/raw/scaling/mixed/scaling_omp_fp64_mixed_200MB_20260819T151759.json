@@ -1,0 +1,201 @@
+{
+  "run_id": "scaling_omp_fp64_mixed_200MB_20260819T151759",
+  "machine": "aibox_k3",
+  "benchmark": "stream_dynamic",
+  "experiment_type": "scaling",
+  "variant": "omp",
+  "data_type": "fp64",
+  "target_cluster": "mixed",
+  "working_set_mb_per_array": 200,
+  "array_size_elements": 26214400,
+  "repeats": 5,
+  "warmup_runs": 1,
+  "timestamp": "20260819T151759",
+  "compiler": "gcc (Bianbu 15.2.0-16ubuntu1bb2) 15.2.0",
+  "compiler_flags": "-O3 -march=rv64gcv_zba_zbb_zbc_zbs -mabi=lp64d -fopenmp -DSTREAM_TYPE=double",
+  "memory_frequency_hz": null,
+  "points": [
+    {
+      "threads": 1,
+      "cpuset": "0",
+      "cores": [
+        0
+      ],
+      "aggregate": {
+        "Copy": null,
+        "Scale": null,
+        "Add": null,
+        "Triad": null
+      },
+      "validates_all": true,
+      "cpu_freq_before_hz": {
+        "0": 2200000
+      },
+      "temp_before_c": {
+        "thermal_top": 54.0,
+        "thermal_vpu": 51.0,
+        "thermal_gpu": 55.0,
+        "thermal_cluster0": 56.0,
+        "thermal_cluster1": 52.0,
+        "thermal_cluster2": 54.0,
+        "thermal_cluster3": 52.0
+      }
+    },
+    {
+      "threads": 2,
+      "cpuset": "0-1",
+      "cores": [
+        0,
+        1
+      ],
+      "aggregate": {
+        "Copy": null,
+        "Scale": null,
+        "Add": null,
+        "Triad": null
+      },
+      "validates_all": true,
+      "cpu_freq_before_hz": {
+        "0": 2200000,
+        "1": 2200000
+      },
+      "temp_before_c": {
+        "thermal_top": 54.0,
+        "thermal_vpu": 51.0,
+        "thermal_gpu": 55.0,
+        "thermal_cluster0": 56.0,
+        "thermal_cluster1": 52.0,
+        "thermal_cluster2": 54.0,
+        "thermal_cluster3": 52.0
+      }
+    },
+    {
+      "threads": 4,
+      "cpuset": "0-3",
+      "cores": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "aggregate": {
+        "Copy": null,
+        "Scale": null,
+        "Add": null,
+        "Triad": null
+      },
+      "validates_all": true,
+      "cpu_freq_before_hz": {
+        "0": 2200000,
+        "1": 2200000,
+        "2": 2200000,
+        "3": 2200000
+      },
+      "temp_before_c": {
+        "thermal_top": 54.0,
+        "thermal_vpu": 51.0,
+        "thermal_gpu": 55.0,
+        "thermal_cluster0": 56.0,
+        "thermal_cluster1": 52.0,
+        "thermal_cluster2": 54.0,
+        "thermal_cluster3": 52.0
+      }
+    },
+    {
+      "threads": 8,
+      "cpuset": "0-7",
+      "cores": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "aggregate": {
+        "Copy": null,
+        "Scale": null,
+        "Add": null,
+        "Triad": null
+      },
+      "validates_all": true,
+      "cpu_freq_before_hz": {
+        "0": 2200000,
+        "1": 2200000,
+        "2": 2200000,
+        "3": 2200000,
+        "4": 2200000,
+        "5": 2200000,
+        "6": 2200000,
+        "7": 2200000
+      },
+      "temp_before_c": {
+        "thermal_top": 54.0,
+        "thermal_vpu": 51.0,
+        "thermal_gpu": 55.0,
+        "thermal_cluster0": 56.0,
+        "thermal_cluster1": 52.0,
+        "thermal_cluster2": 54.0,
+        "thermal_cluster3": 52.0
+      }
+    },
+    {
+      "threads": 16,
+      "cpuset": "0-15",
+      "cores": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "aggregate": {
+        "Copy": null,
+        "Scale": null,
+        "Add": null,
+        "Triad": null
+      },
+      "validates_all": true,
+      "cpu_freq_before_hz": {
+        "0": 2200000,
+        "1": 2200000,
+        "2": 2200000,
+        "3": 2200000,
+        "4": 2200000,
+        "5": 2200000,
+        "6": 2200000,
+        "7": 2200000,
+        "8": 1800000,
+        "9": 1800000,
+        "10": 1800000,
+        "11": 1800000,
+        "12": 1800000,
+        "13": 1800000,
+        "14": 1800000,
+        "15": 1800000
+      },
+      "temp_before_c": {
+        "thermal_top": 54.0,
+        "thermal_vpu": 51.0,
+        "thermal_gpu": 55.0,
+        "thermal_cluster0": 55.0,
+        "thermal_cluster1": 51.0,
+        "thermal_cluster2": 54.0,
+        "thermal_cluster3": 52.0
+      }
+    }
+  ]
+}

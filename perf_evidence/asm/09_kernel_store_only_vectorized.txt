@@ -1,0 +1,39 @@
+
+/home/student/stream_bench/perf_evidence/binaries/tuned_fastmath_fp64:     file format elf64-littleriscv
+
+
+Disassembly of section .plt:
+
+Disassembly of section .text:
+
+0000000000001772 <kernel_store_only>:
+    1772:	1141                	addi	sp,sp,-16
+    1774:	e022                	sd	s0,0(sp)
+    1776:	e406                	sd	ra,8(sp)
+    1778:	0800                	addi	s0,sp,16
+    177a:	04b05263          	blez	a1,17be <kernel_store_only+0x4c>
+    177e:	4785                	li	a5,1
+    1780:	04f58363          	beq	a1,a5,17c6 <kernel_store_only+0x54>
+    1784:	cd817057          	vsetivli	zero,2,e64,m1,ta,ma
+    1788:	0015d713          	srli	a4,a1,0x1
+    178c:	87aa                	mv	a5,a0
+    178e:	5e0550d7          	vfmv.v.f	v1,fa0
+    1792:	0712                	slli	a4,a4,0x4
+    1794:	972a                	add	a4,a4,a0
+    1796:	0207f0a7          	vse64.v	v1,(a5)
+    179a:	07c1                	addi	a5,a5,16
+    179c:	fee79de3          	bne	a5,a4,1796 <kernel_store_only+0x24>
+    17a0:	ffe5f793          	andi	a5,a1,-2
+    17a4:	00f58d63          	beq	a1,a5,17be <kernel_store_only+0x4c>
+    17a8:	0d807757          	vsetvli	a4,zero,e64,m1,ta,ma
+    17ac:	8d9d                	sub	a1,a1,a5
+    17ae:	20a7e7b3          	sh3add	a5,a5,a0
+    17b2:	5e0550d7          	vfmv.v.f	v1,fa0
+    17b6:	0c55f057          	vsetvli	zero,a1,e8,mf8,ta,ma
+    17ba:	0207f0a7          	vse64.v	v1,(a5)
+    17be:	60a2                	ld	ra,8(sp)
+    17c0:	6402                	ld	s0,0(sp)
+    17c2:	0141                	addi	sp,sp,16
+    17c4:	8082                	ret
+    17c6:	4781                	li	a5,0
+    17c8:	b7c5                	j	17a8 <kernel_store_only+0x36>

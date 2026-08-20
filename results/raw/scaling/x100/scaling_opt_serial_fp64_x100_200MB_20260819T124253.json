@@ -1,0 +1,238 @@
+{
+  "run_id": "scaling_opt_serial_fp64_x100_200MB_20260819T124253",
+  "machine": "aibox_k3",
+  "benchmark": "stream_dynamic",
+  "experiment_type": "scaling",
+  "variant": "opt_serial",
+  "data_type": "fp64",
+  "target_cluster": "x100",
+  "working_set_mb_per_array": 200,
+  "array_size_elements": 26214400,
+  "repeats": 5,
+  "warmup_runs": 1,
+  "timestamp": "20260819T124253",
+  "points": [
+    {
+      "threads": 1,
+      "cpuset": "0",
+      "cores": [
+        0
+      ],
+      "aggregate": {
+        "Copy": {
+          "median_mb_s": 12912.3,
+          "min_mb_s": 12457.8,
+          "max_mb_s": 12926.6,
+          "stdev_mb_s": 199.15242403746967,
+          "n": 5
+        },
+        "Scale": {
+          "median_mb_s": 11554.0,
+          "min_mb_s": 11518.0,
+          "max_mb_s": 11560.6,
+          "stdev_mb_s": 17.53191375748821,
+          "n": 5
+        },
+        "Add": {
+          "median_mb_s": 10165.4,
+          "min_mb_s": 10149.8,
+          "max_mb_s": 10170.8,
+          "stdev_mb_s": 8.676808168906192,
+          "n": 5
+        },
+        "Triad": {
+          "median_mb_s": 10134.8,
+          "min_mb_s": 10132.8,
+          "max_mb_s": 10168.3,
+          "stdev_mb_s": 14.923370932868943,
+          "n": 5
+        }
+      },
+      "validates_all": true,
+      "cpu_freq_before_hz": {
+        "0": 2200000
+      },
+      "temp_before_c": {
+        "thermal_top": 54.0,
+        "thermal_vpu": 51.0,
+        "thermal_gpu": 55.0,
+        "thermal_cluster0": 56.0,
+        "thermal_cluster1": 51.0,
+        "thermal_cluster2": 54.0,
+        "thermal_cluster3": 52.0
+      }
+    },
+    {
+      "threads": 2,
+      "cpuset": "0-1",
+      "cores": [
+        0,
+        1
+      ],
+      "aggregate": {
+        "Copy": {
+          "median_mb_s": 12921.5,
+          "min_mb_s": 12871.9,
+          "max_mb_s": 12981.1,
+          "stdev_mb_s": 43.61192497471351,
+          "n": 5
+        },
+        "Scale": {
+          "median_mb_s": 11554.8,
+          "min_mb_s": 11541.5,
+          "max_mb_s": 11565.4,
+          "stdev_mb_s": 9.740893182865507,
+          "n": 5
+        },
+        "Add": {
+          "median_mb_s": 10168.9,
+          "min_mb_s": 10147.8,
+          "max_mb_s": 10193.9,
+          "stdev_mb_s": 18.419907708780787,
+          "n": 5
+        },
+        "Triad": {
+          "median_mb_s": 10133.1,
+          "min_mb_s": 10125.0,
+          "max_mb_s": 10220.7,
+          "stdev_mb_s": 39.75219490795486,
+          "n": 5
+        }
+      },
+      "validates_all": true,
+      "cpu_freq_before_hz": {
+        "0": 2200000,
+        "1": 2200000
+      },
+      "temp_before_c": {
+        "thermal_top": 54.0,
+        "thermal_vpu": 51.0,
+        "thermal_gpu": 55.0,
+        "thermal_cluster0": 56.0,
+        "thermal_cluster1": 52.0,
+        "thermal_cluster2": 54.0,
+        "thermal_cluster3": 52.0
+      }
+    },
+    {
+      "threads": 4,
+      "cpuset": "0-3",
+      "cores": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "aggregate": {
+        "Copy": {
+          "median_mb_s": 12558.2,
+          "min_mb_s": 10909.0,
+          "max_mb_s": 12891.7,
+          "stdev_mb_s": 1021.6425319063419,
+          "n": 5
+        },
+        "Scale": {
+          "median_mb_s": 11544.6,
+          "min_mb_s": 10068.2,
+          "max_mb_s": 11556.1,
+          "stdev_mb_s": 787.63908168653,
+          "n": 5
+        },
+        "Add": {
+          "median_mb_s": 10151.8,
+          "min_mb_s": 8788.8,
+          "max_mb_s": 10190.8,
+          "stdev_mb_s": 755.8391879229339,
+          "n": 5
+        },
+        "Triad": {
+          "median_mb_s": 10112.1,
+          "min_mb_s": 8761.6,
+          "max_mb_s": 10150.9,
+          "stdev_mb_s": 747.0126016340016,
+          "n": 5
+        }
+      },
+      "validates_all": true,
+      "cpu_freq_before_hz": {
+        "0": 2200000,
+        "1": 2200000,
+        "2": 2200000,
+        "3": 2200000
+      },
+      "temp_before_c": {
+        "thermal_top": 54.0,
+        "thermal_vpu": 52.0,
+        "thermal_gpu": 55.0,
+        "thermal_cluster0": 56.0,
+        "thermal_cluster1": 52.0,
+        "thermal_cluster2": 55.0,
+        "thermal_cluster3": 52.0
+      }
+    },
+    {
+      "threads": 8,
+      "cpuset": "0-7",
+      "cores": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "aggregate": {
+        "Copy": {
+          "median_mb_s": 10936.9,
+          "min_mb_s": 10888.1,
+          "max_mb_s": 12686.9,
+          "stdev_mb_s": 955.2706276233976,
+          "n": 5
+        },
+        "Scale": {
+          "median_mb_s": 9965.1,
+          "min_mb_s": 9877.8,
+          "max_mb_s": 11543.8,
+          "stdev_mb_s": 871.3281718158777,
+          "n": 5
+        },
+        "Add": {
+          "median_mb_s": 8756.4,
+          "min_mb_s": 8744.6,
+          "max_mb_s": 10136.7,
+          "stdev_mb_s": 755.0118025567551,
+          "n": 5
+        },
+        "Triad": {
+          "median_mb_s": 8780.0,
+          "min_mb_s": 8710.7,
+          "max_mb_s": 10189.9,
+          "stdev_mb_s": 769.2433249629145,
+          "n": 5
+        }
+      },
+      "validates_all": true,
+      "cpu_freq_before_hz": {
+        "0": 2200000,
+        "1": 2200000,
+        "2": 2200000,
+        "3": 2200000,
+        "4": 2200000,
+        "5": 2200000,
+        "6": 2200000,
+        "7": 2200000
+      },
+      "temp_before_c": {
+        "thermal_top": 54.0,
+        "thermal_vpu": 51.0,
+        "thermal_gpu": 56.0,
+        "thermal_cluster0": 57.0,
+        "thermal_cluster1": 52.0,
+        "thermal_cluster2": 55.0,
+        "thermal_cluster3": 52.0
+      }
+    }
+  ]
+}

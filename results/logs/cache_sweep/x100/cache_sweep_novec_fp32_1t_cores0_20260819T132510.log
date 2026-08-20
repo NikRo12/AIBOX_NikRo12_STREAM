@@ -1,0 +1,3233 @@
+--- run 1 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 21845 (elements), Offset = 0 (elements)
+Memory per array = 0.1 MiB (= 0.0 GiB).
+Total memory required = 0.2 MiB (= 0.0 GiB).
+Each kernel will be executed 20 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           25275.7     0.000007     0.000007     0.000008
+Scale:           6057.8     0.000030     0.000029     0.000030
+Add:             8796.0     0.000030     0.000030     0.000030
+Triad:           8796.0     0.000031     0.000030     0.000044
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 2 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 21845 (elements), Offset = 0 (elements)
+Memory per array = 0.1 MiB (= 0.0 GiB).
+Total memory required = 0.2 MiB (= 0.0 GiB).
+Each kernel will be executed 20 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           25275.7     0.000009     0.000007     0.000009
+Scale:           5864.0     0.000030     0.000030     0.000030
+Add:             8796.0     0.000030     0.000030     0.000030
+Triad:           9012.3     0.000030     0.000029     0.000030
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 3 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 21845 (elements), Offset = 0 (elements)
+Memory per array = 0.1 MiB (= 0.0 GiB).
+Total memory required = 0.2 MiB (= 0.0 GiB).
+Each kernel will be executed 20 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           25275.7     0.000007     0.000007     0.000008
+Scale:           5864.0     0.000031     0.000030     0.000042
+Add:             8796.0     0.000030     0.000030     0.000030
+Triad:           9012.3     0.000030     0.000029     0.000030
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 1 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 24490 (elements), Offset = 0 (elements)
+Memory per array = 0.1 MiB (= 0.0 GiB).
+Total memory required = 0.3 MiB (= 0.0 GiB).
+Each kernel will be executed 17 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           28336.1     0.000008     0.000007     0.000008
+Scale:           5954.7     0.000034     0.000033     0.000048
+Add:             8932.0     0.000034     0.000033     0.000034
+Triad:           8932.0     0.000034     0.000033     0.000034
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 2 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 24490 (elements), Offset = 0 (elements)
+Memory per array = 0.1 MiB (= 0.0 GiB).
+Total memory required = 0.3 MiB (= 0.0 GiB).
+Each kernel will be executed 17 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           27391.6     0.000008     0.000007     0.000008
+Scale:           5954.7     0.000034     0.000033     0.000046
+Add:             8932.0     0.000034     0.000033     0.000034
+Triad:           8932.0     0.000033     0.000033     0.000034
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 3 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 24490 (elements), Offset = 0 (elements)
+Memory per array = 0.1 MiB (= 0.0 GiB).
+Total memory required = 0.3 MiB (= 0.0 GiB).
+Each kernel will be executed 17 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           28336.1     0.000008     0.000007     0.000008
+Scale:           5954.7     0.000034     0.000033     0.000034
+Add:             8932.0     0.000034     0.000033     0.000034
+Triad:           8932.0     0.000033     0.000033     0.000034
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 1 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 27562 (elements), Offset = 0 (elements)
+Memory per array = 0.1 MiB (= 0.0 GiB).
+Total memory required = 0.3 MiB (= 0.0 GiB).
+Each kernel will be executed 15 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           28025.1     0.000009     0.000008     0.000009
+Scale:           5966.6     0.000038     0.000037     0.000038
+Add:             8949.9     0.000038     0.000037     0.000038
+Triad:           8949.9     0.000039     0.000037     0.000051
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 2 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 27562 (elements), Offset = 0 (elements)
+Memory per array = 0.1 MiB (= 0.0 GiB).
+Total memory required = 0.3 MiB (= 0.0 GiB).
+Each kernel will be executed 15 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           28025.1     0.000009     0.000008     0.000009
+Scale:           5966.6     0.000038     0.000037     0.000049
+Add:             8892.6     0.000038     0.000037     0.000038
+Triad:           8949.9     0.000038     0.000037     0.000038
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 3 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 27562 (elements), Offset = 0 (elements)
+Memory per array = 0.1 MiB (= 0.0 GiB).
+Total memory required = 0.3 MiB (= 0.0 GiB).
+Each kernel will be executed 15 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           24995.3     0.000009     0.000009     0.000009
+Scale:           5966.6     0.000038     0.000037     0.000038
+Add:             8949.9     0.000037     0.000037     0.000038
+Triad:           8949.9     0.000038     0.000037     0.000038
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 1 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 30890 (elements), Offset = 0 (elements)
+Memory per array = 0.1 MiB (= 0.0 GiB).
+Total memory required = 0.4 MiB (= 0.0 GiB).
+Each kernel will be executed 14 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           27276.2     0.000010     0.000009     0.000010
+Scale:           5889.2     0.000042     0.000042     0.000043
+Add:             8833.8     0.000044     0.000042     0.000063
+Triad:           8833.8     0.000042     0.000042     0.000043
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 2 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 30890 (elements), Offset = 0 (elements)
+Memory per array = 0.1 MiB (= 0.0 GiB).
+Total memory required = 0.4 MiB (= 0.0 GiB).
+Each kernel will be executed 14 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           27276.2     0.000010     0.000009     0.000010
+Scale:           5889.2     0.000042     0.000042     0.000043
+Add:             8833.8     0.000043     0.000042     0.000055
+Triad:           8833.8     0.000042     0.000042     0.000043
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 3 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 30890 (elements), Offset = 0 (elements)
+Memory per array = 0.1 MiB (= 0.0 GiB).
+Total memory required = 0.4 MiB (= 0.0 GiB).
+Each kernel will be executed 14 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           28013.4     0.000010     0.000009     0.000010
+Scale:           5889.2     0.000042     0.000042     0.000043
+Add:             8833.8     0.000042     0.000042     0.000043
+Triad:           8833.8     0.000042     0.000042     0.000043
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 1 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 34645 (elements), Offset = 0 (elements)
+Memory per array = 0.1 MiB (= 0.0 GiB).
+Total memory required = 0.4 MiB (= 0.0 GiB).
+Each kernel will be executed 12 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           25271.6     0.000012     0.000011     0.000025
+Scale:           5901.0     0.000047     0.000047     0.000048
+Add:             8851.5     0.000047     0.000047     0.000048
+Triad:           8675.3     0.000049     0.000048     0.000049
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 2 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 34645 (elements), Offset = 0 (elements)
+Memory per array = 0.1 MiB (= 0.0 GiB).
+Total memory required = 0.4 MiB (= 0.0 GiB).
+Each kernel will be executed 12 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           25271.6     0.000011     0.000011     0.000011
+Scale:           5901.0     0.000047     0.000047     0.000048
+Add:             8851.5     0.000048     0.000047     0.000048
+Triad:           8675.3     0.000048     0.000048     0.000049
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 3 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 34645 (elements), Offset = 0 (elements)
+Memory per array = 0.1 MiB (= 0.0 GiB).
+Total memory required = 0.4 MiB (= 0.0 GiB).
+Each kernel will be executed 12 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           25271.6     0.000011     0.000011     0.000012
+Scale:           5901.0     0.000047     0.000047     0.000048
+Add:             8675.3     0.000048     0.000048     0.000048
+Triad:           8851.5     0.000048     0.000047     0.000049
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 1 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 38912 (elements), Offset = 0 (elements)
+Memory per array = 0.1 MiB (= 0.0 GiB).
+Total memory required = 0.4 MiB (= 0.0 GiB).
+Each kernel will be executed 11 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           26113.4     0.000014     0.000012     0.000026
+Scale:           5881.4     0.000053     0.000053     0.000054
+Add:             8822.1     0.000053     0.000053     0.000054
+Triad:           8822.1     0.000053     0.000053     0.000054
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 2 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 38912 (elements), Offset = 0 (elements)
+Memory per array = 0.1 MiB (= 0.0 GiB).
+Total memory required = 0.4 MiB (= 0.0 GiB).
+Each kernel will be executed 11 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           26113.4     0.000014     0.000012     0.000026
+Scale:           5881.4     0.000053     0.000053     0.000054
+Add:             8822.1     0.000053     0.000053     0.000054
+Triad:           8822.1     0.000053     0.000053     0.000054
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 3 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 38912 (elements), Offset = 0 (elements)
+Memory per array = 0.1 MiB (= 0.0 GiB).
+Total memory required = 0.4 MiB (= 0.0 GiB).
+Each kernel will be executed 11 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           26113.4     0.000012     0.000012     0.000013
+Scale:           5881.4     0.000053     0.000053     0.000054
+Add:             8822.1     0.000054     0.000053     0.000054
+Triad:           8666.0     0.000054     0.000054     0.000055
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 1 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 43690 (elements), Offset = 0 (elements)
+Memory per array = 0.2 MiB (= 0.0 GiB).
+Total memory required = 0.5 MiB (= 0.0 GiB).
+Each kernel will be executed 10 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           25275.7     0.000014     0.000014     0.000015
+Scale:           5935.2     0.000060     0.000059     0.000060
+Add:             8902.8     0.000062     0.000059     0.000077
+Triad:           8866.9     0.000061     0.000059     0.000065
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 2 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 43690 (elements), Offset = 0 (elements)
+Memory per array = 0.2 MiB (= 0.0 GiB).
+Total memory required = 0.5 MiB (= 0.0 GiB).
+Each kernel will be executed 10 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           25275.7     0.000014     0.000014     0.000014
+Scale:           5935.2     0.000060     0.000059     0.000060
+Add:             8866.9     0.000060     0.000059     0.000060
+Triad:           8902.8     0.000060     0.000059     0.000060
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 3 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 43690 (elements), Offset = 0 (elements)
+Memory per array = 0.2 MiB (= 0.0 GiB).
+Total memory required = 0.5 MiB (= 0.0 GiB).
+Each kernel will be executed 10 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           25275.7     0.000014     0.000014     0.000014
+Scale:           5817.4     0.000060     0.000060     0.000060
+Add:             8760.9     0.000060     0.000060     0.000061
+Triad:           8623.5     0.000062     0.000061     0.000073
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 1 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 49066 (elements), Offset = 0 (elements)
+Memory per array = 0.2 MiB (= 0.0 GiB).
+Total memory required = 0.6 MiB (= 0.0 GiB).
+Each kernel will be executed 8 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           26133.0     0.000015     0.000015     0.000016
+Scale:           5859.0     0.000067     0.000067     0.000067
+Add:             8788.5     0.000068     0.000067     0.000068
+Triad:           8634.9     0.000071     0.000068     0.000085
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 2 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 49066 (elements), Offset = 0 (elements)
+Memory per array = 0.2 MiB (= 0.0 GiB).
+Total memory required = 0.6 MiB (= 0.0 GiB).
+Each kernel will be executed 8 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           26554.5     0.000015     0.000015     0.000015
+Scale:           5859.0     0.000067     0.000067     0.000067
+Add:             8788.5     0.000068     0.000067     0.000068
+Triad:           8665.2     0.000069     0.000068     0.000069
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 3 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 49066 (elements), Offset = 0 (elements)
+Memory per array = 0.2 MiB (= 0.0 GiB).
+Total memory required = 0.6 MiB (= 0.0 GiB).
+Each kernel will be executed 8 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           26133.0     0.000015     0.000015     0.000016
+Scale:           5859.0     0.000067     0.000067     0.000068
+Add:             8788.5     0.000067     0.000067     0.000068
+Triad:           8545.2     0.000069     0.000069     0.000069
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 1 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 55040 (elements), Offset = 0 (elements)
+Memory per array = 0.2 MiB (= 0.0 GiB).
+Total memory required = 0.6 MiB (= 0.0 GiB).
+Each kernel will be executed 7 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           26011.8     0.000017     0.000017     0.000018
+Scale:           5881.6     0.000075     0.000075     0.000076
+Add:             8794.5     0.000076     0.000075     0.000077
+Triad:           8171.8     0.000084     0.000081     0.000099
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 2 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 55040 (elements), Offset = 0 (elements)
+Memory per array = 0.2 MiB (= 0.0 GiB).
+Total memory required = 0.6 MiB (= 0.0 GiB).
+Each kernel will be executed 7 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           26011.8     0.000019     0.000017     0.000022
+Scale:           5863.0     0.000076     0.000075     0.000080
+Add:             8822.5     0.000076     0.000075     0.000077
+Triad:           8576.6     0.000079     0.000077     0.000085
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 3 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 55040 (elements), Offset = 0 (elements)
+Memory per array = 0.2 MiB (= 0.0 GiB).
+Total memory required = 0.6 MiB (= 0.0 GiB).
+Each kernel will be executed 7 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           26011.8     0.000017     0.000017     0.000018
+Scale:           5881.6     0.000077     0.000075     0.000086
+Add:             8822.5     0.000076     0.000075     0.000076
+Triad:           8603.3     0.000077     0.000077     0.000078
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 1 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 61781 (elements), Offset = 0 (elements)
+Memory per array = 0.2 MiB (= 0.0 GiB).
+Total memory required = 0.7 MiB (= 0.0 GiB).
+Each kernel will be executed 7 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           25912.8     0.000020     0.000019     0.000021
+Scale:           5889.3     0.000084     0.000084     0.000085
+Add:             8808.9     0.000085     0.000084     0.000085
+Triad:           8637.6     0.000093     0.000086     0.000127
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 2 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 61781 (elements), Offset = 0 (elements)
+Memory per array = 0.2 MiB (= 0.0 GiB).
+Total memory required = 0.7 MiB (= 0.0 GiB).
+Each kernel will be executed 7 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           25912.8     0.000020     0.000019     0.000020
+Scale:           5889.3     0.000084     0.000084     0.000085
+Add:             8734.7     0.000085     0.000085     0.000085
+Triad:           8710.2     0.000086     0.000085     0.000087
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 3 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 61781 (elements), Offset = 0 (elements)
+Memory per array = 0.2 MiB (= 0.0 GiB).
+Total memory required = 0.7 MiB (= 0.0 GiB).
+Each kernel will be executed 7 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           26240.8     0.000021     0.000019     0.000031
+Scale:           5889.3     0.000085     0.000084     0.000085
+Add:             8734.7     0.000085     0.000085     0.000085
+Triad:           8637.6     0.000086     0.000086     0.000087
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 1 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 69376 (elements), Offset = 0 (elements)
+Memory per array = 0.3 MiB (= 0.0 GiB).
+Total memory required = 0.8 MiB (= 0.0 GiB).
+Each kernel will be executed 6 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           26453.1     0.000022     0.000021     0.000022
+Scale:           5908.3     0.000095     0.000094     0.000095
+Add:             8773.4     0.000098     0.000095     0.000110
+Triad:           8579.4     0.000097     0.000097     0.000097
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 2 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 69376 (elements), Offset = 0 (elements)
+Memory per array = 0.3 MiB (= 0.0 GiB).
+Total memory required = 0.8 MiB (= 0.0 GiB).
+Each kernel will be executed 6 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           25303.0     0.000022     0.000022     0.000022
+Scale:           5908.3     0.000095     0.000094     0.000095
+Add:             8751.4     0.000096     0.000095     0.000096
+Triad:           8686.1     0.000097     0.000096     0.000097
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 3 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 69376 (elements), Offset = 0 (elements)
+Memory per array = 0.3 MiB (= 0.0 GiB).
+Total memory required = 0.8 MiB (= 0.0 GiB).
+Each kernel will be executed 6 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           26453.1     0.000021     0.000021     0.000022
+Scale:           5908.3     0.000094     0.000094     0.000095
+Add:             8773.4     0.000096     0.000095     0.000096
+Triad:           8664.5     0.000097     0.000096     0.000097
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 1 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 77824 (elements), Offset = 0 (elements)
+Memory per array = 0.3 MiB (= 0.0 GiB).
+Total memory required = 0.9 MiB (= 0.0 GiB).
+Each kernel will be executed 5 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           24869.9     0.000029     0.000025     0.000039
+Scale:           5881.4     0.000106     0.000106     0.000106
+Add:             8802.3     0.000107     0.000106     0.000107
+Triad:           8802.3     0.000107     0.000106     0.000109
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 2 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 77824 (elements), Offset = 0 (elements)
+Memory per array = 0.3 MiB (= 0.0 GiB).
+Total memory required = 0.9 MiB (= 0.0 GiB).
+Each kernel will be executed 5 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           26113.4     0.000024     0.000024     0.000025
+Scale:           5881.4     0.000107     0.000106     0.000107
+Add:             8723.9     0.000107     0.000107     0.000108
+Triad:           8646.8     0.000108     0.000108     0.000109
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 3 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 77824 (elements), Offset = 0 (elements)
+Memory per array = 0.3 MiB (= 0.0 GiB).
+Total memory required = 0.9 MiB (= 0.0 GiB).
+Each kernel will be executed 5 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           26113.4     0.000025     0.000024     0.000025
+Scale:           5881.4     0.000106     0.000106     0.000107
+Add:             8802.3     0.000107     0.000106     0.000107
+Triad:           8822.1     0.000106     0.000106     0.000107
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 1 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 87381 (elements), Offset = 0 (elements)
+Memory per array = 0.3 MiB (= 0.0 GiB).
+Total memory required = 1.0 MiB (= 0.0 GiB).
+Each kernel will be executed 5 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           25060.0     0.000028     0.000028     0.000028
+Scale:           5875.8     0.000119     0.000119     0.000120
+Add:             8796.1     0.000120     0.000119     0.000120
+Triad:           8813.7     0.000123     0.000119     0.000136
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 2 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 87381 (elements), Offset = 0 (elements)
+Memory per array = 0.3 MiB (= 0.0 GiB).
+Total memory required = 1.0 MiB (= 0.0 GiB).
+Each kernel will be executed 5 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           25947.1     0.000027     0.000027     0.000027
+Scale:           5875.8     0.000120     0.000119     0.000120
+Add:             8743.6     0.000120     0.000120     0.000121
+Triad:           8674.6     0.000121     0.000121     0.000122
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 3 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 87381 (elements), Offset = 0 (elements)
+Memory per array = 0.3 MiB (= 0.0 GiB).
+Total memory required = 1.0 MiB (= 0.0 GiB).
+Each kernel will be executed 5 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           25947.1     0.000028     0.000027     0.000028
+Scale:           5875.8     0.000119     0.000119     0.000120
+Add:             8743.6     0.000123     0.000120     0.000132
+Triad:           8606.7     0.000122     0.000122     0.000122
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 1 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 98048 (elements), Offset = 0 (elements)
+Memory per array = 0.4 MiB (= 0.0 GiB).
+Total memory required = 1.1 MiB (= 0.0 GiB).
+Each kernel will be executed 5 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           25307.3     0.000031     0.000031     0.000031
+Scale:           5854.0     0.000138     0.000134     0.000149
+Add:             8718.9     0.000135     0.000135     0.000137
+Triad:           8657.7     0.000137     0.000136     0.000137
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 2 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 98048 (elements), Offset = 0 (elements)
+Memory per array = 0.4 MiB (= 0.0 GiB).
+Total memory required = 1.1 MiB (= 0.0 GiB).
+Each kernel will be executed 5 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           26319.6     0.000031     0.000030     0.000031
+Scale:           5854.0     0.000134     0.000134     0.000134
+Add:             8781.0     0.000136     0.000134     0.000138
+Triad:           8781.0     0.000136     0.000134     0.000137
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 3 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 98048 (elements), Offset = 0 (elements)
+Memory per array = 0.4 MiB (= 0.0 GiB).
+Total memory required = 1.1 MiB (= 0.0 GiB).
+Each kernel will be executed 5 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           25307.3     0.000031     0.000031     0.000031
+Scale:           5854.0     0.000134     0.000134     0.000134
+Add:             8718.9     0.000135     0.000135     0.000135
+Triad:           8657.7     0.000137     0.000136     0.000137
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 1 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 110080 (elements), Offset = 0 (elements)
+Memory per array = 0.4 MiB (= 0.0 GiB).
+Total memory required = 1.3 MiB (= 0.0 GiB).
+Each kernel will be executed 5 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           26011.8     0.000034     0.000034     0.000035
+Scale:           5872.3     0.000151     0.000150     0.000151
+Add:             8752.8     0.000151     0.000151     0.000152
+Triad:           8752.8     0.000153     0.000151     0.000154
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 2 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 110080 (elements), Offset = 0 (elements)
+Memory per array = 0.4 MiB (= 0.0 GiB).
+Total memory required = 1.3 MiB (= 0.0 GiB).
+Each kernel will be executed 5 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           26011.8     0.000035     0.000034     0.000035
+Scale:           5872.3     0.000159     0.000150     0.000183
+Add:             8752.8     0.000154     0.000151     0.000163
+Triad:           8643.5     0.000154     0.000153     0.000154
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 3 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 110080 (elements), Offset = 0 (elements)
+Memory per array = 0.4 MiB (= 0.0 GiB).
+Total memory required = 1.3 MiB (= 0.0 GiB).
+Each kernel will be executed 5 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           26011.8     0.000034     0.000034     0.000035
+Scale:           5872.3     0.000151     0.000150     0.000151
+Add:             8752.8     0.000151     0.000151     0.000151
+Triad:           8589.9     0.000154     0.000154     0.000154
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 1 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 123562 (elements), Offset = 0 (elements)
+Memory per array = 0.5 MiB (= 0.0 GiB).
+Total memory required = 1.4 MiB (= 0.0 GiB).
+Each kernel will be executed 5 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           25435.9     0.000039     0.000039     0.000040
+Scale:           5856.0     0.000169     0.000169     0.000169
+Add:             8722.4     0.000170     0.000170     0.000171
+Triad:           8625.6     0.000172     0.000172     0.000172
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 2 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 123562 (elements), Offset = 0 (elements)
+Memory per array = 0.5 MiB (= 0.0 GiB).
+Total memory required = 1.4 MiB (= 0.0 GiB).
+Each kernel will be executed 5 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           26075.8     0.000039     0.000038     0.000040
+Scale:           5880.9     0.000169     0.000168     0.000169
+Add:             8771.6     0.000174     0.000169     0.000188
+Triad:           8613.7     0.000173     0.000172     0.000173
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 3 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 123562 (elements), Offset = 0 (elements)
+Memory per array = 0.5 MiB (= 0.0 GiB).
+Total memory required = 1.4 MiB (= 0.0 GiB).
+Each kernel will be executed 5 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           25912.8     0.000039     0.000038     0.000039
+Scale:           5880.9     0.000172     0.000168     0.000180
+Add:             8771.6     0.000170     0.000169     0.000173
+Triad:           8625.6     0.000172     0.000172     0.000172
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 1 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 138666 (elements), Offset = 0 (elements)
+Memory per array = 0.5 MiB (= 0.0 GiB).
+Total memory required = 1.6 MiB (= 0.0 GiB).
+Each kernel will be executed 5 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           25706.4     0.000044     0.000043     0.000046
+Scale:           5867.4     0.000189     0.000189     0.000190
+Add:             8756.9     0.000191     0.000190     0.000191
+Triad:           8627.1     0.000193     0.000193     0.000193
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 2 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 138666 (elements), Offset = 0 (elements)
+Memory per array = 0.5 MiB (= 0.0 GiB).
+Total memory required = 1.6 MiB (= 0.0 GiB).
+Each kernel will be executed 5 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           25849.2     0.000043     0.000043     0.000044
+Scale:           5867.4     0.000190     0.000189     0.000190
+Add:             8756.9     0.000191     0.000190     0.000191
+Triad:           8616.4     0.000194     0.000193     0.000194
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 3 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 138666 (elements), Offset = 0 (elements)
+Memory per array = 0.5 MiB (= 0.0 GiB).
+Total memory required = 1.6 MiB (= 0.0 GiB).
+Each kernel will be executed 5 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           25849.2     0.000044     0.000043     0.000045
+Scale:           5874.8     0.000189     0.000189     0.000190
+Add:             8756.9     0.000190     0.000190     0.000191
+Triad:           8627.1     0.000194     0.000193     0.000194
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 1 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 155733 (elements), Offset = 0 (elements)
+Memory per array = 0.6 MiB (= 0.0 GiB).
+Total memory required = 1.8 MiB (= 0.0 GiB).
+Each kernel will be executed 5 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           21504.2     0.000059     0.000058     0.000061
+Scale:           5871.4     0.000213     0.000212     0.000213
+Add:             8383.2     0.000229     0.000223     0.000231
+Triad:           8529.2     0.000234     0.000219     0.000248
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 2 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 155733 (elements), Offset = 0 (elements)
+Memory per array = 0.6 MiB (= 0.0 GiB).
+Total memory required = 1.8 MiB (= 0.0 GiB).
+Each kernel will be executed 5 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           23121.8     0.000058     0.000054     0.000062
+Scale:           5878.0     0.000212     0.000212     0.000213
+Add:             8268.2     0.000230     0.000226     0.000232
+Triad:           7990.1     0.000238     0.000234     0.000247
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 3 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 155733 (elements), Offset = 0 (elements)
+Memory per array = 0.6 MiB (= 0.0 GiB).
+Total memory required = 1.8 MiB (= 0.0 GiB).
+Each kernel will be executed 5 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           24418.4     0.000054     0.000051     0.000060
+Scale:           5878.0     0.000213     0.000212     0.000213
+Add:             8566.4     0.000220     0.000218     0.000223
+Triad:           8566.4     0.000219     0.000218     0.000219
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 1 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 174762 (elements), Offset = 0 (elements)
+Memory per array = 0.7 MiB (= 0.0 GiB).
+Total memory required = 2.0 MiB (= 0.0 GiB).
+Each kernel will be executed 5 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           24953.4     0.000058     0.000056     0.000060
+Scale:           5875.8     0.000238     0.000238     0.000239
+Add:             8778.5     0.000239     0.000239     0.000239
+Triad:           8813.7     0.000238     0.000238     0.000238
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 2 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 174762 (elements), Offset = 0 (elements)
+Memory per array = 0.7 MiB (= 0.0 GiB).
+Total memory required = 2.0 MiB (= 0.0 GiB).
+Each kernel will be executed 5 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           24953.4     0.000058     0.000056     0.000060
+Scale:           5875.8     0.000241     0.000238     0.000249
+Add:             8490.4     0.000250     0.000247     0.000254
+Triad:           8523.3     0.000247     0.000246     0.000247
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 3 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 174762 (elements), Offset = 0 (elements)
+Memory per array = 0.7 MiB (= 0.0 GiB).
+Total memory required = 2.0 MiB (= 0.0 GiB).
+Each kernel will be executed 5 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           24535.7     0.000059     0.000057     0.000062
+Scale:           5875.8     0.000242     0.000238     0.000255
+Add:             8632.1     0.000250     0.000243     0.000267
+Triad:           8734.9     0.000244     0.000240     0.000249
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 1 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 196181 (elements), Offset = 0 (elements)
+Memory per array = 0.7 MiB (= 0.0 GiB).
+Total memory required = 2.2 MiB (= 0.0 GiB).
+Each kernel will be executed 5 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           23850.5     0.000066     0.000066     0.000068
+Scale:           5877.4     0.000270     0.000267     0.000278
+Add:             8563.8     0.000281     0.000275     0.000297
+Triad:           8497.5     0.000278     0.000277     0.000279
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 2 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 196181 (elements), Offset = 0 (elements)
+Memory per array = 0.7 MiB (= 0.0 GiB).
+Total memory required = 2.2 MiB (= 0.0 GiB).
+Each kernel will be executed 5 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           23426.1     0.000068     0.000067     0.000069
+Scale:           5877.4     0.000272     0.000267     0.000283
+Add:             8375.0     0.000287     0.000281     0.000300
+Triad:           8816.2     0.000275     0.000267     0.000278
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 3 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 196181 (elements), Offset = 0 (elements)
+Memory per array = 0.7 MiB (= 0.0 GiB).
+Total memory required = 2.2 MiB (= 0.0 GiB).
+Each kernel will be executed 5 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           23426.1     0.000068     0.000067     0.000069
+Scale:           5877.4     0.000268     0.000267     0.000268
+Add:             8262.9     0.000289     0.000285     0.000300
+Triad:           8816.2     0.000275     0.000267     0.000281
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 1 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 220160 (elements), Offset = 0 (elements)
+Memory per array = 0.8 MiB (= 0.0 GiB).
+Total memory required = 2.5 MiB (= 0.0 GiB).
+Each kernel will be executed 5 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           23157.8     0.000077     0.000076     0.000080
+Scale:           5872.3     0.000301     0.000300     0.000301
+Add:             8780.5     0.000301     0.000301     0.000302
+Triad:           8808.4     0.000304     0.000300     0.000316
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 2 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 220160 (elements), Offset = 0 (elements)
+Memory per array = 0.8 MiB (= 0.0 GiB).
+Total memory required = 2.5 MiB (= 0.0 GiB).
+Each kernel will be executed 5 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           23830.1     0.000076     0.000074     0.000079
+Scale:           5872.3     0.000300     0.000300     0.000301
+Add:             8177.9     0.000329     0.000323     0.000345
+Triad:           8363.0     0.000316     0.000316     0.000317
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 3 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 220160 (elements), Offset = 0 (elements)
+Memory per array = 0.8 MiB (= 0.0 GiB).
+Total memory required = 2.5 MiB (= 0.0 GiB).
+Each kernel will be executed 5 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           23451.9     0.000077     0.000075     0.000078
+Scale:           5872.3     0.000311     0.000300     0.000341
+Add:             8780.5     0.000301     0.000301     0.000301
+Triad:           8808.4     0.000301     0.000300     0.000301
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 1 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 247125 (elements), Offset = 0 (elements)
+Memory per array = 0.9 MiB (= 0.0 GiB).
+Total memory required = 2.8 MiB (= 0.0 GiB).
+Each kernel will be executed 5 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           23033.7     0.000089     0.000086     0.000092
+Scale:           5868.5     0.000337     0.000337     0.000338
+Add:             8771.7     0.000358     0.000338     0.000372
+Triad:           8802.7     0.000355     0.000337     0.000373
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 2 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 247125 (elements), Offset = 0 (elements)
+Memory per array = 0.9 MiB (= 0.0 GiB).
+Total memory required = 2.8 MiB (= 0.0 GiB).
+Each kernel will be executed 5 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           22471.9     0.000089     0.000088     0.000092
+Scale:           5864.3     0.000341     0.000337     0.000351
+Add:             8150.9     0.000374     0.000364     0.000395
+Triad:           8747.0     0.000350     0.000339     0.000355
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 3 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 247125 (elements), Offset = 0 (elements)
+Memory per array = 0.9 MiB (= 0.0 GiB).
+Total memory required = 2.8 MiB (= 0.0 GiB).
+Each kernel will be executed 5 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           23227.3     0.000089     0.000085     0.000092
+Scale:           5868.5     0.000337     0.000337     0.000338
+Add:             8281.1     0.000380     0.000358     0.000431
+Triad:           8427.0     0.000354     0.000352     0.000356
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 1 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 277418 (elements), Offset = 0 (elements)
+Memory per array = 1.1 MiB (= 0.0 GiB).
+Total memory required = 3.2 MiB (= 0.0 GiB).
+Each kernel will be executed 5 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           21107.9     0.000117     0.000105     0.000140
+Scale:           5858.2     0.000383     0.000379     0.000394
+Add:             7515.0     0.000455     0.000443     0.000475
+Triad:           8472.6     0.000419     0.000393     0.000459
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 2 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 277418 (elements), Offset = 0 (elements)
+Memory per array = 1.1 MiB (= 0.0 GiB).
+Total memory required = 3.2 MiB (= 0.0 GiB).
+Each kernel will be executed 5 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           20324.5     0.000119     0.000109     0.000129
+Scale:           5872.9     0.000378     0.000378     0.000379
+Add:             7531.2     0.000461     0.000442     0.000493
+Triad:           8493.3     0.000405     0.000392     0.000422
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 3 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 277418 (elements), Offset = 0 (elements)
+Memory per array = 1.1 MiB (= 0.0 GiB).
+Total memory required = 3.2 MiB (= 0.0 GiB).
+Each kernel will be executed 5 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           20778.1     0.000111     0.000107     0.000119
+Scale:           5872.9     0.000379     0.000378     0.000379
+Add:             7498.9     0.000473     0.000444     0.000497
+Triad:           8534.8     0.000406     0.000390     0.000429
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 1 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 311381 (elements), Offset = 0 (elements)
+Memory per array = 1.2 MiB (= 0.0 GiB).
+Total memory required = 3.6 MiB (= 0.0 GiB).
+Each kernel will be executed 5 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           19750.9     0.000134     0.000126     0.000144
+Scale:           5863.2     0.000428     0.000425     0.000437
+Add:             6870.8     0.000565     0.000544     0.000579
+Triad:           7863.7     0.000485     0.000475     0.000507
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 2 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 311381 (elements), Offset = 0 (elements)
+Memory per array = 1.2 MiB (= 0.0 GiB).
+Total memory required = 3.6 MiB (= 0.0 GiB).
+Each kernel will be executed 5 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           19031.4     0.000134     0.000131     0.000138
+Scale:           5863.2     0.000428     0.000425     0.000438
+Add:             7399.6     0.000539     0.000505     0.000557
+Triad:           7816.6     0.000488     0.000478     0.000506
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 3 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 311381 (elements), Offset = 0 (elements)
+Memory per array = 1.2 MiB (= 0.0 GiB).
+Total memory required = 3.6 MiB (= 0.0 GiB).
+Each kernel will be executed 5 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           19312.8     0.000147     0.000129     0.000184
+Scale:           5859.9     0.000426     0.000425     0.000427
+Add:             6971.7     0.000549     0.000536     0.000566
+Triad:           8750.6     0.000461     0.000427     0.000483
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 1 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 349525 (elements), Offset = 0 (elements)
+Memory per array = 1.3 MiB (= 0.0 GiB).
+Total memory required = 4.0 MiB (= 0.0 GiB).
+Each kernel will be executed 5 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           17375.0     0.000171     0.000161     0.000183
+Scale:           5861.1     0.000490     0.000477     0.000526
+Add:             7749.9     0.000644     0.000541     0.000684
+Triad:           8544.0     0.000525     0.000491     0.000563
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 2 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 349525 (elements), Offset = 0 (elements)
+Memory per array = 1.3 MiB (= 0.0 GiB).
+Total memory required = 4.0 MiB (= 0.0 GiB).
+Each kernel will be executed 5 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           16266.5     0.000177     0.000172     0.000186
+Scale:           5861.1     0.000478     0.000477     0.000478
+Add:             7345.4     0.000642     0.000571     0.000673
+Triad:           8033.0     0.000551     0.000522     0.000562
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 3 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 349525 (elements), Offset = 0 (elements)
+Memory per array = 1.3 MiB (= 0.0 GiB).
+Total memory required = 4.0 MiB (= 0.0 GiB).
+Each kernel will be executed 5 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           16357.2     0.000179     0.000171     0.000192
+Scale:           5849.4     0.000502     0.000478     0.000569
+Add:             7305.7     0.000648     0.000574     0.000694
+Triad:           8457.8     0.000547     0.000496     0.000575
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 1 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 392362 (elements), Offset = 0 (elements)
+Memory per array = 1.5 MiB (= 0.0 GiB).
+Total memory required = 4.5 MiB (= 0.0 GiB).
+Each kernel will be executed 5 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           16016.4     0.000202     0.000196     0.000220
+Scale:           5833.2     0.000549     0.000538     0.000561
+Add:             7966.2     0.000654     0.000591     0.000761
+Triad:           8276.7     0.000588     0.000569     0.000618
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 2 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 392362 (elements), Offset = 0 (elements)
+Memory per array = 1.5 MiB (= 0.0 GiB).
+Total memory required = 4.5 MiB (= 0.0 GiB).
+Each kernel will be executed 5 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           15380.2     0.000221     0.000204     0.000228
+Scale:           5846.1     0.000538     0.000537     0.000538
+Add:             6269.3     0.000784     0.000751     0.000818
+Triad:           8073.7     0.000642     0.000583     0.000695
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 3 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 392362 (elements), Offset = 0 (elements)
+Memory per array = 1.5 MiB (= 0.0 GiB).
+Total memory required = 4.5 MiB (= 0.0 GiB).
+Each kernel will be executed 5 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           15919.6     0.000246     0.000197     0.000358
+Scale:           5846.1     0.000539     0.000537     0.000543
+Add:             8364.3     0.000699     0.000563     0.000787
+Triad:           8077.0     0.000604     0.000583     0.000631
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 1 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 440405 (elements), Offset = 0 (elements)
+Memory per array = 1.7 MiB (= 0.0 GiB).
+Total memory required = 5.0 MiB (= 0.0 GiB).
+Each kernel will be executed 5 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           14502.0     0.000255     0.000243     0.000269
+Scale:           5813.4     0.000622     0.000606     0.000656
+Add:             8271.0     0.000711     0.000639     0.000900
+Triad:           8551.8     0.000645     0.000618     0.000714
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 2 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 440405 (elements), Offset = 0 (elements)
+Memory per array = 1.7 MiB (= 0.0 GiB).
+Total memory required = 5.0 MiB (= 0.0 GiB).
+Each kernel will be executed 5 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           13397.6     0.000271     0.000263     0.000289
+Scale:           5834.0     0.000610     0.000604     0.000624
+Add:             8206.7     0.000738     0.000644     0.000887
+Triad:           8441.1     0.000637     0.000626     0.000647
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 3 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 440405 (elements), Offset = 0 (elements)
+Memory per array = 1.7 MiB (= 0.0 GiB).
+Total memory required = 5.0 MiB (= 0.0 GiB).
+Each kernel will be executed 5 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           14559.2     0.000263     0.000242     0.000293
+Scale:           5824.8     0.000606     0.000605     0.000607
+Add:             8234.1     0.000727     0.000642     0.000840
+Triad:           8386.8     0.000690     0.000630     0.000756
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 1 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 494336 (elements), Offset = 0 (elements)
+Memory per array = 1.9 MiB (= 0.0 GiB).
+Total memory required = 5.7 MiB (= 0.0 GiB).
+Each kernel will be executed 5 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           12848.3     0.000309     0.000308     0.000311
+Scale:           5824.1     0.000680     0.000679     0.000680
+Add:             8474.4     0.000841     0.000700     0.000922
+Triad:           7982.3     0.000814     0.000743     0.000842
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 2 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 494336 (elements), Offset = 0 (elements)
+Memory per array = 1.9 MiB (= 0.0 GiB).
+Total memory required = 5.7 MiB (= 0.0 GiB).
+Each kernel will be executed 5 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           14021.3     0.000297     0.000282     0.000312
+Scale:           5824.1     0.000691     0.000679     0.000722
+Add:             7785.0     0.000884     0.000762     0.000951
+Triad:           7794.7     0.000800     0.000761     0.000823
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 3 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 494336 (elements), Offset = 0 (elements)
+Memory per array = 1.9 MiB (= 0.0 GiB).
+Total memory required = 5.7 MiB (= 0.0 GiB).
+Each kernel will be executed 5 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           14080.8     0.000321     0.000281     0.000411
+Scale:           5807.8     0.000687     0.000681     0.000704
+Add:             8227.8     0.000780     0.000721     0.000954
+Triad:           8402.8     0.000724     0.000706     0.000746
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 1 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 554837 (elements), Offset = 0 (elements)
+Memory per array = 2.1 MiB (= 0.0 GiB).
+Total memory required = 6.3 MiB (= 0.0 GiB).
+Each kernel will be executed 5 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           13659.0     0.000390     0.000325     0.000583
+Scale:           5825.2     0.000778     0.000762     0.000809
+Add:             7908.8     0.000931     0.000842     0.001057
+Triad:           8480.4     0.000821     0.000785     0.000849
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 2 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 554837 (elements), Offset = 0 (elements)
+Memory per array = 2.1 MiB (= 0.0 GiB).
+Total memory required = 6.3 MiB (= 0.0 GiB).
+Each kernel will be executed 5 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           13609.1     0.000352     0.000326     0.000380
+Scale:           5839.8     0.000761     0.000760     0.000762
+Add:             7804.9     0.000931     0.000853     0.000974
+Triad:           8013.2     0.000875     0.000831     0.000913
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 3 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 554837 (elements), Offset = 0 (elements)
+Memory per array = 2.1 MiB (= 0.0 GiB).
+Total memory required = 6.3 MiB (= 0.0 GiB).
+Each kernel will be executed 5 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           13739.7     0.000353     0.000323     0.000384
+Scale:           5832.5     0.000762     0.000761     0.000763
+Add:             8635.1     0.000865     0.000771     0.000936
+Triad:           8439.4     0.000852     0.000789     0.000907
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 1 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 622762 (elements), Offset = 0 (elements)
+Memory per array = 2.4 MiB (= 0.0 GiB).
+Total memory required = 7.1 MiB (= 0.0 GiB).
+Each kernel will be executed 5 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           13250.7     0.000396     0.000376     0.000403
+Scale:           5827.2     0.000855     0.000855     0.000855
+Add:             7665.6     0.001026     0.000975     0.001138
+Triad:           8103.6     0.000956     0.000922     0.000989
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 2 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 622762 (elements), Offset = 0 (elements)
+Memory per array = 2.4 MiB (= 0.0 GiB).
+Total memory required = 7.1 MiB (= 0.0 GiB).
+Each kernel will be executed 5 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           13613.3     0.000368     0.000366     0.000372
+Scale:           5840.3     0.000859     0.000853     0.000872
+Add:             8559.4     0.000946     0.000873     0.001015
+Triad:           8266.0     0.000940     0.000904     0.000997
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 3 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 622762 (elements), Offset = 0 (elements)
+Memory per array = 2.4 MiB (= 0.0 GiB).
+Total memory required = 7.1 MiB (= 0.0 GiB).
+Each kernel will be executed 5 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           12453.2     0.000405     0.000400     0.000412
+Scale:           5841.9     0.000858     0.000853     0.000869
+Add:             8122.5     0.001009     0.000920     0.001112
+Triad:           8194.7     0.000941     0.000912     0.000979
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 1 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 699050 (elements), Offset = 0 (elements)
+Memory per array = 2.7 MiB (= 0.0 GiB).
+Total memory required = 8.0 MiB (= 0.0 GiB).
+Each kernel will be executed 5 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           13411.2     0.000447     0.000417     0.000459
+Scale:           5843.6     0.000966     0.000957     0.000975
+Add:             8066.1     0.001104     0.001040     0.001182
+Triad:           8431.4     0.001047     0.000995     0.001108
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 2 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 699050 (elements), Offset = 0 (elements)
+Memory per array = 2.7 MiB (= 0.0 GiB).
+Total memory required = 8.0 MiB (= 0.0 GiB).
+Each kernel will be executed 5 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           12261.5     0.000539     0.000456     0.000784
+Scale:           5856.7     0.000957     0.000955     0.000958
+Add:             7922.6     0.001116     0.001059     0.001180
+Triad:           8517.1     0.001039     0.000985     0.001111
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 3 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 699050 (elements), Offset = 0 (elements)
+Memory per array = 2.7 MiB (= 0.0 GiB).
+Total memory required = 8.0 MiB (= 0.0 GiB).
+Each kernel will be executed 5 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           12178.7     0.000461     0.000459     0.000463
+Scale:           5850.9     0.000957     0.000956     0.000958
+Add:             8184.3     0.001089     0.001025     0.001142
+Triad:           8005.5     0.001098     0.001048     0.001171
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 1 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 784640 (elements), Offset = 0 (elements)
+Memory per array = 3.0 MiB (= 0.0 GiB).
+Total memory required = 9.0 MiB (= 0.0 GiB).
+Each kernel will be executed 5 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           12868.1     0.000504     0.000488     0.000519
+Scale:           5849.4     0.001074     0.001073     0.001075
+Add:             8645.4     0.001154     0.001089     0.001212
+Triad:           7946.1     0.001254     0.001185     0.001368
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 2 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 784640 (elements), Offset = 0 (elements)
+Memory per array = 3.0 MiB (= 0.0 GiB).
+Total memory required = 9.0 MiB (= 0.0 GiB).
+Each kernel will be executed 5 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           13157.5     0.000505     0.000477     0.000517
+Scale:           5738.5     0.001120     0.001094     0.001150
+Add:             8590.9     0.001176     0.001096     0.001285
+Triad:           8361.7     0.001189     0.001126     0.001266
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 3 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 784640 (elements), Offset = 0 (elements)
+Memory per array = 3.0 MiB (= 0.0 GiB).
+Total memory required = 9.0 MiB (= 0.0 GiB).
+Each kernel will be executed 5 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           12706.6     0.000522     0.000494     0.000533
+Scale:           5845.5     0.001074     0.001074     0.001075
+Add:             8575.9     0.001216     0.001098     0.001300
+Triad:           8436.7     0.001170     0.001116     0.001226
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 1 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 880725 (elements), Offset = 0 (elements)
+Memory per array = 3.4 MiB (= 0.0 GiB).
+Total memory required = 10.1 MiB (= 0.0 GiB).
+Each kernel will be executed 5 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           12022.9     0.000589     0.000586     0.000593
+Scale:           5851.9     0.001211     0.001204     0.001219
+Add:             8671.4     0.001323     0.001219     0.001422
+Triad:           8619.2     0.001286     0.001226     0.001343
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 2 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 880725 (elements), Offset = 0 (elements)
+Memory per array = 3.4 MiB (= 0.0 GiB).
+Total memory required = 10.1 MiB (= 0.0 GiB).
+Each kernel will be executed 5 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           12815.4     0.000589     0.000550     0.000639
+Scale:           5842.7     0.001209     0.001206     0.001219
+Add:             8001.5     0.001350     0.001321     0.001367
+Triad:           7893.2     0.001379     0.001339     0.001453
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 3 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 880725 (elements), Offset = 0 (elements)
+Memory per array = 3.4 MiB (= 0.0 GiB).
+Total memory required = 10.1 MiB (= 0.0 GiB).
+Each kernel will be executed 5 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           12787.6     0.000559     0.000551     0.000569
+Scale:           5832.3     0.001217     0.001208     0.001229
+Add:             8043.6     0.001363     0.001314     0.001436
+Triad:           8186.2     0.001349     0.001291     0.001386
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 1 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 988586 (elements), Offset = 0 (elements)
+Memory per array = 3.8 MiB (= 0.0 GiB).
+Total memory required = 11.3 MiB (= 0.0 GiB).
+Each kernel will be executed 5 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           12222.3     0.000673     0.000647     0.000693
+Scale:           5849.3     0.001368     0.001352     0.001391
+Add:             8009.8     0.001529     0.001481     0.001629
+Triad:           8639.9     0.001425     0.001373     0.001490
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 2 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 988586 (elements), Offset = 0 (elements)
+Memory per array = 3.8 MiB (= 0.0 GiB).
+Total memory required = 11.3 MiB (= 0.0 GiB).
+Each kernel will be executed 5 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           12433.1     0.000659     0.000636     0.000667
+Scale:           5854.5     0.001361     0.001351     0.001376
+Add:             8523.0     0.001469     0.001392     0.001586
+Triad:           8729.3     0.001420     0.001359     0.001492
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 3 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 988586 (elements), Offset = 0 (elements)
+Memory per array = 3.8 MiB (= 0.0 GiB).
+Total memory required = 11.3 MiB (= 0.0 GiB).
+Each kernel will be executed 5 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           12922.3     0.000622     0.000612     0.000651
+Scale:           5854.5     0.001355     0.001351     0.001368
+Add:             8152.9     0.001474     0.001455     0.001526
+Triad:           8130.3     0.001482     0.001459     0.001506
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 1 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 1109674 (elements), Offset = 0 (elements)
+Memory per array = 4.2 MiB (= 0.0 GiB).
+Total memory required = 12.7 MiB (= 0.0 GiB).
+Each kernel will be executed 5 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           12883.9     0.000721     0.000689     0.000754
+Scale:           5848.0     0.001522     0.001518     0.001533
+Add:             8348.5     0.001633     0.001595     0.001663
+Triad:           8669.9     0.001624     0.001536     0.001725
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 2 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 1109674 (elements), Offset = 0 (elements)
+Memory per array = 4.2 MiB (= 0.0 GiB).
+Total memory required = 12.7 MiB (= 0.0 GiB).
+Each kernel will be executed 5 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           11918.8     0.000768     0.000745     0.000808
+Scale:           5851.7     0.001523     0.001517     0.001541
+Add:             8698.3     0.001659     0.001531     0.001769
+Triad:           8433.0     0.001708     0.001579     0.001804
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 3 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 1109674 (elements), Offset = 0 (elements)
+Memory per array = 4.2 MiB (= 0.0 GiB).
+Total memory required = 12.7 MiB (= 0.0 GiB).
+Each kernel will be executed 5 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           12520.0     0.000743     0.000709     0.000788
+Scale:           5851.7     0.001540     0.001517     0.001586
+Add:             8536.1     0.001608     0.001560     0.001723
+Triad:           8169.0     0.001689     0.001630     0.001734
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 1 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 1245525 (elements), Offset = 0 (elements)
+Memory per array = 4.8 MiB (= 0.0 GiB).
+Total memory required = 14.3 MiB (= 0.0 GiB).
+Each kernel will be executed 5 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           12959.0     0.000848     0.000769     0.001058
+Scale:           5850.9     0.001710     0.001703     0.001719
+Add:             8163.7     0.001843     0.001831     0.001856
+Triad:           8136.2     0.001857     0.001837     0.001873
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 2 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 1245525 (elements), Offset = 0 (elements)
+Memory per array = 4.8 MiB (= 0.0 GiB).
+Total memory required = 14.3 MiB (= 0.0 GiB).
+Each kernel will be executed 5 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           12823.8     0.000841     0.000777     0.000986
+Scale:           5850.9     0.001714     0.001703     0.001729
+Add:             8203.3     0.001842     0.001822     0.001869
+Triad:           8104.6     0.001861     0.001844     0.001885
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 3 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 1245525 (elements), Offset = 0 (elements)
+Memory per array = 4.8 MiB (= 0.0 GiB).
+Total memory required = 14.3 MiB (= 0.0 GiB).
+Each kernel will be executed 5 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           12468.0     0.001044     0.000799     0.001350
+Scale:           5855.0     0.001709     0.001702     0.001728
+Add:             8026.8     0.001873     0.001862     0.001888
+Triad:           8162.7     0.001899     0.001831     0.001964
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 1 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 1398101 (elements), Offset = 0 (elements)
+Memory per array = 5.3 MiB (= 0.0 GiB).
+Total memory required = 16.0 MiB (= 0.0 GiB).
+Each kernel will be executed 5 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           12430.4     0.001074     0.000900     0.001467
+Scale:           5852.4     0.001926     0.001911     0.001953
+Add:             8486.3     0.002079     0.001977     0.002138
+Triad:           8389.2     0.002046     0.002000     0.002095
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 2 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 1398101 (elements), Offset = 0 (elements)
+Memory per array = 5.3 MiB (= 0.0 GiB).
+Total memory required = 16.0 MiB (= 0.0 GiB).
+Each kernel will be executed 5 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           12536.7     0.000948     0.000892     0.000992
+Scale:           5853.1     0.001923     0.001911     0.001941
+Add:             7738.8     0.002188     0.002168     0.002208
+Triad:           8363.3     0.002125     0.002006     0.002242
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 3 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 1398101 (elements), Offset = 0 (elements)
+Memory per array = 5.3 MiB (= 0.0 GiB).
+Total memory required = 16.0 MiB (= 0.0 GiB).
+Each kernel will be executed 5 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           12944.9     0.000876     0.000864     0.000893
+Scale:           5850.2     0.001931     0.001912     0.001958
+Add:             8148.3     0.002089     0.002059     0.002143
+Triad:           8112.6     0.002082     0.002068     0.002110
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 1 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 1569280 (elements), Offset = 0 (elements)
+Memory per array = 6.0 MiB (= 0.0 GiB).
+Total memory required = 18.0 MiB (= 0.0 GiB).
+Each kernel will be executed 5 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           12808.6     0.001045     0.000980     0.001123
+Scale:           5817.7     0.002183     0.002158     0.002256
+Add:             8717.9     0.002236     0.002160     0.002316
+Triad:           8533.3     0.002293     0.002207     0.002335
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 2 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 1569280 (elements), Offset = 0 (elements)
+Memory per array = 6.0 MiB (= 0.0 GiB).
+Total memory required = 18.0 MiB (= 0.0 GiB).
+Each kernel will be executed 5 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           12308.6     0.001056     0.001020     0.001071
+Scale:           5857.9     0.002182     0.002143     0.002213
+Add:             8634.1     0.002295     0.002181     0.002397
+Triad:           8384.8     0.002290     0.002246     0.002323
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 3 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 1569280 (elements), Offset = 0 (elements)
+Memory per array = 6.0 MiB (= 0.0 GiB).
+Total memory required = 18.0 MiB (= 0.0 GiB).
+Each kernel will be executed 5 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           11856.9     0.001116     0.001059     0.001281
+Scale:           5796.0     0.002199     0.002166     0.002242
+Add:             8666.3     0.002244     0.002173     0.002358
+Triad:           8216.4     0.002401     0.002292     0.002540
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 1 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 1761536 (elements), Offset = 0 (elements)
+Memory per array = 6.7 MiB (= 0.0 GiB).
+Total memory required = 20.2 MiB (= 0.0 GiB).
+Each kernel will be executed 5 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           12916.8     0.001121     0.001091     0.001199
+Scale:           5818.2     0.002435     0.002422     0.002469
+Add:             8731.6     0.002505     0.002421     0.002737
+Triad:           8099.1     0.002633     0.002610     0.002656
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 2 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 1761536 (elements), Offset = 0 (elements)
+Memory per array = 6.7 MiB (= 0.0 GiB).
+Total memory required = 20.2 MiB (= 0.0 GiB).
+Each kernel will be executed 5 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           12766.2     0.001154     0.001104     0.001200
+Scale:           5849.9     0.002436     0.002409     0.002467
+Add:             8527.6     0.002561     0.002479     0.002623
+Triad:           8596.2     0.002552     0.002459     0.002639
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 3 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 1761536 (elements), Offset = 0 (elements)
+Memory per array = 6.7 MiB (= 0.0 GiB).
+Total memory required = 20.2 MiB (= 0.0 GiB).
+Each kernel will be executed 5 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           11823.8     0.001461     0.001192     0.001810
+Scale:           5852.2     0.002442     0.002408     0.002490
+Add:             8461.6     0.002598     0.002498     0.002647
+Triad:           8170.8     0.002630     0.002587     0.002657
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 1 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 1977173 (elements), Offset = 0 (elements)
+Memory per array = 7.5 MiB (= 0.0 GiB).
+Total memory required = 22.6 MiB (= 0.0 GiB).
+Each kernel will be executed 5 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           12882.1     0.001267     0.001228     0.001350
+Scale:           5851.9     0.002722     0.002703     0.002747
+Add:             8380.9     0.002863     0.002831     0.002934
+Triad:           8108.4     0.002934     0.002926     0.002950
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 2 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 1977173 (elements), Offset = 0 (elements)
+Memory per array = 7.5 MiB (= 0.0 GiB).
+Total memory required = 22.6 MiB (= 0.0 GiB).
+Each kernel will be executed 5 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           12240.4     0.001331     0.001292     0.001373
+Scale:           5821.6     0.002732     0.002717     0.002765
+Add:             7951.0     0.003083     0.002984     0.003121
+Triad:           8678.3     0.002950     0.002734     0.003083
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 3 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 1977173 (elements), Offset = 0 (elements)
+Memory per array = 7.5 MiB (= 0.0 GiB).
+Total memory required = 22.6 MiB (= 0.0 GiB).
+Each kernel will be executed 5 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           12922.3     0.001596     0.001224     0.001993
+Scale:           5854.0     0.002718     0.002702     0.002728
+Add:             8187.1     0.002914     0.002898     0.002933
+Triad:           8094.5     0.002963     0.002931     0.003014
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 1 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 2219349 (elements), Offset = 0 (elements)
+Memory per array = 8.5 MiB (= 0.0 GiB).
+Total memory required = 25.4 MiB (= 0.0 GiB).
+Each kernel will be executed 5 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           12913.0     0.001390     0.001375     0.001420
+Scale:           5855.9     0.003045     0.003032     0.003058
+Add:             8317.5     0.003280     0.003202     0.003334
+Triad:           8024.1     0.003343     0.003319     0.003369
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 2 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 2219349 (elements), Offset = 0 (elements)
+Memory per array = 8.5 MiB (= 0.0 GiB).
+Total memory required = 25.4 MiB (= 0.0 GiB).
+Each kernel will be executed 5 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           11805.5     0.001705     0.001504     0.002170
+Scale:           5855.9     0.003052     0.003032     0.003075
+Add:             8019.5     0.003344     0.003321     0.003358
+Triad:           8624.4     0.003237     0.003088     0.003406
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 3 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 2219349 (elements), Offset = 0 (elements)
+Memory per array = 8.5 MiB (= 0.0 GiB).
+Total memory required = 25.4 MiB (= 0.0 GiB).
+Each kernel will be executed 5 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           12848.3     0.001621     0.001382     0.001983
+Scale:           5842.1     0.003047     0.003039     0.003053
+Add:             8335.5     0.003335     0.003195     0.003402
+Triad:           8026.4     0.003347     0.003318     0.003374
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 1 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 2491136 (elements), Offset = 0 (elements)
+Memory per array = 9.5 MiB (= 0.0 GiB).
+Total memory required = 28.5 MiB (= 0.0 GiB).
+Each kernel will be executed 5 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           11813.0     0.001703     0.001687     0.001741
+Scale:           5854.8     0.003413     0.003404     0.003426
+Add:             8602.6     0.003667     0.003475     0.003789
+Triad:           8451.8     0.003677     0.003537     0.003829
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 2 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 2491136 (elements), Offset = 0 (elements)
+Memory per array = 9.5 MiB (= 0.0 GiB).
+Total memory required = 28.5 MiB (= 0.0 GiB).
+Each kernel will be executed 5 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           11445.8     0.002020     0.001741     0.002846
+Scale:           5856.4     0.003420     0.003403     0.003429
+Add:             8395.2     0.003658     0.003561     0.003738
+Triad:           7940.2     0.003878     0.003765     0.004021
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 3 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 2491136 (elements), Offset = 0 (elements)
+Memory per array = 9.5 MiB (= 0.0 GiB).
+Total memory required = 28.5 MiB (= 0.0 GiB).
+Each kernel will be executed 5 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           12907.5     0.001800     0.001544     0.002173
+Scale:           5827.0     0.003450     0.003420     0.003469
+Add:             8269.6     0.003688     0.003615     0.003780
+Triad:           8156.6     0.003736     0.003665     0.003821
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 1 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 2796202 (elements), Offset = 0 (elements)
+Memory per array = 10.7 MiB (= 0.0 GiB).
+Total memory required = 32.0 MiB (= 0.0 GiB).
+Each kernel will be executed 5 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           12952.1     0.002068     0.001727     0.002714
+Scale:           5856.0     0.003843     0.003820     0.003883
+Add:             8675.2     0.004013     0.003868     0.004194
+Triad:           8222.1     0.004169     0.004081     0.004322
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 2 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 2796202 (elements), Offset = 0 (elements)
+Memory per array = 10.7 MiB (= 0.0 GiB).
+Total memory required = 32.0 MiB (= 0.0 GiB).
+Each kernel will be executed 5 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           12819.4     0.001828     0.001745     0.001972
+Scale:           5828.7     0.003851     0.003838     0.003876
+Add:             8124.8     0.004173     0.004130     0.004270
+Triad:           8144.1     0.004154     0.004120     0.004238
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 3 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 2796202 (elements), Offset = 0 (elements)
+Memory per array = 10.7 MiB (= 0.0 GiB).
+Total memory required = 32.0 MiB (= 0.0 GiB).
+Each kernel will be executed 5 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           11798.9     0.002126     0.001896     0.002352
+Scale:           5831.6     0.003848     0.003836     0.003880
+Add:             8477.6     0.004164     0.003958     0.004335
+Triad:           8334.1     0.004123     0.004026     0.004177
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 1 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 3138645 (elements), Offset = 0 (elements)
+Memory per array = 12.0 MiB (= 0.0 GiB).
+Total memory required = 35.9 MiB (= 0.0 GiB).
+Each kernel will be executed 5 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           12963.5     0.002100     0.001937     0.002483
+Scale:           5836.6     0.004312     0.004302     0.004325
+Add:             8137.9     0.004649     0.004628     0.004669
+Triad:           8117.0     0.004658     0.004640     0.004674
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 2 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 3138645 (elements), Offset = 0 (elements)
+Memory per array = 12.0 MiB (= 0.0 GiB).
+Total memory required = 35.9 MiB (= 0.0 GiB).
+Each kernel will be executed 5 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           12693.2     0.002179     0.001978     0.002595
+Scale:           5836.6     0.004331     0.004302     0.004368
+Add:             8152.2     0.004697     0.004620     0.004845
+Triad:           8169.9     0.004717     0.004610     0.004857
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 3 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 3138645 (elements), Offset = 0 (elements)
+Memory per array = 12.0 MiB (= 0.0 GiB).
+Total memory required = 35.9 MiB (= 0.0 GiB).
+Each kernel will be executed 5 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           12810.5     0.002164     0.001960     0.002747
+Scale:           5832.7     0.004308     0.004305     0.004315
+Add:             8106.6     0.004663     0.004646     0.004679
+Triad:           8096.2     0.004699     0.004652     0.004817
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 1 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 3522986 (elements), Offset = 0 (elements)
+Memory per array = 13.4 MiB (= 0.0 GiB).
+Total memory required = 40.3 MiB (= 0.0 GiB).
+Each kernel will be executed 5 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           10861.1     0.002768     0.002595     0.003242
+Scale:           5836.2     0.004923     0.004829     0.005144
+Add:             8436.9     0.005149     0.005011     0.005294
+Triad:           8533.9     0.005021     0.004954     0.005151
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 2 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 3522986 (elements), Offset = 0 (elements)
+Memory per array = 13.4 MiB (= 0.0 GiB).
+Total memory required = 40.3 MiB (= 0.0 GiB).
+Each kernel will be executed 5 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           12828.2     0.002612     0.002197     0.003557
+Scale:           5842.5     0.004853     0.004824     0.004891
+Add:             8153.3     0.005254     0.005185     0.005345
+Triad:           8571.5     0.005175     0.004932     0.005362
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 3 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 3522986 (elements), Offset = 0 (elements)
+Memory per array = 13.4 MiB (= 0.0 GiB).
+Total memory required = 40.3 MiB (= 0.0 GiB).
+Each kernel will be executed 5 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           12916.5     0.002226     0.002182     0.002308
+Scale:           5836.2     0.004837     0.004829     0.004850
+Add:             8158.2     0.005235     0.005182     0.005278
+Triad:           8433.3     0.005167     0.005013     0.005222
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 1 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 3954432 (elements), Offset = 0 (elements)
+Memory per array = 15.1 MiB (= 0.0 GiB).
+Total memory required = 45.3 MiB (= 0.0 GiB).
+Each kernel will be executed 5 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           12593.8     0.002828     0.002512     0.003416
+Scale:           5830.4     0.005434     0.005426     0.005448
+Add:             8112.9     0.006045     0.005849     0.006255
+Triad:           8088.1     0.005973     0.005867     0.006106
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 2 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 3954432 (elements), Offset = 0 (elements)
+Memory per array = 15.1 MiB (= 0.0 GiB).
+Total memory required = 45.3 MiB (= 0.0 GiB).
+Each kernel will be executed 5 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           11694.8     0.003266     0.002705     0.003634
+Scale:           5843.3     0.005423     0.005414     0.005436
+Add:             8547.0     0.006037     0.005552     0.006411
+Triad:           8021.0     0.006076     0.005916     0.006259
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 3 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 3954432 (elements), Offset = 0 (elements)
+Memory per array = 15.1 MiB (= 0.0 GiB).
+Total memory required = 45.3 MiB (= 0.0 GiB).
+Each kernel will be executed 5 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           12817.7     0.002500     0.002468     0.002540
+Scale:           5842.2     0.005426     0.005415     0.005453
+Add:             8124.1     0.005862     0.005841     0.005887
+Triad:           8121.5     0.005871     0.005843     0.005890
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 1 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 4438698 (elements), Offset = 0 (elements)
+Memory per array = 16.9 MiB (= 0.0 GiB).
+Total memory required = 50.8 MiB (= 0.0 GiB).
+Each kernel will be executed 5 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           11758.9     0.003535     0.003020     0.004087
+Scale:           5840.5     0.006092     0.006080     0.006108
+Add:             8298.0     0.006548     0.006419     0.006655
+Triad:           8236.2     0.006632     0.006467     0.006831
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 2 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 4438698 (elements), Offset = 0 (elements)
+Memory per array = 16.9 MiB (= 0.0 GiB).
+Total memory required = 50.8 MiB (= 0.0 GiB).
+Each kernel will be executed 5 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           12389.8     0.003257     0.002866     0.004226
+Scale:           5842.3     0.006082     0.006078     0.006091
+Add:             8512.7     0.006478     0.006257     0.006797
+Triad:           8230.1     0.006548     0.006472     0.006659
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 3 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 4438698 (elements), Offset = 0 (elements)
+Memory per array = 16.9 MiB (= 0.0 GiB).
+Total memory required = 50.8 MiB (= 0.0 GiB).
+Each kernel will be executed 5 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           12796.5     0.003497     0.002775     0.004943
+Scale:           5831.8     0.006098     0.006089     0.006107
+Add:             8072.8     0.006685     0.006598     0.006812
+Triad:           8103.6     0.006791     0.006573     0.007118
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 1 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 4982272 (elements), Offset = 0 (elements)
+Memory per array = 19.0 MiB (= 0.0 GiB).
+Total memory required = 57.0 MiB (= 0.1 GiB).
+Each kernel will be executed 5 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           12241.1     0.004143     0.003256     0.004663
+Scale:           5844.3     0.006838     0.006820     0.006862
+Add:             8178.9     0.007414     0.007310     0.007514
+Triad:           8661.1     0.007291     0.006903     0.007726
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 2 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 4982272 (elements), Offset = 0 (elements)
+Memory per array = 19.0 MiB (= 0.0 GiB).
+Total memory required = 57.0 MiB (= 0.1 GiB).
+Each kernel will be executed 5 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           12886.6     0.003222     0.003093     0.003510
+Scale:           5840.9     0.006840     0.006824     0.006865
+Add:             8151.0     0.007354     0.007335     0.007386
+Triad:           8105.7     0.007409     0.007376     0.007455
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 3 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 4982272 (elements), Offset = 0 (elements)
+Memory per array = 19.0 MiB (= 0.0 GiB).
+Total memory required = 57.0 MiB (= 0.1 GiB).
+Each kernel will be executed 5 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           12979.6     0.003133     0.003071     0.003212
+Scale:           5842.7     0.006850     0.006822     0.006889
+Add:             8166.4     0.007408     0.007321     0.007515
+Triad:           8189.1     0.007366     0.007301     0.007401
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 1 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 5592405 (elements), Offset = 0 (elements)
+Memory per array = 21.3 MiB (= 0.0 GiB).
+Total memory required = 64.0 MiB (= 0.1 GiB).
+Each kernel will be executed 5 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           12979.0     0.003936     0.003447     0.004854
+Scale:           5845.2     0.007681     0.007654     0.007724
+Add:             8421.1     0.008204     0.007969     0.008293
+Triad:           8112.8     0.008289     0.008272     0.008307
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 2 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 5592405 (elements), Offset = 0 (elements)
+Memory per array = 21.3 MiB (= 0.0 GiB).
+Total memory required = 64.0 MiB (= 0.1 GiB).
+Each kernel will be executed 5 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           12764.4     0.003600     0.003505     0.003849
+Scale:           5837.6     0.007672     0.007664     0.007681
+Add:             8130.4     0.008281     0.008254     0.008313
+Triad:           8117.8     0.008306     0.008267     0.008349
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+
+
+--- run 3 ---
+-------------------------------------------------------------
+STREAM (dynamic) version — custom malloc-based implementation
+-------------------------------------------------------------
+This system uses 4 bytes per array element.
+-------------------------------------------------------------
+Array size = 5592405 (elements), Offset = 0 (elements)
+Memory per array = 21.3 MiB (= 0.0 GiB).
+Total memory required = 64.0 MiB (= 0.1 GiB).
+Each kernel will be executed 5 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           12193.8     0.003987     0.003669     0.004460
+Scale:           5832.3     0.007683     0.007671     0.007706
+Add:             8143.4     0.008268     0.008241     0.008293
+Triad:           8105.8     0.008313     0.008279     0.008338
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-06 on all three arrays
+-------------------------------------------------------------
+
+

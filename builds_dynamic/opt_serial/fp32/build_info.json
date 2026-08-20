@@ -1,0 +1,8 @@
+{
+  "variant": "opt_serial",
+  "dtype": "fp32",
+  "compiler": "gcc (Bianbu 15.2.0-16ubuntu1bb2) 15.2.0",
+  "compiler_flags": "-O3 -march=rv64gcv_zvfh_zba_zbb_zbc_zbs -mabi=lp64d  -DSTREAM_TYPE=float",
+  "source": "/home/student/stream_bench/src/STREAM_dynamic/stream_dynamic.c",
+  "built_at": "2026-08-20T11:29:32+08:00"
+}

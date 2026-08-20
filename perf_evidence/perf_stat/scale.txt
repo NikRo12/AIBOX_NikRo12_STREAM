@@ -1,0 +1,75 @@
+-------------------------------------------------------------
+STREAM (dynamic, tuned/extracted kernels)
+-------------------------------------------------------------
+This system uses 8 bytes per array element.
+Array size = 25000000 (elements), Offset = 0 (elements)
+Each kernel will be executed 20 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Scale:           9879.2     0.040919     0.040489     0.041997
+-------------------------------------------------------------
+Validation skipped (STREAM_KERNEL_ONLY=scale — isolated single-kernel run)
+-------------------------------------------------------------
+-------------------------------------------------------------
+STREAM (dynamic, tuned/extracted kernels)
+-------------------------------------------------------------
+This system uses 8 bytes per array element.
+Array size = 25000000 (elements), Offset = 0 (elements)
+Each kernel will be executed 20 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Scale:           9903.2     0.040873     0.040391     0.041944
+-------------------------------------------------------------
+Validation skipped (STREAM_KERNEL_ONLY=scale — isolated single-kernel run)
+-------------------------------------------------------------
+-------------------------------------------------------------
+STREAM (dynamic, tuned/extracted kernels)
+-------------------------------------------------------------
+This system uses 8 bytes per array element.
+Array size = 25000000 (elements), Offset = 0 (elements)
+Each kernel will be executed 20 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Scale:           9950.2     0.041612     0.040200     0.044170
+-------------------------------------------------------------
+Validation skipped (STREAM_KERNEL_ONLY=scale — isolated single-kernel run)
+-------------------------------------------------------------
+-------------------------------------------------------------
+STREAM (dynamic, tuned/extracted kernels)
+-------------------------------------------------------------
+This system uses 8 bytes per array element.
+Array size = 25000000 (elements), Offset = 0 (elements)
+Each kernel will be executed 20 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Scale:          10024.1     0.040477     0.039904     0.042662
+-------------------------------------------------------------
+Validation skipped (STREAM_KERNEL_ONLY=scale — isolated single-kernel run)
+-------------------------------------------------------------
+-------------------------------------------------------------
+STREAM (dynamic, tuned/extracted kernels)
+-------------------------------------------------------------
+This system uses 8 bytes per array element.
+Array size = 25000000 (elements), Offset = 0 (elements)
+Each kernel will be executed 20 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Scale:           9908.6     0.040813     0.040369     0.041891
+-------------------------------------------------------------
+Validation skipped (STREAM_KERNEL_ONLY=scale — isolated single-kernel run)
+-------------------------------------------------------------
+
+ Performance counter stats for 'taskset -c 0 /home/student/stream_bench/perf_evidence/binaries/tuned_perf_fp64' (5 runs):
+
+     1,875,202,707      cycles:u                                                                ( +-  0.43% )
+     1,106,704,697      instructions:u                   #    0.59  insn per cycle            
+                                                  #    1.18  stalled cycles per insn     ( +-  0.00% )
+        34,122,794      stalled-cycles-backend:u         #    1.82% backend cycles idle         ( +-  1.14% )
+     1,304,669,175      stalled-cycles-frontend:u        #   69.57% frontend cycles idle        ( +-  0.62% )
+       250,097,191      L1-dcache-loads:u                                                       ( +-  0.00% )
+             7,955      L1-dcache-load-misses:u          #    0.00% of all L1-dcache accesses   ( +-  0.75% )
+       313,124,172      L1-dcache-stores:u                                                      ( +-  0.00% )
+             1,859      L1-dcache-store-misses:u                                                ( +-  3.40% )
+
+           1.21687 +- 0.00399 seconds time elapsed  ( +-  0.33% )
+

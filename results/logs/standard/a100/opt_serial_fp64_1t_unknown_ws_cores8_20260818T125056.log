@@ -1,0 +1,34 @@
+--- run 1 ---
+STDOUT:
+
+STDERR:
+taskset: failed to set pid 3516864's affinity: Invalid argument
+
+
+--- run 2 ---
+STDOUT:
+
+STDERR:
+taskset: failed to set pid 3516869's affinity: Invalid argument
+
+
+--- run 3 ---
+STDOUT:
+
+STDERR:
+taskset: failed to set pid 3516875's affinity: Invalid argument
+
+
+--- run 4 ---
+STDOUT:
+
+STDERR:
+taskset: failed to set pid 3516877's affinity: Invalid argument
+
+
+--- run 5 ---
+STDOUT:
+
+STDERR:
+taskset: failed to set pid 3516878's affinity: Invalid argument
+

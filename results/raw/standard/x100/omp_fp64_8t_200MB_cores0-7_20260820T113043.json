@@ -1,0 +1,87 @@
+{
+  "run_id": "omp_fp64_8t_200MB_cores0-7_20260820T113043",
+  "machine": "aibox_k3",
+  "benchmark": "stream_dynamic",
+  "experiment_type": "standard",
+  "variant": "omp",
+  "data_type": "fp64",
+  "cpu_set": "0-7",
+  "cluster": "x100",
+  "threads": 8,
+  "repeats": 5,
+  "warmup_runs": 1,
+  "array_size_elements": 26214400,
+  "working_set_mb_per_array": 200,
+  "timestamp": "20260820T113043",
+  "any_failed_validation": false,
+  "compiler": "gcc (Bianbu 15.2.0-16ubuntu1bb2) 15.2.0",
+  "compiler_flags": "-O3 -march=rv64gcv_zvfh_zba_zbb_zbc_zbs -mabi=lp64d -fopenmp -DSTREAM_TYPE=double",
+  "memory_frequency_hz": null,
+  "aggregate": {
+    "Copy": {
+      "median_mb_s": 18280.4,
+      "min_mb_s": 18181.6,
+      "max_mb_s": 18330.2,
+      "stdev_mb_s": 56.10260243518182,
+      "n": 5,
+      "theoretical_peak_mb_s": 51200.0,
+      "efficiency_pct": 35.70390625
+    },
+    "Scale": {
+      "median_mb_s": 18234.6,
+      "min_mb_s": 18176.2,
+      "max_mb_s": 18278.2,
+      "stdev_mb_s": 39.35081955944475,
+      "n": 5,
+      "theoretical_peak_mb_s": 51200.0,
+      "efficiency_pct": 35.614453125
+    },
+    "Add": {
+      "median_mb_s": 17804.2,
+      "min_mb_s": 17671.1,
+      "max_mb_s": 17899.3,
+      "stdev_mb_s": 91.91739226066022,
+      "n": 5,
+      "theoretical_peak_mb_s": 51200.0,
+      "efficiency_pct": 34.773828125
+    },
+    "Triad": {
+      "median_mb_s": 17879.6,
+      "min_mb_s": 17681.1,
+      "max_mb_s": 17951.5,
+      "stdev_mb_s": 106.77015968893235,
+      "n": 5,
+      "theoretical_peak_mb_s": 51200.0,
+      "efficiency_pct": 34.92109375
+    }
+  },
+  "cpu_freq_before_hz": {
+    "0": 2200000,
+    "1": 2200000,
+    "2": 2200000,
+    "3": 2200000,
+    "4": 2200000,
+    "5": 2200000,
+    "6": 2200000,
+    "7": 2200000
+  },
+  "cpu_freq_after_hz": {
+    "0": 2200000,
+    "1": 2200000,
+    "2": 2200000,
+    "3": 2200000,
+    "4": 2200000,
+    "5": 2200000,
+    "6": 2200000,
+    "7": 2200000
+  },
+  "temp_before_c": {
+    "thermal_top": 55.0,
+    "thermal_vpu": 52.0,
+    "thermal_gpu": 56.0,
+    "thermal_cluster0": 57.0,
+    "thermal_cluster1": 54.0,
+    "thermal_cluster2": 55.0,
+    "thermal_cluster3": 52.0
+  }
+}

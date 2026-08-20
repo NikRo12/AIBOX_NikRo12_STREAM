@@ -1,0 +1,36 @@
+ Percent |	Source code & Disassembly of tuned_perf_fp64 for cycles:P (708 samples, percent: local period)
+--------------------------------------------------------------------------------------------------------------
+         :
+         :
+         :
+         : 3    Disassembly of section .text:
+         :
+         : 5    00000000000016ca <kernel_scale>:
+         : 6    for (long j = 0; j < n; j++) c[j] = a[j];
+         : 7    }
+         :
+         : 9    __attribute__((noinline))
+         : 10   void kernel_scale(STREAM_TYPE * restrict b, const STREAM_TYPE * restrict c,
+         : 11   STREAM_TYPE scalar, long n) {
+    0.00 :   16ca:   addi    sp,sp,-16
+    0.00 :   16cc:   sd      s0,0(sp)
+    0.00 :   16ce:   sd      ra,8(sp)
+    0.00 :   16d0:   addi    s0,sp,16
+         : 16   #ifdef _OPENMP
+         : 17   #pragma omp parallel for
+         : 18   #endif
+         : 19   for (long j = 0; j < n; j++) b[j] = scalar * c[j];
+    0.00 :   16d2:   blez    a2,16f2 <kernel_scale+0x28>
+    0.00 :   16d6:   vsetvli a5,a2,e64,m1,ta,ma
+    8.89 :   16da:   vle64.v v1,(a1)
+    5.93 :   16de:   sub     a2,a2,a5
+    0.28 :   16e0:   sh3add  a1,a5,a1
+    7.35 :   16e4:   vfmul.vf        v1,v1,fa0
+   75.84 :   16e8:   vse64.v v1,(a0)
+    1.70 :   16ec:   sh3add  a0,a5,a0
+    0.00 :   16f0:   bnez    a2,16d6 <kernel_scale+0xc>
+         : 29   }
+    0.00 :   16f2:   ld      ra,8(sp)
+    0.00 :   16f4:   ld      s0,0(sp)
+    0.00 :   16f6:   addi    sp,sp,16
+    0.00 :   16f8:   ret

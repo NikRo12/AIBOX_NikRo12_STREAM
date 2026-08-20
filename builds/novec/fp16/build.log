@@ -1,0 +1,46 @@
+/home/student/stream_bench/src/STREAM/stream.c: In function ‘checkSTREAMresults’:
+/home/student/stream_bench/src/STREAM/stream.c:487:48: warning: format ‘%e’ expects argument of type ‘double’, but argument 2 has type ‘_Float16’ [-Wformat=]
+  487 |                 printf ("     Expected Value: %e, AvgAbsErr: %e, AvgRelAbsErr: %e\n",aj,aAvgErr,abs(aAvgErr)/aj);
+      |                                               ~^                                     ~~
+      |                                                |                                     |
+      |                                                double                                _Float16
+/home/student/stream_bench/src/STREAM/stream.c:487:63: warning: format ‘%e’ expects argument of type ‘double’, but argument 3 has type ‘_Float16’ [-Wformat=]
+  487 |                 printf ("     Expected Value: %e, AvgAbsErr: %e, AvgRelAbsErr: %e\n",aj,aAvgErr,abs(aAvgErr)/aj);
+      |                                                              ~^                         ~~~~~~~
+      |                                                               |                         |
+      |                                                               double                    _Float16
+/home/student/stream_bench/src/STREAM/stream.c:487:81: warning: format ‘%e’ expects argument of type ‘double’, but argument 4 has type ‘_Float16’ [-Wformat=]
+  487 |                 printf ("     Expected Value: %e, AvgAbsErr: %e, AvgRelAbsErr: %e\n",aj,aAvgErr,abs(aAvgErr)/aj);
+      |                                                                                ~^                           ~
+      |                                                                                 |                           |
+      |                                                                                 double                      _Float16
+/home/student/stream_bench/src/STREAM/stream.c:505:48: warning: format ‘%e’ expects argument of type ‘double’, but argument 2 has type ‘_Float16’ [-Wformat=]
+  505 |                 printf ("     Expected Value: %e, AvgAbsErr: %e, AvgRelAbsErr: %e\n",bj,bAvgErr,abs(bAvgErr)/bj);
+      |                                               ~^                                     ~~
+      |                                                |                                     |
+      |                                                double                                _Float16
+/home/student/stream_bench/src/STREAM/stream.c:505:63: warning: format ‘%e’ expects argument of type ‘double’, but argument 3 has type ‘_Float16’ [-Wformat=]
+  505 |                 printf ("     Expected Value: %e, AvgAbsErr: %e, AvgRelAbsErr: %e\n",bj,bAvgErr,abs(bAvgErr)/bj);
+      |                                                              ~^                         ~~~~~~~
+      |                                                               |                         |
+      |                                                               double                    _Float16
+/home/student/stream_bench/src/STREAM/stream.c:505:81: warning: format ‘%e’ expects argument of type ‘double’, but argument 4 has type ‘_Float16’ [-Wformat=]
+  505 |                 printf ("     Expected Value: %e, AvgAbsErr: %e, AvgRelAbsErr: %e\n",bj,bAvgErr,abs(bAvgErr)/bj);
+      |                                                                                ~^                           ~
+      |                                                                                 |                           |
+      |                                                                                 double                      _Float16
+/home/student/stream_bench/src/STREAM/stream.c:524:48: warning: format ‘%e’ expects argument of type ‘double’, but argument 2 has type ‘_Float16’ [-Wformat=]
+  524 |                 printf ("     Expected Value: %e, AvgAbsErr: %e, AvgRelAbsErr: %e\n",cj,cAvgErr,abs(cAvgErr)/cj);
+      |                                               ~^                                     ~~
+      |                                                |                                     |
+      |                                                double                                _Float16
+/home/student/stream_bench/src/STREAM/stream.c:524:63: warning: format ‘%e’ expects argument of type ‘double’, but argument 3 has type ‘_Float16’ [-Wformat=]
+  524 |                 printf ("     Expected Value: %e, AvgAbsErr: %e, AvgRelAbsErr: %e\n",cj,cAvgErr,abs(cAvgErr)/cj);
+      |                                                              ~^                         ~~~~~~~
+      |                                                               |                         |
+      |                                                               double                    _Float16
+/home/student/stream_bench/src/STREAM/stream.c:524:81: warning: format ‘%e’ expects argument of type ‘double’, but argument 4 has type ‘_Float16’ [-Wformat=]
+  524 |                 printf ("     Expected Value: %e, AvgAbsErr: %e, AvgRelAbsErr: %e\n",cj,cAvgErr,abs(cAvgErr)/cj);
+      |                                                                                ~^                           ~
+      |                                                                                 |                           |
+      |                                                                                 double                      _Float16

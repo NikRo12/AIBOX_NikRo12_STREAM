@@ -1,0 +1,28 @@
+
+/home/student/stream_bench/perf_evidence/binaries/tuned_perf_fp64:     file format elf64-littleriscv
+
+
+Disassembly of section .plt:
+
+Disassembly of section .text:
+
+00000000000016fa <kernel_add>:
+    16fa:	1141                	addi	sp,sp,-16
+    16fc:	e022                	sd	s0,0(sp)
+    16fe:	e406                	sd	ra,8(sp)
+    1700:	0800                	addi	s0,sp,16
+    1702:	02d05463          	blez	a3,172a <kernel_add+0x30>
+    1706:	0d86f7d7          	vsetvli	a5,a3,e64,m1,ta,ma
+    170a:	0205f107          	vle64.v	v2,(a1)
+    170e:	8e9d                	sub	a3,a3,a5
+    1710:	20b7e5b3          	sh3add	a1,a5,a1
+    1714:	02067087          	vle64.v	v1,(a2)
+    1718:	20c7e633          	sh3add	a2,a5,a2
+    171c:	021110d7          	vfadd.vv	v1,v1,v2
+    1720:	020570a7          	vse64.v	v1,(a0)
+    1724:	20a7e533          	sh3add	a0,a5,a0
+    1728:	fef9                	bnez	a3,1706 <kernel_add+0xc>
+    172a:	60a2                	ld	ra,8(sp)
+    172c:	6402                	ld	s0,0(sp)
+    172e:	0141                	addi	sp,sp,16
+    1730:	8082                	ret

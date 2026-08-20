@@ -1,0 +1,216 @@
+{
+  "run_id": "opt_serial_fp64_1t_unknown_ws_cores8_20260818T125056",
+  "machine": "aibox_k3",
+  "benchmark": "stream",
+  "experiment_type": "standard",
+  "variant": "opt_serial",
+  "data_type": "fp64",
+  "cpu_set": "8",
+  "cluster": "a100",
+  "threads": 1,
+  "repeats": 5,
+  "warmup_runs": 1,
+  "working_set_label": "unknown_ws",
+  "compiler": "gcc",
+  "binary_path": "/home/student/stream_bench/builds/opt_serial/fp64/stream_opt_serial_fp64",
+  "timestamp": "20260818T125056",
+  "any_failed_validation": false,
+  "aggregate": {
+    "Copy": null,
+    "Scale": null,
+    "Add": null,
+    "Triad": null
+  },
+  "runs": [
+    {
+      "run_number": 1,
+      "wall_time_s": 0.002066373825073242,
+      "rates_mb_s": {
+        "Copy": null,
+        "Scale": null,
+        "Add": null,
+        "Triad": null
+      },
+      "validates": null,
+      "array_size_elements": null,
+      "bytes_per_element": null,
+      "cpu_freq_before_hz": {
+        "8": 1800000
+      },
+      "cpu_freq_after_hz": {
+        "8": 1800000
+      },
+      "temp_before_c": {
+        "thermal_top": 54.0,
+        "thermal_vpu": 51.0,
+        "thermal_gpu": 54.0,
+        "thermal_cluster0": 55.0,
+        "thermal_cluster1": 52.0,
+        "thermal_cluster2": 54.0,
+        "thermal_cluster3": 52.0
+      },
+      "temp_after_c": {
+        "thermal_top": 54.0,
+        "thermal_vpu": 51.0,
+        "thermal_gpu": 54.0,
+        "thermal_cluster0": 55.0,
+        "thermal_cluster1": 51.0,
+        "thermal_cluster2": 54.0,
+        "thermal_cluster3": 52.0
+      },
+      "stderr_nonempty": true
+    },
+    {
+      "run_number": 2,
+      "wall_time_s": 0.0019259452819824219,
+      "rates_mb_s": {
+        "Copy": null,
+        "Scale": null,
+        "Add": null,
+        "Triad": null
+      },
+      "validates": null,
+      "array_size_elements": null,
+      "bytes_per_element": null,
+      "cpu_freq_before_hz": {
+        "8": 1800000
+      },
+      "cpu_freq_after_hz": {
+        "8": 1800000
+      },
+      "temp_before_c": {
+        "thermal_top": 54.0,
+        "thermal_vpu": 51.0,
+        "thermal_gpu": 55.0,
+        "thermal_cluster0": 56.0,
+        "thermal_cluster1": 52.0,
+        "thermal_cluster2": 54.0,
+        "thermal_cluster3": 51.0
+      },
+      "temp_after_c": {
+        "thermal_top": 54.0,
+        "thermal_vpu": 51.0,
+        "thermal_gpu": 55.0,
+        "thermal_cluster0": 56.0,
+        "thermal_cluster1": 52.0,
+        "thermal_cluster2": 54.0,
+        "thermal_cluster3": 52.0
+      },
+      "stderr_nonempty": true
+    },
+    {
+      "run_number": 3,
+      "wall_time_s": 0.002073526382446289,
+      "rates_mb_s": {
+        "Copy": null,
+        "Scale": null,
+        "Add": null,
+        "Triad": null
+      },
+      "validates": null,
+      "array_size_elements": null,
+      "bytes_per_element": null,
+      "cpu_freq_before_hz": {
+        "8": 1800000
+      },
+      "cpu_freq_after_hz": {
+        "8": 1800000
+      },
+      "temp_before_c": {
+        "thermal_top": 54.0,
+        "thermal_vpu": 51.0,
+        "thermal_gpu": 54.0,
+        "thermal_cluster0": 55.0,
+        "thermal_cluster1": 52.0,
+        "thermal_cluster2": 54.0,
+        "thermal_cluster3": 52.0
+      },
+      "temp_after_c": {
+        "thermal_top": 54.0,
+        "thermal_vpu": 51.0,
+        "thermal_gpu": 54.0,
+        "thermal_cluster0": 56.0,
+        "thermal_cluster1": 51.0,
+        "thermal_cluster2": 54.0,
+        "thermal_cluster3": 52.0
+      },
+      "stderr_nonempty": true
+    },
+    {
+      "run_number": 4,
+      "wall_time_s": 0.0021920204162597656,
+      "rates_mb_s": {
+        "Copy": null,
+        "Scale": null,
+        "Add": null,
+        "Triad": null
+      },
+      "validates": null,
+      "array_size_elements": null,
+      "bytes_per_element": null,
+      "cpu_freq_before_hz": {
+        "8": 1800000
+      },
+      "cpu_freq_after_hz": {
+        "8": 1800000
+      },
+      "temp_before_c": {
+        "thermal_top": 54.0,
+        "thermal_vpu": 51.0,
+        "thermal_gpu": 54.0,
+        "thermal_cluster0": 55.0,
+        "thermal_cluster1": 51.0,
+        "thermal_cluster2": 54.0,
+        "thermal_cluster3": 51.0
+      },
+      "temp_after_c": {
+        "thermal_top": 54.0,
+        "thermal_vpu": 51.0,
+        "thermal_gpu": 54.0,
+        "thermal_cluster0": 55.0,
+        "thermal_cluster1": 51.0,
+        "thermal_cluster2": 54.0,
+        "thermal_cluster3": 52.0
+      },
+      "stderr_nonempty": true
+    },
+    {
+      "run_number": 5,
+      "wall_time_s": 0.0017745494842529297,
+      "rates_mb_s": {
+        "Copy": null,
+        "Scale": null,
+        "Add": null,
+        "Triad": null
+      },
+      "validates": null,
+      "array_size_elements": null,
+      "bytes_per_element": null,
+      "cpu_freq_before_hz": {
+        "8": 1800000
+      },
+      "cpu_freq_after_hz": {
+        "8": 1800000
+      },
+      "temp_before_c": {
+        "thermal_top": 54.0,
+        "thermal_vpu": 51.0,
+        "thermal_gpu": 54.0,
+        "thermal_cluster0": 55.0,
+        "thermal_cluster1": 51.0,
+        "thermal_cluster2": 54.0,
+        "thermal_cluster3": 52.0
+      },
+      "temp_after_c": {
+        "thermal_top": 54.0,
+        "thermal_vpu": 51.0,
+        "thermal_gpu": 54.0,
+        "thermal_cluster0": 56.0,
+        "thermal_cluster1": 51.0,
+        "thermal_cluster2": 54.0,
+        "thermal_cluster3": 52.0
+      },
+      "stderr_nonempty": true
+    }
+  ]
+}

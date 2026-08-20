@@ -1,0 +1,336 @@
+{
+  "run_id": "cache_sweep_novec_fp64_1t_cores0_20260818T140333",
+  "machine": "aibox_k3",
+  "benchmark": "stream",
+  "experiment_type": "cache_sweep",
+  "variant": "novec",
+  "data_type": "fp64",
+  "cpu_set": "0",
+  "cluster": "x100",
+  "threads": 1,
+  "repeats": 5,
+  "warmup_runs": 1,
+  "timestamp": "20260818T140333",
+  "points": [
+    {
+      "ws_label": "32KB",
+      "ws_kb": 32.0,
+      "aggregate": {
+        "Copy": null,
+        "Scale": {
+          "median_mb_s": 22900.9,
+          "min_mb_s": 22900.9,
+          "max_mb_s": 22900.9
+        },
+        "Add": {
+          "median_mb_s": 34351.3,
+          "min_mb_s": 34351.3,
+          "max_mb_s": 34351.3
+        },
+        "Triad": {
+          "median_mb_s": 34351.3,
+          "min_mb_s": 34351.3,
+          "max_mb_s": 34351.3
+        }
+      },
+      "validates_all": true
+    },
+    {
+      "ws_label": "64KB",
+      "ws_kb": 64.0,
+      "aggregate": {
+        "Copy": {
+          "median_mb_s": 45801.8,
+          "min_mb_s": 45801.8,
+          "max_mb_s": 45801.8
+        },
+        "Scale": {
+          "median_mb_s": 22900.9,
+          "min_mb_s": 22900.9,
+          "max_mb_s": 22900.9
+        },
+        "Add": {
+          "median_mb_s": 22900.9,
+          "min_mb_s": 22900.9,
+          "max_mb_s": 22900.9
+        },
+        "Triad": {
+          "median_mb_s": 34351.3,
+          "min_mb_s": 34351.3,
+          "max_mb_s": 34351.3
+        }
+      },
+      "validates_all": true
+    },
+    {
+      "ws_label": "128KB",
+      "ws_kb": 128.0,
+      "aggregate": {
+        "Copy": {
+          "median_mb_s": 30540.1,
+          "min_mb_s": 30540.1,
+          "max_mb_s": 30540.1
+        },
+        "Scale": {
+          "median_mb_s": 17451.5,
+          "min_mb_s": 17451.5,
+          "max_mb_s": 18324.1
+        },
+        "Add": {
+          "median_mb_s": 26177.3,
+          "min_mb_s": 26177.3,
+          "max_mb_s": 27486.1
+        },
+        "Triad": {
+          "median_mb_s": 18955.9,
+          "min_mb_s": 18955.9,
+          "max_mb_s": 27486.1
+        }
+      },
+      "validates_all": true
+    },
+    {
+      "ws_label": "256KB",
+      "ws_kb": 256.0,
+      "aggregate": {
+        "Copy": {
+          "median_mb_s": 25274.6,
+          "min_mb_s": 25274.6,
+          "max_mb_s": 25274.6
+        },
+        "Scale": {
+          "median_mb_s": 17877.1,
+          "min_mb_s": 17877.1,
+          "max_mb_s": 17877.1
+        },
+        "Add": {
+          "median_mb_s": 17733.0,
+          "min_mb_s": 17733.0,
+          "max_mb_s": 17733.0
+        },
+        "Triad": {
+          "median_mb_s": 17733.0,
+          "min_mb_s": 17733.0,
+          "max_mb_s": 17733.0
+        }
+      },
+      "validates_all": true
+    },
+    {
+      "ws_label": "512KB",
+      "ws_kb": 512.0,
+      "aggregate": {
+        "Copy": {
+          "median_mb_s": 27148.0,
+          "min_mb_s": 27148.0,
+          "max_mb_s": 27148.0
+        },
+        "Scale": {
+          "median_mb_s": 17662.6,
+          "min_mb_s": 17662.6,
+          "max_mb_s": 17662.6
+        },
+        "Add": {
+          "median_mb_s": 18024.5,
+          "min_mb_s": 18024.5,
+          "max_mb_s": 18173.5
+        },
+        "Triad": {
+          "median_mb_s": 18024.5,
+          "min_mb_s": 17591.9,
+          "max_mb_s": 18173.5
+        }
+      },
+      "validates_all": true
+    },
+    {
+      "ws_label": "1MB",
+      "ws_kb": 1024.0,
+      "aggregate": {
+        "Copy": {
+          "median_mb_s": 25946.8,
+          "min_mb_s": 25946.8,
+          "max_mb_s": 25946.8
+        },
+        "Scale": {
+          "median_mb_s": 17987.6,
+          "min_mb_s": 17987.6,
+          "max_mb_s": 17987.6
+        },
+        "Add": {
+          "median_mb_s": 17805.6,
+          "min_mb_s": 17805.6,
+          "max_mb_s": 17805.6
+        },
+        "Triad": {
+          "median_mb_s": 17805.6,
+          "min_mb_s": 17805.6,
+          "max_mb_s": 17805.6
+        }
+      },
+      "validates_all": true
+    },
+    {
+      "ws_label": "2MB",
+      "ws_kb": 2048.0,
+      "aggregate": {
+        "Copy": {
+          "median_mb_s": 25495.8,
+          "min_mb_s": 25495.8,
+          "max_mb_s": 25495.8
+        },
+        "Scale": {
+          "median_mb_s": 17716.1,
+          "min_mb_s": 17716.1,
+          "max_mb_s": 17716.1
+        },
+        "Add": {
+          "median_mb_s": 23581.9,
+          "min_mb_s": 23331.7,
+          "max_mb_s": 23581.9
+        },
+        "Triad": {
+          "median_mb_s": 22787.7,
+          "min_mb_s": 19080.4,
+          "max_mb_s": 23331.7
+        }
+      },
+      "validates_all": true
+    },
+    {
+      "ws_label": "4MB",
+      "ws_kb": 4096.0,
+      "aggregate": {
+        "Copy": {
+          "median_mb_s": 18154.9,
+          "min_mb_s": 16635.6,
+          "max_mb_s": 18527.8
+        },
+        "Scale": {
+          "median_mb_s": 15036.0,
+          "min_mb_s": 13574.2,
+          "max_mb_s": 15133.0
+        },
+        "Add": {
+          "median_mb_s": 15891.7,
+          "min_mb_s": 14175.8,
+          "max_mb_s": 16722.5
+        },
+        "Triad": {
+          "median_mb_s": 17487.2,
+          "min_mb_s": 16139.6,
+          "max_mb_s": 17841.9
+        }
+      },
+      "validates_all": true
+    },
+    {
+      "ws_label": "8MB",
+      "ws_kb": 8192.0,
+      "aggregate": {
+        "Copy": {
+          "median_mb_s": 13380.6,
+          "min_mb_s": 13350.2,
+          "max_mb_s": 13574.2
+        },
+        "Scale": {
+          "median_mb_s": 11973.6,
+          "min_mb_s": 11955.3,
+          "max_mb_s": 11998.1
+        },
+        "Add": {
+          "median_mb_s": 10658.7,
+          "min_mb_s": 10537.4,
+          "max_mb_s": 10796.1
+        },
+        "Triad": {
+          "median_mb_s": 11475.6,
+          "min_mb_s": 11397.6,
+          "max_mb_s": 11685.3
+        }
+      },
+      "validates_all": true
+    },
+    {
+      "ws_label": "16MB",
+      "ws_kb": 16384.0,
+      "aggregate": {
+        "Copy": {
+          "median_mb_s": 12624.4,
+          "min_mb_s": 12567.0,
+          "max_mb_s": 12710.0
+        },
+        "Scale": {
+          "median_mb_s": 12580.4,
+          "min_mb_s": 12453.5,
+          "max_mb_s": 12607.5
+        },
+        "Add": {
+          "median_mb_s": 10570.6,
+          "min_mb_s": 10434.3,
+          "max_mb_s": 10686.2
+        },
+        "Triad": {
+          "median_mb_s": 11148.4,
+          "min_mb_s": 10726.9,
+          "max_mb_s": 11199.9
+        }
+      },
+      "validates_all": true
+    },
+    {
+      "ws_label": "32MB",
+      "ws_kb": 32768.0,
+      "aggregate": {
+        "Copy": {
+          "median_mb_s": 12540.1,
+          "min_mb_s": 12516.7,
+          "max_mb_s": 12573.7
+        },
+        "Scale": {
+          "median_mb_s": 12665.4,
+          "min_mb_s": 12631.3,
+          "max_mb_s": 12718.6
+        },
+        "Add": {
+          "median_mb_s": 10479.3,
+          "min_mb_s": 10473.1,
+          "max_mb_s": 10542.1
+        },
+        "Triad": {
+          "median_mb_s": 10434.3,
+          "min_mb_s": 10410.3,
+          "max_mb_s": 10531.9
+        }
+      },
+      "validates_all": true
+    },
+    {
+      "ws_label": "64MB",
+      "ws_kb": 65536.0,
+      "aggregate": {
+        "Copy": {
+          "median_mb_s": 12294.4,
+          "min_mb_s": 12062.1,
+          "max_mb_s": 12372.3
+        },
+        "Scale": {
+          "median_mb_s": 12465.9,
+          "min_mb_s": 12352.7,
+          "max_mb_s": 12500.0
+        },
+        "Add": {
+          "median_mb_s": 10327.8,
+          "min_mb_s": 10168.2,
+          "max_mb_s": 10359.8
+        },
+        "Triad": {
+          "median_mb_s": 10796.1,
+          "min_mb_s": 10754.8,
+          "max_mb_s": 10999.8
+        }
+      },
+      "validates_all": true
+    }
+  ]
+}

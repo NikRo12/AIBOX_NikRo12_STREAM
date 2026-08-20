@@ -1,0 +1,8 @@
+{
+  "variant": "omp",
+  "dtype": "fp64",
+  "compiler": "gcc (Bianbu 15.2.0-16ubuntu1bb2) 15.2.0",
+  "compiler_flags": "-O3 -march=rv64gcv_zvfh_zba_zbb_zbc_zbs -mabi=lp64d -fopenmp -DSTREAM_TYPE=double",
+  "source": "/home/student/stream_bench/src/STREAM_dynamic/stream_dynamic.c",
+  "built_at": "2026-08-20T11:29:29+08:00"
+}
