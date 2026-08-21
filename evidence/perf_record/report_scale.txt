@@ -1,0 +1,1777 @@
+# To display the perf.data header info, please use --header/--header-only options.
+#
+#
+# Total Lost Samples: 0
+#
+# Samples: 1K of event 'cycles:P'
+# Event count (approx.): 2464725884
+#
+# Children      Self  Command          Shared Object                Symbol                 
+# ........  ........  ...............  ...........................  .......................
+#
+    99.93%     0.00%  tuned_perf_fp64  tuned_perf_fp64              [.] _start
+            |
+            ---_start
+               __libc_start_main
+               |          
+               |--81.05%--0x3f7f849f62
+               |          |          
+               |          |--71.46%--main
+               |          |          |          
+               |          |          |--62.47%--kernel_scale
+               |          |          |          
+               |          |           --8.99%--memset
+               |          |                     |          
+               |          |                      --7.74%--0xffffffff81018ef8
+               |          |                                0xffffffff8100c916
+               |          |                                |          
+               |          |                                 --6.94%--0xffffffff80038430
+               |          |                                           |          
+               |          |                                            --6.41%--0xffffffff8029fae0
+               |          |                                                      |          
+               |          |                                                      |--2.49%--0xffffffff8029f160
+               |          |                                                      |          |          
+               |          |                                                      |          |--1.42%--0xffffffff80294aa0
+               |          |                                                      |          |          0xffffffff802c8e9a
+               |          |                                                      |          |          |          
+               |          |                                                      |          |           --1.33%--0xffffffff802c7cf2
+               |          |                                                      |          |                     |          
+               |          |                                                      |          |                      --0.71%--0xffffffff802c74cc
+               |          |                                                      |          |          
+               |          |                                                      |           --0.89%--0xffffffff80294abe
+               |          |                                                      |          
+               |          |                                                      |--1.25%--0xffffffff8029f890
+               |          |                                                      |          0xffffffff8025a166
+               |          |                                                      |          |          
+               |          |                                                      |           --1.16%--0xffffffff80259122
+               |          |                                                      |                     0xffffffff8025903e
+               |          |                                                      |                     |          
+               |          |                                                      |                      --1.07%--0xffffffff81017732
+               |          |                                                      |          
+               |          |                                                      |--0.89%--0xffffffff8029f21a
+               |          |                                                      |          
+               |          |                                                       --0.80%--0xffffffff8029f886
+               |          |                                                                 0xffffffff802ae17c
+               |          |                                                                 0xffffffff802ace96
+               |          |                                                                 |          
+               |          |                                                                  --0.71%--0xffffffff8030ef84
+               |          |          
+               |           --9.60%--0x3f7f8a56aa
+               |                     __munmap
+               |                     |          
+               |                      --9.49%--0xffffffff81018ef8
+               |                                0xffffffff8100c81e
+               |                                0xffffffff802a4b1e
+               |                                0xffffffff802bd86a
+               |                                0xffffffff802bbf38
+               |                                0xffffffff802bbe78
+               |                                0xffffffff802bae90
+               |                                0xffffffff802b9d32
+               |                                0xffffffff80297914
+               |                                0xffffffff80297840
+               |                                |          
+               |                                |--5.76%--0xffffffff80296f06
+               |                                |          0xffffffff802a6390
+               |                                |          0xffffffff802a5e36
+               |                                |          |          
+               |                                |           --5.41%--0xffffffff802ded72
+               |                                |                     |          
+               |                                |                     |--2.45%--0xffffffff80258e48
+               |                                |                     |          |          
+               |                                |                     |           --2.00%--0xffffffff802c5534
+               |                                |                     |                     |          
+               |                                |                     |                      --1.83%--0xffffffff802c0ee6
+               |                                |                     |                                0xffffffff81017732
+               |                                |                     |          
+               |                                |                     |--2.23%--0xffffffff81017732
+               |                                |                     |          
+               |                                |                      --0.73%--0xffffffff80258e42
+               |                                |                                0xffffffff80314714
+               |                                |          
+               |                                |--1.54%--0xffffffff80296d8a
+               |                                |          
+               |                                 --1.09%--0xffffffff80296e1a
+               |                                           |          
+               |                                            --0.82%--0xffffffff802ae952
+               |          
+                --18.88%--main
+                          main
+                          |          
+                           --15.46%--0xffffffff81018ef8
+                                     0xffffffff8100c916
+                                     |          
+                                     |--13.13%--0xffffffff80038430
+                                     |          |          
+                                     |           --12.41%--0xffffffff8029fae0
+                                     |                     |          
+                                     |                     |--7.02%--0xffffffff8029f160
+                                     |                     |          |          
+                                     |                     |          |--4.58%--0xffffffff80294aa0
+                                     |                     |          |          |          
+                                     |                     |          |           --4.49%--0xffffffff802c8e9a
+                                     |                     |          |                     |          
+                                     |                     |          |                      --3.86%--0xffffffff802c7cf2
+                                     |                     |          |                                |          
+                                     |                     |          |                                |--2.13%--0xffffffff802c6228
+                                     |                     |          |                                |          |          
+                                     |                     |          |                                |           --1.86%--0xffffffff81017732
+                                     |                     |          |                                |          
+                                     |                     |          |                                 --1.29%--0xffffffff802c74cc
+                                     |                     |          |          
+                                     |                     |           --2.24%--0xffffffff80294abe
+                                     |                     |                     |          
+                                     |                     |                     |--1.24%--0xffffffff80314382
+                                     |                     |                     |          
+                                     |                     |                      --0.83%--0xffffffff80314374
+                                     |                     |          
+                                     |                     |--1.97%--0xffffffff8029f890
+                                     |                     |          0xffffffff8025a166
+                                     |                     |          0xffffffff80259122
+                                     |                     |          0xffffffff8025903e
+                                     |                     |          |          
+                                     |                     |           --1.55%--0xffffffff81017732
+                                     |                     |          
+                                     |                     |--0.90%--0xffffffff8029f886
+                                     |                     |          
+                                     |                      --0.63%--0xffffffff8029f21a
+                                     |          
+                                     |--1.08%--0xffffffff800383aa
+                                     |          
+                                      --0.98%--0xffffffff800383fa
+                                                |          
+                                                 --0.71%--0xffffffff80292496
+
+    99.93%     0.00%  tuned_perf_fp64  libc.so.6                    [.] __libc_start_main
+            |
+            ---__libc_start_main
+               |          
+               |--81.05%--0x3f7f849f62
+               |          |          
+               |          |--71.46%--main
+               |          |          |          
+               |          |          |--62.47%--kernel_scale
+               |          |          |          
+               |          |           --8.99%--memset
+               |          |                     |          
+               |          |                      --7.74%--0xffffffff81018ef8
+               |          |                                0xffffffff8100c916
+               |          |                                |          
+               |          |                                 --6.94%--0xffffffff80038430
+               |          |                                           |          
+               |          |                                            --6.41%--0xffffffff8029fae0
+               |          |                                                      |          
+               |          |                                                      |--2.49%--0xffffffff8029f160
+               |          |                                                      |          |          
+               |          |                                                      |          |--1.42%--0xffffffff80294aa0
+               |          |                                                      |          |          0xffffffff802c8e9a
+               |          |                                                      |          |          |          
+               |          |                                                      |          |           --1.33%--0xffffffff802c7cf2
+               |          |                                                      |          |                     |          
+               |          |                                                      |          |                      --0.71%--0xffffffff802c74cc
+               |          |                                                      |          |          
+               |          |                                                      |           --0.89%--0xffffffff80294abe
+               |          |                                                      |          
+               |          |                                                      |--1.25%--0xffffffff8029f890
+               |          |                                                      |          0xffffffff8025a166
+               |          |                                                      |          |          
+               |          |                                                      |           --1.16%--0xffffffff80259122
+               |          |                                                      |                     0xffffffff8025903e
+               |          |                                                      |                     |          
+               |          |                                                      |                      --1.07%--0xffffffff81017732
+               |          |                                                      |          
+               |          |                                                      |--0.89%--0xffffffff8029f21a
+               |          |                                                      |          
+               |          |                                                       --0.80%--0xffffffff8029f886
+               |          |                                                                 0xffffffff802ae17c
+               |          |                                                                 0xffffffff802ace96
+               |          |                                                                 |          
+               |          |                                                                  --0.71%--0xffffffff8030ef84
+               |          |          
+               |           --9.60%--0x3f7f8a56aa
+               |                     __munmap
+               |                     |          
+               |                      --9.49%--0xffffffff81018ef8
+               |                                0xffffffff8100c81e
+               |                                0xffffffff802a4b1e
+               |                                0xffffffff802bd86a
+               |                                0xffffffff802bbf38
+               |                                0xffffffff802bbe78
+               |                                0xffffffff802bae90
+               |                                0xffffffff802b9d32
+               |                                0xffffffff80297914
+               |                                0xffffffff80297840
+               |                                |          
+               |                                |--5.76%--0xffffffff80296f06
+               |                                |          0xffffffff802a6390
+               |                                |          0xffffffff802a5e36
+               |                                |          |          
+               |                                |           --5.41%--0xffffffff802ded72
+               |                                |                     |          
+               |                                |                     |--2.45%--0xffffffff80258e48
+               |                                |                     |          |          
+               |                                |                     |           --2.00%--0xffffffff802c5534
+               |                                |                     |                     |          
+               |                                |                     |                      --1.83%--0xffffffff802c0ee6
+               |                                |                     |                                0xffffffff81017732
+               |                                |                     |          
+               |                                |                     |--2.23%--0xffffffff81017732
+               |                                |                     |          
+               |                                |                      --0.73%--0xffffffff80258e42
+               |                                |                                0xffffffff80314714
+               |                                |          
+               |                                |--1.54%--0xffffffff80296d8a
+               |                                |          
+               |                                 --1.09%--0xffffffff80296e1a
+               |                                           |          
+               |                                            --0.82%--0xffffffff802ae952
+               |          
+                --18.88%--main
+                          main
+                          |          
+                           --15.46%--0xffffffff81018ef8
+                                     0xffffffff8100c916
+                                     |          
+                                     |--13.13%--0xffffffff80038430
+                                     |          |          
+                                     |           --12.41%--0xffffffff8029fae0
+                                     |                     |          
+                                     |                     |--7.02%--0xffffffff8029f160
+                                     |                     |          |          
+                                     |                     |          |--4.58%--0xffffffff80294aa0
+                                     |                     |          |          |          
+                                     |                     |          |           --4.49%--0xffffffff802c8e9a
+                                     |                     |          |                     |          
+                                     |                     |          |                      --3.86%--0xffffffff802c7cf2
+                                     |                     |          |                                |          
+                                     |                     |          |                                |--2.13%--0xffffffff802c6228
+                                     |                     |          |                                |          |          
+                                     |                     |          |                                |           --1.86%--0xffffffff81017732
+                                     |                     |          |                                |          
+                                     |                     |          |                                 --1.29%--0xffffffff802c74cc
+                                     |                     |          |          
+                                     |                     |           --2.24%--0xffffffff80294abe
+                                     |                     |                     |          
+                                     |                     |                     |--1.24%--0xffffffff80314382
+                                     |                     |                     |          
+                                     |                     |                      --0.83%--0xffffffff80314374
+                                     |                     |          
+                                     |                     |--1.97%--0xffffffff8029f890
+                                     |                     |          0xffffffff8025a166
+                                     |                     |          0xffffffff80259122
+                                     |                     |          0xffffffff8025903e
+                                     |                     |          |          
+                                     |                     |           --1.55%--0xffffffff81017732
+                                     |                     |          
+                                     |                     |--0.90%--0xffffffff8029f886
+                                     |                     |          
+                                     |                      --0.63%--0xffffffff8029f21a
+                                     |          
+                                     |--1.08%--0xffffffff800383aa
+                                     |          
+                                      --0.98%--0xffffffff800383fa
+                                                |          
+                                                 --0.71%--0xffffffff80292496
+
+    90.34%     3.42%  tuned_perf_fp64  tuned_perf_fp64              [.] main
+            |          
+            |--86.92%--main
+            |          |          
+            |          |--62.47%--kernel_scale
+            |          |          
+            |          |--15.46%--main
+            |          |          0xffffffff81018ef8
+            |          |          0xffffffff8100c916
+            |          |          |          
+            |          |          |--13.13%--0xffffffff80038430
+            |          |          |          |          
+            |          |          |           --12.41%--0xffffffff8029fae0
+            |          |          |                     |          
+            |          |          |                     |--7.02%--0xffffffff8029f160
+            |          |          |                     |          |          
+            |          |          |                     |          |--4.58%--0xffffffff80294aa0
+            |          |          |                     |          |          |          
+            |          |          |                     |          |           --4.49%--0xffffffff802c8e9a
+            |          |          |                     |          |                     |          
+            |          |          |                     |          |                      --3.86%--0xffffffff802c7cf2
+            |          |          |                     |          |                                |          
+            |          |          |                     |          |                                |--2.13%--0xffffffff802c6228
+            |          |          |                     |          |                                |          |          
+            |          |          |                     |          |                                |           --1.86%--0xffffffff81017732
+            |          |          |                     |          |                                |          
+            |          |          |                     |          |                                 --1.29%--0xffffffff802c74cc
+            |          |          |                     |          |          
+            |          |          |                     |           --2.24%--0xffffffff80294abe
+            |          |          |                     |                     |          
+            |          |          |                     |                     |--1.24%--0xffffffff80314382
+            |          |          |                     |                     |          
+            |          |          |                     |                      --0.83%--0xffffffff80314374
+            |          |          |                     |          
+            |          |          |                     |--1.97%--0xffffffff8029f890
+            |          |          |                     |          0xffffffff8025a166
+            |          |          |                     |          0xffffffff80259122
+            |          |          |                     |          0xffffffff8025903e
+            |          |          |                     |          |          
+            |          |          |                     |           --1.55%--0xffffffff81017732
+            |          |          |                     |          
+            |          |          |                     |--0.90%--0xffffffff8029f886
+            |          |          |                     |          
+            |          |          |                      --0.63%--0xffffffff8029f21a
+            |          |          |          
+            |          |          |--1.08%--0xffffffff800383aa
+            |          |          |          
+            |          |           --0.98%--0xffffffff800383fa
+            |          |                     |          
+            |          |                      --0.71%--0xffffffff80292496
+            |          |          
+            |           --8.99%--memset
+            |                     |          
+            |                      --7.74%--0xffffffff81018ef8
+            |                                0xffffffff8100c916
+            |                                |          
+            |                                 --6.94%--0xffffffff80038430
+            |                                           |          
+            |                                            --6.41%--0xffffffff8029fae0
+            |                                                      |          
+            |                                                      |--2.49%--0xffffffff8029f160
+            |                                                      |          |          
+            |                                                      |          |--1.42%--0xffffffff80294aa0
+            |                                                      |          |          0xffffffff802c8e9a
+            |                                                      |          |          |          
+            |                                                      |          |           --1.33%--0xffffffff802c7cf2
+            |                                                      |          |                     |          
+            |                                                      |          |                      --0.71%--0xffffffff802c74cc
+            |                                                      |          |          
+            |                                                      |           --0.89%--0xffffffff80294abe
+            |                                                      |          
+            |                                                      |--1.25%--0xffffffff8029f890
+            |                                                      |          0xffffffff8025a166
+            |                                                      |          |          
+            |                                                      |           --1.16%--0xffffffff80259122
+            |                                                      |                     0xffffffff8025903e
+            |                                                      |                     |          
+            |                                                      |                      --1.07%--0xffffffff81017732
+            |                                                      |          
+            |                                                      |--0.89%--0xffffffff8029f21a
+            |                                                      |          
+            |                                                       --0.80%--0xffffffff8029f886
+            |                                                                 0xffffffff802ae17c
+            |                                                                 0xffffffff802ace96
+            |                                                                 |          
+            |                                                                  --0.71%--0xffffffff8030ef84
+            |          
+             --3.42%--_start
+                       __libc_start_main
+                       main
+                       main
+
+    81.05%     0.00%  tuned_perf_fp64  libc.so.6                    [.] 0x0000003f7f849f62
+            |
+            ---0x3f7f849f62
+               |          
+               |--71.46%--main
+               |          |          
+               |          |--62.47%--kernel_scale
+               |          |          
+               |           --8.99%--memset
+               |                     |          
+               |                      --7.74%--0xffffffff81018ef8
+               |                                0xffffffff8100c916
+               |                                |          
+               |                                 --6.94%--0xffffffff80038430
+               |                                           |          
+               |                                            --6.41%--0xffffffff8029fae0
+               |                                                      |          
+               |                                                      |--2.49%--0xffffffff8029f160
+               |                                                      |          |          
+               |                                                      |          |--1.42%--0xffffffff80294aa0
+               |                                                      |          |          0xffffffff802c8e9a
+               |                                                      |          |          |          
+               |                                                      |          |           --1.33%--0xffffffff802c7cf2
+               |                                                      |          |                     |          
+               |                                                      |          |                      --0.71%--0xffffffff802c74cc
+               |                                                      |          |          
+               |                                                      |           --0.89%--0xffffffff80294abe
+               |                                                      |          
+               |                                                      |--1.25%--0xffffffff8029f890
+               |                                                      |          0xffffffff8025a166
+               |                                                      |          |          
+               |                                                      |           --1.16%--0xffffffff80259122
+               |                                                      |                     0xffffffff8025903e
+               |                                                      |                     |          
+               |                                                      |                      --1.07%--0xffffffff81017732
+               |                                                      |          
+               |                                                      |--0.89%--0xffffffff8029f21a
+               |                                                      |          
+               |                                                       --0.80%--0xffffffff8029f886
+               |                                                                 0xffffffff802ae17c
+               |                                                                 0xffffffff802ace96
+               |                                                                 |          
+               |                                                                  --0.71%--0xffffffff8030ef84
+               |          
+                --9.60%--0x3f7f8a56aa
+                          __munmap
+                          |          
+                           --9.49%--0xffffffff81018ef8
+                                     0xffffffff8100c81e
+                                     0xffffffff802a4b1e
+                                     0xffffffff802bd86a
+                                     0xffffffff802bbf38
+                                     0xffffffff802bbe78
+                                     0xffffffff802bae90
+                                     0xffffffff802b9d32
+                                     0xffffffff80297914
+                                     0xffffffff80297840
+                                     |          
+                                     |--5.76%--0xffffffff80296f06
+                                     |          0xffffffff802a6390
+                                     |          0xffffffff802a5e36
+                                     |          |          
+                                     |           --5.41%--0xffffffff802ded72
+                                     |                     |          
+                                     |                     |--2.45%--0xffffffff80258e48
+                                     |                     |          |          
+                                     |                     |           --2.00%--0xffffffff802c5534
+                                     |                     |                     |          
+                                     |                     |                      --1.83%--0xffffffff802c0ee6
+                                     |                     |                                0xffffffff81017732
+                                     |                     |          
+                                     |                     |--2.23%--0xffffffff81017732
+                                     |                     |          
+                                     |                      --0.73%--0xffffffff80258e42
+                                     |                                0xffffffff80314714
+                                     |          
+                                     |--1.54%--0xffffffff80296d8a
+                                     |          
+                                      --1.09%--0xffffffff80296e1a
+                                                |          
+                                                 --0.82%--0xffffffff802ae952
+
+    62.47%    62.47%  tuned_perf_fp64  tuned_perf_fp64              [.] kernel_scale
+            |
+            ---_start
+               __libc_start_main
+               0x3f7f849f62
+               main
+               kernel_scale
+
+    32.70%     0.00%  tuned_perf_fp64  [unknown]                    [.] 0xffffffff81018ef8
+            |
+            ---0xffffffff81018ef8
+               |          
+               |--23.20%--0xffffffff8100c916
+               |          |          
+               |          |--20.07%--0xffffffff80038430
+               |          |          |          
+               |          |           --18.82%--0xffffffff8029fae0
+               |          |                     |          
+               |          |                     |--9.51%--0xffffffff8029f160
+               |          |                     |          |          
+               |          |                     |          |--6.00%--0xffffffff80294aa0
+               |          |                     |          |          |          
+               |          |                     |          |           --5.91%--0xffffffff802c8e9a
+               |          |                     |          |                     |          
+               |          |                     |          |                     |--5.20%--0xffffffff802c7cf2
+               |          |                     |          |                     |          |          
+               |          |                     |          |                     |          |--2.58%--0xffffffff802c6228
+               |          |                     |          |                     |          |          |          
+               |          |                     |          |                     |          |           --2.22%--0xffffffff81017732
+               |          |                     |          |                     |          |          
+               |          |                     |          |                     |           --2.00%--0xffffffff802c74cc
+               |          |                     |          |                     |                     |          
+               |          |                     |          |                     |                      --0.55%--0xffffffff8100adc8
+               |          |                     |          |                     |          
+               |          |                     |          |                      --0.53%--0xffffffff802c7d84
+               |          |                     |          |          
+               |          |                     |           --3.13%--0xffffffff80294abe
+               |          |                     |                     |          
+               |          |                     |                     |--1.59%--0xffffffff80314382
+               |          |                     |                     |          
+               |          |                     |                      --1.19%--0xffffffff80314374
+               |          |                     |          
+               |          |                     |--3.22%--0xffffffff8029f890
+               |          |                     |          0xffffffff8025a166
+               |          |                     |          |          
+               |          |                     |           --3.13%--0xffffffff80259122
+               |          |                     |                     0xffffffff8025903e
+               |          |                     |                     |          
+               |          |                     |                     |--2.62%--0xffffffff81017732
+               |          |                     |                     |          
+               |          |                     |                      --0.52%--0xffffffff80258f8a
+               |          |                     |                                0xffffffff80258dc0
+               |          |                     |          
+               |          |                     |--1.71%--0xffffffff8029f886
+               |          |                     |          |          
+               |          |                     |           --1.26%--0xffffffff802ae17c
+               |          |                     |                     0xffffffff802ace96
+               |          |                     |                     |          
+               |          |                     |                      --0.99%--0xffffffff8030ef84
+               |          |                     |          
+               |          |                      --1.52%--0xffffffff8029f21a
+               |          |          
+               |          |--1.26%--0xffffffff800383aa
+               |          |          
+               |           --1.24%--0xffffffff800383fa
+               |                     |          
+               |                      --0.80%--0xffffffff80292496
+               |          
+                --9.49%--0xffffffff8100c81e
+                          0xffffffff802a4b1e
+                          0xffffffff802bd86a
+                          0xffffffff802bbf38
+                          0xffffffff802bbe78
+                          0xffffffff802bae90
+                          0xffffffff802b9d32
+                          0xffffffff80297914
+                          0xffffffff80297840
+                          |          
+                          |--5.76%--0xffffffff80296f06
+                          |          0xffffffff802a6390
+                          |          0xffffffff802a5e36
+                          |          |          
+                          |           --5.41%--0xffffffff802ded72
+                          |                     |          
+                          |                     |--2.45%--0xffffffff80258e48
+                          |                     |          |          
+                          |                     |           --2.00%--0xffffffff802c5534
+                          |                     |                     |          
+                          |                     |                      --1.83%--0xffffffff802c0ee6
+                          |                     |                                0xffffffff81017732
+                          |                     |          
+                          |                     |--2.23%--0xffffffff81017732
+                          |                     |          
+                          |                      --0.73%--0xffffffff80258e42
+                          |                                0xffffffff80314714
+                          |          
+                          |--1.54%--0xffffffff80296d8a
+                          |          
+                           --1.09%--0xffffffff80296e1a
+                                     |          
+                                      --0.82%--0xffffffff802ae952
+
+    23.20%     0.09%  tuned_perf_fp64  [unknown]                    [.] 0xffffffff8100c916
+            |          
+             --23.11%--0xffffffff8100c916
+                       |          
+                       |--20.07%--0xffffffff80038430
+                       |          |          
+                       |           --18.82%--0xffffffff8029fae0
+                       |                     |          
+                       |                     |--9.51%--0xffffffff8029f160
+                       |                     |          |          
+                       |                     |          |--6.00%--0xffffffff80294aa0
+                       |                     |          |          |          
+                       |                     |          |           --5.91%--0xffffffff802c8e9a
+                       |                     |          |                     |          
+                       |                     |          |                     |--5.20%--0xffffffff802c7cf2
+                       |                     |          |                     |          |          
+                       |                     |          |                     |          |--2.58%--0xffffffff802c6228
+                       |                     |          |                     |          |          |          
+                       |                     |          |                     |          |           --2.22%--0xffffffff81017732
+                       |                     |          |                     |          |          
+                       |                     |          |                     |           --2.00%--0xffffffff802c74cc
+                       |                     |          |                     |                     |          
+                       |                     |          |                     |                      --0.55%--0xffffffff8100adc8
+                       |                     |          |                     |          
+                       |                     |          |                      --0.53%--0xffffffff802c7d84
+                       |                     |          |          
+                       |                     |           --3.13%--0xffffffff80294abe
+                       |                     |                     |          
+                       |                     |                     |--1.59%--0xffffffff80314382
+                       |                     |                     |          
+                       |                     |                      --1.19%--0xffffffff80314374
+                       |                     |          
+                       |                     |--3.22%--0xffffffff8029f890
+                       |                     |          0xffffffff8025a166
+                       |                     |          |          
+                       |                     |           --3.13%--0xffffffff80259122
+                       |                     |                     0xffffffff8025903e
+                       |                     |                     |          
+                       |                     |                     |--2.62%--0xffffffff81017732
+                       |                     |                     |          
+                       |                     |                      --0.52%--0xffffffff80258f8a
+                       |                     |                                0xffffffff80258dc0
+                       |                     |          
+                       |                     |--1.71%--0xffffffff8029f886
+                       |                     |          |          
+                       |                     |           --1.26%--0xffffffff802ae17c
+                       |                     |                     0xffffffff802ace96
+                       |                     |                     |          
+                       |                     |                      --0.99%--0xffffffff8030ef84
+                       |                     |          
+                       |                      --1.52%--0xffffffff8029f21a
+                       |          
+                       |--1.26%--0xffffffff800383aa
+                       |          
+                        --1.24%--0xffffffff800383fa
+                                  |          
+                                   --0.80%--0xffffffff80292496
+
+    20.07%     0.00%  tuned_perf_fp64  [unknown]                    [.] 0xffffffff80038430
+            |
+            ---0xffffffff80038430
+               |          
+                --18.82%--0xffffffff8029fae0
+                          |          
+                          |--9.51%--0xffffffff8029f160
+                          |          |          
+                          |          |--6.00%--0xffffffff80294aa0
+                          |          |          |          
+                          |          |           --5.91%--0xffffffff802c8e9a
+                          |          |                     |          
+                          |          |                     |--5.20%--0xffffffff802c7cf2
+                          |          |                     |          |          
+                          |          |                     |          |--2.58%--0xffffffff802c6228
+                          |          |                     |          |          |          
+                          |          |                     |          |           --2.22%--0xffffffff81017732
+                          |          |                     |          |          
+                          |          |                     |           --2.00%--0xffffffff802c74cc
+                          |          |                     |                     |          
+                          |          |                     |                      --0.55%--0xffffffff8100adc8
+                          |          |                     |          
+                          |          |                      --0.53%--0xffffffff802c7d84
+                          |          |          
+                          |           --3.13%--0xffffffff80294abe
+                          |                     |          
+                          |                     |--1.59%--0xffffffff80314382
+                          |                     |          
+                          |                      --1.19%--0xffffffff80314374
+                          |          
+                          |--3.22%--0xffffffff8029f890
+                          |          0xffffffff8025a166
+                          |          |          
+                          |           --3.13%--0xffffffff80259122
+                          |                     0xffffffff8025903e
+                          |                     |          
+                          |                     |--2.62%--0xffffffff81017732
+                          |                     |          
+                          |                      --0.52%--0xffffffff80258f8a
+                          |                                0xffffffff80258dc0
+                          |          
+                          |--1.71%--0xffffffff8029f886
+                          |          |          
+                          |           --1.26%--0xffffffff802ae17c
+                          |                     0xffffffff802ace96
+                          |                     |          
+                          |                      --0.99%--0xffffffff8030ef84
+                          |          
+                           --1.52%--0xffffffff8029f21a
+
+    18.82%     0.00%  tuned_perf_fp64  [unknown]                    [.] 0xffffffff8029fae0
+            |
+            ---0xffffffff8029fae0
+               |          
+               |--9.51%--0xffffffff8029f160
+               |          |          
+               |          |--6.00%--0xffffffff80294aa0
+               |          |          |          
+               |          |           --5.91%--0xffffffff802c8e9a
+               |          |                     |          
+               |          |                     |--5.20%--0xffffffff802c7cf2
+               |          |                     |          |          
+               |          |                     |          |--2.58%--0xffffffff802c6228
+               |          |                     |          |          |          
+               |          |                     |          |           --2.22%--0xffffffff81017732
+               |          |                     |          |          
+               |          |                     |           --2.00%--0xffffffff802c74cc
+               |          |                     |                     |          
+               |          |                     |                      --0.55%--0xffffffff8100adc8
+               |          |                     |          
+               |          |                      --0.53%--0xffffffff802c7d84
+               |          |          
+               |           --3.13%--0xffffffff80294abe
+               |                     |          
+               |                     |--1.59%--0xffffffff80314382
+               |                     |          
+               |                      --1.19%--0xffffffff80314374
+               |          
+               |--3.22%--0xffffffff8029f890
+               |          0xffffffff8025a166
+               |          |          
+               |           --3.13%--0xffffffff80259122
+               |                     0xffffffff8025903e
+               |                     |          
+               |                     |--2.62%--0xffffffff81017732
+               |                     |          
+               |                      --0.52%--0xffffffff80258f8a
+               |                                0xffffffff80258dc0
+               |          
+               |--1.71%--0xffffffff8029f886
+               |          |          
+               |           --1.26%--0xffffffff802ae17c
+               |                     0xffffffff802ace96
+               |                     |          
+               |                      --0.99%--0xffffffff8030ef84
+               |          
+                --1.52%--0xffffffff8029f21a
+
+     9.60%     0.00%  tuned_perf_fp64  libc.so.6                    [.] 0x0000003f7f8a56aa
+            |
+            ---0x3f7f8a56aa
+               __munmap
+               |          
+                --9.49%--0xffffffff81018ef8
+                          0xffffffff8100c81e
+                          0xffffffff802a4b1e
+                          0xffffffff802bd86a
+                          0xffffffff802bbf38
+                          0xffffffff802bbe78
+                          0xffffffff802bae90
+                          0xffffffff802b9d32
+                          0xffffffff80297914
+                          0xffffffff80297840
+                          |          
+                          |--5.76%--0xffffffff80296f06
+                          |          0xffffffff802a6390
+                          |          0xffffffff802a5e36
+                          |          |          
+                          |           --5.41%--0xffffffff802ded72
+                          |                     |          
+                          |                     |--2.45%--0xffffffff80258e48
+                          |                     |          |          
+                          |                     |           --2.00%--0xffffffff802c5534
+                          |                     |                     |          
+                          |                     |                      --1.83%--0xffffffff802c0ee6
+                          |                     |                                0xffffffff81017732
+                          |                     |          
+                          |                     |--2.23%--0xffffffff81017732
+                          |                     |          
+                          |                      --0.73%--0xffffffff80258e42
+                          |                                0xffffffff80314714
+                          |          
+                          |--1.54%--0xffffffff80296d8a
+                          |          
+                           --1.09%--0xffffffff80296e1a
+                                     |          
+                                      --0.82%--0xffffffff802ae952
+
+     9.60%     0.00%  tuned_perf_fp64  libc.so.6                    [.] __munmap
+            |
+            ---__munmap
+               |          
+                --9.49%--0xffffffff81018ef8
+                          0xffffffff8100c81e
+                          0xffffffff802a4b1e
+                          0xffffffff802bd86a
+                          0xffffffff802bbf38
+                          0xffffffff802bbe78
+                          0xffffffff802bae90
+                          0xffffffff802b9d32
+                          0xffffffff80297914
+                          0xffffffff80297840
+                          |          
+                          |--5.76%--0xffffffff80296f06
+                          |          0xffffffff802a6390
+                          |          0xffffffff802a5e36
+                          |          |          
+                          |           --5.41%--0xffffffff802ded72
+                          |                     |          
+                          |                     |--2.45%--0xffffffff80258e48
+                          |                     |          |          
+                          |                     |           --2.00%--0xffffffff802c5534
+                          |                     |                     |          
+                          |                     |                      --1.83%--0xffffffff802c0ee6
+                          |                     |                                0xffffffff81017732
+                          |                     |          
+                          |                     |--2.23%--0xffffffff81017732
+                          |                     |          
+                          |                      --0.73%--0xffffffff80258e42
+                          |                                0xffffffff80314714
+                          |          
+                          |--1.54%--0xffffffff80296d8a
+                          |          
+                           --1.09%--0xffffffff80296e1a
+                                     |          
+                                      --0.82%--0xffffffff802ae952
+
+     9.51%     0.00%  tuned_perf_fp64  [unknown]                    [.] 0xffffffff8029f160
+            |
+            ---0xffffffff8029f160
+               |          
+               |--6.00%--0xffffffff80294aa0
+               |          |          
+               |           --5.91%--0xffffffff802c8e9a
+               |                     |          
+               |                     |--5.20%--0xffffffff802c7cf2
+               |                     |          |          
+               |                     |          |--2.58%--0xffffffff802c6228
+               |                     |          |          |          
+               |                     |          |           --2.22%--0xffffffff81017732
+               |                     |          |          
+               |                     |           --2.00%--0xffffffff802c74cc
+               |                     |                     |          
+               |                     |                      --0.55%--0xffffffff8100adc8
+               |                     |          
+               |                      --0.53%--0xffffffff802c7d84
+               |          
+                --3.13%--0xffffffff80294abe
+                          |          
+                          |--1.59%--0xffffffff80314382
+                          |          
+                           --1.19%--0xffffffff80314374
+
+     9.49%     0.00%  tuned_perf_fp64  [unknown]                    [.] 0xffffffff8100c81e
+            |
+            ---0xffffffff8100c81e
+               0xffffffff802a4b1e
+               0xffffffff802bd86a
+               0xffffffff802bbf38
+               0xffffffff802bbe78
+               0xffffffff802bae90
+               0xffffffff802b9d32
+               0xffffffff80297914
+               0xffffffff80297840
+               |          
+               |--5.76%--0xffffffff80296f06
+               |          0xffffffff802a6390
+               |          0xffffffff802a5e36
+               |          |          
+               |           --5.41%--0xffffffff802ded72
+               |                     |          
+               |                     |--2.45%--0xffffffff80258e48
+               |                     |          |          
+               |                     |           --2.00%--0xffffffff802c5534
+               |                     |                     |          
+               |                     |                      --1.83%--0xffffffff802c0ee6
+               |                     |                                0xffffffff81017732
+               |                     |          
+               |                     |--2.23%--0xffffffff81017732
+               |                     |          
+               |                      --0.73%--0xffffffff80258e42
+               |                                0xffffffff80314714
+               |          
+               |--1.54%--0xffffffff80296d8a
+               |          
+                --1.09%--0xffffffff80296e1a
+                          |          
+                           --0.82%--0xffffffff802ae952
+
+     9.49%     0.00%  tuned_perf_fp64  [unknown]                    [.] 0xffffffff802a4b1e
+            |
+            ---0xffffffff802a4b1e
+               0xffffffff802bd86a
+               0xffffffff802bbf38
+               0xffffffff802bbe78
+               0xffffffff802bae90
+               0xffffffff802b9d32
+               0xffffffff80297914
+               0xffffffff80297840
+               |          
+               |--5.76%--0xffffffff80296f06
+               |          0xffffffff802a6390
+               |          0xffffffff802a5e36
+               |          |          
+               |           --5.41%--0xffffffff802ded72
+               |                     |          
+               |                     |--2.45%--0xffffffff80258e48
+               |                     |          |          
+               |                     |           --2.00%--0xffffffff802c5534
+               |                     |                     |          
+               |                     |                      --1.83%--0xffffffff802c0ee6
+               |                     |                                0xffffffff81017732
+               |                     |          
+               |                     |--2.23%--0xffffffff81017732
+               |                     |          
+               |                      --0.73%--0xffffffff80258e42
+               |                                0xffffffff80314714
+               |          
+               |--1.54%--0xffffffff80296d8a
+               |          
+                --1.09%--0xffffffff80296e1a
+                          |          
+                           --0.82%--0xffffffff802ae952
+
+     9.49%     0.00%  tuned_perf_fp64  [unknown]                    [.] 0xffffffff802bd86a
+            |
+            ---0xffffffff802bd86a
+               0xffffffff802bbf38
+               0xffffffff802bbe78
+               0xffffffff802bae90
+               0xffffffff802b9d32
+               0xffffffff80297914
+               0xffffffff80297840
+               |          
+               |--5.76%--0xffffffff80296f06
+               |          0xffffffff802a6390
+               |          0xffffffff802a5e36
+               |          |          
+               |           --5.41%--0xffffffff802ded72
+               |                     |          
+               |                     |--2.45%--0xffffffff80258e48
+               |                     |          |          
+               |                     |           --2.00%--0xffffffff802c5534
+               |                     |                     |          
+               |                     |                      --1.83%--0xffffffff802c0ee6
+               |                     |                                0xffffffff81017732
+               |                     |          
+               |                     |--2.23%--0xffffffff81017732
+               |                     |          
+               |                      --0.73%--0xffffffff80258e42
+               |                                0xffffffff80314714
+               |          
+               |--1.54%--0xffffffff80296d8a
+               |          
+                --1.09%--0xffffffff80296e1a
+                          |          
+                           --0.82%--0xffffffff802ae952
+
+     9.49%     0.00%  tuned_perf_fp64  [unknown]                    [.] 0xffffffff802bbf38
+            |
+            ---0xffffffff802bbf38
+               0xffffffff802bbe78
+               0xffffffff802bae90
+               0xffffffff802b9d32
+               0xffffffff80297914
+               0xffffffff80297840
+               |          
+               |--5.76%--0xffffffff80296f06
+               |          0xffffffff802a6390
+               |          0xffffffff802a5e36
+               |          |          
+               |           --5.41%--0xffffffff802ded72
+               |                     |          
+               |                     |--2.45%--0xffffffff80258e48
+               |                     |          |          
+               |                     |           --2.00%--0xffffffff802c5534
+               |                     |                     |          
+               |                     |                      --1.83%--0xffffffff802c0ee6
+               |                     |                                0xffffffff81017732
+               |                     |          
+               |                     |--2.23%--0xffffffff81017732
+               |                     |          
+               |                      --0.73%--0xffffffff80258e42
+               |                                0xffffffff80314714
+               |          
+               |--1.54%--0xffffffff80296d8a
+               |          
+                --1.09%--0xffffffff80296e1a
+                          |          
+                           --0.82%--0xffffffff802ae952
+
+     9.49%     0.00%  tuned_perf_fp64  [unknown]                    [.] 0xffffffff802bbe78
+            |
+            ---0xffffffff802bbe78
+               0xffffffff802bae90
+               0xffffffff802b9d32
+               0xffffffff80297914
+               0xffffffff80297840
+               |          
+               |--5.76%--0xffffffff80296f06
+               |          0xffffffff802a6390
+               |          0xffffffff802a5e36
+               |          |          
+               |           --5.41%--0xffffffff802ded72
+               |                     |          
+               |                     |--2.45%--0xffffffff80258e48
+               |                     |          |          
+               |                     |           --2.00%--0xffffffff802c5534
+               |                     |                     |          
+               |                     |                      --1.83%--0xffffffff802c0ee6
+               |                     |                                0xffffffff81017732
+               |                     |          
+               |                     |--2.23%--0xffffffff81017732
+               |                     |          
+               |                      --0.73%--0xffffffff80258e42
+               |                                0xffffffff80314714
+               |          
+               |--1.54%--0xffffffff80296d8a
+               |          
+                --1.09%--0xffffffff80296e1a
+                          |          
+                           --0.82%--0xffffffff802ae952
+
+     9.49%     0.00%  tuned_perf_fp64  [unknown]                    [.] 0xffffffff802bae90
+            |
+            ---0xffffffff802bae90
+               0xffffffff802b9d32
+               0xffffffff80297914
+               0xffffffff80297840
+               |          
+               |--5.76%--0xffffffff80296f06
+               |          0xffffffff802a6390
+               |          0xffffffff802a5e36
+               |          |          
+               |           --5.41%--0xffffffff802ded72
+               |                     |          
+               |                     |--2.45%--0xffffffff80258e48
+               |                     |          |          
+               |                     |           --2.00%--0xffffffff802c5534
+               |                     |                     |          
+               |                     |                      --1.83%--0xffffffff802c0ee6
+               |                     |                                0xffffffff81017732
+               |                     |          
+               |                     |--2.23%--0xffffffff81017732
+               |                     |          
+               |                      --0.73%--0xffffffff80258e42
+               |                                0xffffffff80314714
+               |          
+               |--1.54%--0xffffffff80296d8a
+               |          
+                --1.09%--0xffffffff80296e1a
+                          |          
+                           --0.82%--0xffffffff802ae952
+
+     9.49%     0.00%  tuned_perf_fp64  [unknown]                    [.] 0xffffffff802b9d32
+            |
+            ---0xffffffff802b9d32
+               0xffffffff80297914
+               0xffffffff80297840
+               |          
+               |--5.76%--0xffffffff80296f06
+               |          0xffffffff802a6390
+               |          0xffffffff802a5e36
+               |          |          
+               |           --5.41%--0xffffffff802ded72
+               |                     |          
+               |                     |--2.45%--0xffffffff80258e48
+               |                     |          |          
+               |                     |           --2.00%--0xffffffff802c5534
+               |                     |                     |          
+               |                     |                      --1.83%--0xffffffff802c0ee6
+               |                     |                                0xffffffff81017732
+               |                     |          
+               |                     |--2.23%--0xffffffff81017732
+               |                     |          
+               |                      --0.73%--0xffffffff80258e42
+               |                                0xffffffff80314714
+               |          
+               |--1.54%--0xffffffff80296d8a
+               |          
+                --1.09%--0xffffffff80296e1a
+                          |          
+                           --0.82%--0xffffffff802ae952
+
+     9.49%     0.00%  tuned_perf_fp64  [unknown]                    [.] 0xffffffff80297914
+            |
+            ---0xffffffff80297914
+               0xffffffff80297840
+               |          
+               |--5.76%--0xffffffff80296f06
+               |          0xffffffff802a6390
+               |          0xffffffff802a5e36
+               |          |          
+               |           --5.41%--0xffffffff802ded72
+               |                     |          
+               |                     |--2.45%--0xffffffff80258e48
+               |                     |          |          
+               |                     |           --2.00%--0xffffffff802c5534
+               |                     |                     |          
+               |                     |                      --1.83%--0xffffffff802c0ee6
+               |                     |                                0xffffffff81017732
+               |                     |          
+               |                     |--2.23%--0xffffffff81017732
+               |                     |          
+               |                      --0.73%--0xffffffff80258e42
+               |                                0xffffffff80314714
+               |          
+               |--1.54%--0xffffffff80296d8a
+               |          
+                --1.09%--0xffffffff80296e1a
+                          |          
+                           --0.82%--0xffffffff802ae952
+
+     9.49%     0.00%  tuned_perf_fp64  [unknown]                    [.] 0xffffffff80297840
+            |
+            ---0xffffffff80297840
+               |          
+               |--5.76%--0xffffffff80296f06
+               |          0xffffffff802a6390
+               |          0xffffffff802a5e36
+               |          |          
+               |           --5.41%--0xffffffff802ded72
+               |                     |          
+               |                     |--2.45%--0xffffffff80258e48
+               |                     |          |          
+               |                     |           --2.00%--0xffffffff802c5534
+               |                     |                     |          
+               |                     |                      --1.83%--0xffffffff802c0ee6
+               |                     |                                0xffffffff81017732
+               |                     |          
+               |                     |--2.23%--0xffffffff81017732
+               |                     |          
+               |                      --0.73%--0xffffffff80258e42
+               |                                0xffffffff80314714
+               |          
+               |--1.54%--0xffffffff80296d8a
+               |          
+                --1.09%--0xffffffff80296e1a
+                          |          
+                           --0.82%--0xffffffff802ae952
+
+     9.06%     9.06%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff81017732
+            |
+            ---_start
+               __libc_start_main
+               |          
+               |--5.65%--0x3f7f849f62
+               |          |          
+               |          |--4.23%--0x3f7f8a56aa
+               |          |          __munmap
+               |          |          0xffffffff81018ef8
+               |          |          0xffffffff8100c81e
+               |          |          0xffffffff802a4b1e
+               |          |          0xffffffff802bd86a
+               |          |          0xffffffff802bbf38
+               |          |          0xffffffff802bbe78
+               |          |          0xffffffff802bae90
+               |          |          0xffffffff802b9d32
+               |          |          0xffffffff80297914
+               |          |          0xffffffff80297840
+               |          |          0xffffffff80296f06
+               |          |          0xffffffff802a6390
+               |          |          0xffffffff802a5e36
+               |          |          |          
+               |          |           --4.05%--0xffffffff802ded72
+               |          |                     |          
+               |          |                     |--2.23%--0xffffffff81017732
+               |          |                     |          
+               |          |                      --1.83%--0xffffffff80258e48
+               |          |                                0xffffffff802c5534
+               |          |                                0xffffffff802c0ee6
+               |          |                                0xffffffff81017732
+               |          |          
+               |           --1.42%--main
+               |                     memset
+               |                     0xffffffff81018ef8
+               |                     0xffffffff8100c916
+               |                     0xffffffff80038430
+               |                     0xffffffff8029fae0
+               |                     |          
+               |                      --1.07%--0xffffffff8029f890
+               |                                0xffffffff8025a166
+               |                                0xffffffff80259122
+               |                                0xffffffff8025903e
+               |                                0xffffffff81017732
+               |          
+                --3.41%--main
+                          main
+                          0xffffffff81018ef8
+                          0xffffffff8100c916
+                          0xffffffff80038430
+                          0xffffffff8029fae0
+                          |          
+                          |--1.86%--0xffffffff8029f160
+                          |          0xffffffff80294aa0
+                          |          0xffffffff802c8e9a
+                          |          0xffffffff802c7cf2
+                          |          0xffffffff802c6228
+                          |          0xffffffff81017732
+                          |          
+                           --1.55%--0xffffffff8029f890
+                                     0xffffffff8025a166
+                                     0xffffffff80259122
+                                     0xffffffff8025903e
+                                     0xffffffff81017732
+
+     8.99%     1.24%  tuned_perf_fp64  libc.so.6                    [.] memset
+            |          
+            |--7.74%--memset
+            |          0xffffffff81018ef8
+            |          0xffffffff8100c916
+            |          |          
+            |           --6.94%--0xffffffff80038430
+            |                     |          
+            |                      --6.41%--0xffffffff8029fae0
+            |                                |          
+            |                                |--2.49%--0xffffffff8029f160
+            |                                |          |          
+            |                                |          |--1.42%--0xffffffff80294aa0
+            |                                |          |          0xffffffff802c8e9a
+            |                                |          |          |          
+            |                                |          |           --1.33%--0xffffffff802c7cf2
+            |                                |          |                     |          
+            |                                |          |                      --0.71%--0xffffffff802c74cc
+            |                                |          |          
+            |                                |           --0.89%--0xffffffff80294abe
+            |                                |          
+            |                                |--1.25%--0xffffffff8029f890
+            |                                |          0xffffffff8025a166
+            |                                |          |          
+            |                                |           --1.16%--0xffffffff80259122
+            |                                |                     0xffffffff8025903e
+            |                                |                     |          
+            |                                |                      --1.07%--0xffffffff81017732
+            |                                |          
+            |                                |--0.89%--0xffffffff8029f21a
+            |                                |          
+            |                                 --0.80%--0xffffffff8029f886
+            |                                           0xffffffff802ae17c
+            |                                           0xffffffff802ace96
+            |                                           |          
+            |                                            --0.71%--0xffffffff8030ef84
+            |          
+             --1.24%--_start
+                       __libc_start_main
+                       0x3f7f849f62
+                       main
+                       memset
+
+     6.00%     0.00%  tuned_perf_fp64  [unknown]                    [.] 0xffffffff80294aa0
+            |
+            ---0xffffffff80294aa0
+               |          
+                --5.91%--0xffffffff802c8e9a
+                          |          
+                          |--5.20%--0xffffffff802c7cf2
+                          |          |          
+                          |          |--2.58%--0xffffffff802c6228
+                          |          |          |          
+                          |          |           --2.22%--0xffffffff81017732
+                          |          |          
+                          |           --2.00%--0xffffffff802c74cc
+                          |                     |          
+                          |                      --0.55%--0xffffffff8100adc8
+                          |          
+                           --0.53%--0xffffffff802c7d84
+
+     5.91%     0.00%  tuned_perf_fp64  [unknown]                    [.] 0xffffffff802c8e9a
+            |
+            ---0xffffffff802c8e9a
+               |          
+               |--5.20%--0xffffffff802c7cf2
+               |          |          
+               |          |--2.58%--0xffffffff802c6228
+               |          |          |          
+               |          |           --2.22%--0xffffffff81017732
+               |          |          
+               |           --2.00%--0xffffffff802c74cc
+               |                     |          
+               |                      --0.55%--0xffffffff8100adc8
+               |          
+                --0.53%--0xffffffff802c7d84
+
+     5.76%     0.00%  tuned_perf_fp64  [unknown]                    [.] 0xffffffff80296f06
+            |
+            ---0xffffffff80296f06
+               0xffffffff802a6390
+               0xffffffff802a5e36
+               |          
+                --5.41%--0xffffffff802ded72
+                          |          
+                          |--2.45%--0xffffffff80258e48
+                          |          |          
+                          |           --2.00%--0xffffffff802c5534
+                          |                     |          
+                          |                      --1.83%--0xffffffff802c0ee6
+                          |                                0xffffffff81017732
+                          |          
+                          |--2.23%--0xffffffff81017732
+                          |          
+                           --0.73%--0xffffffff80258e42
+                                     0xffffffff80314714
+
+     5.76%     0.00%  tuned_perf_fp64  [unknown]                    [.] 0xffffffff802a6390
+            |
+            ---0xffffffff802a6390
+               0xffffffff802a5e36
+               |          
+                --5.41%--0xffffffff802ded72
+                          |          
+                          |--2.45%--0xffffffff80258e48
+                          |          |          
+                          |           --2.00%--0xffffffff802c5534
+                          |                     |          
+                          |                      --1.83%--0xffffffff802c0ee6
+                          |                                0xffffffff81017732
+                          |          
+                          |--2.23%--0xffffffff81017732
+                          |          
+                           --0.73%--0xffffffff80258e42
+                                     0xffffffff80314714
+
+     5.76%     0.00%  tuned_perf_fp64  [unknown]                    [.] 0xffffffff802a5e36
+            |
+            ---0xffffffff802a5e36
+               |          
+                --5.41%--0xffffffff802ded72
+                          |          
+                          |--2.45%--0xffffffff80258e48
+                          |          |          
+                          |           --2.00%--0xffffffff802c5534
+                          |                     |          
+                          |                      --1.83%--0xffffffff802c0ee6
+                          |                                0xffffffff81017732
+                          |          
+                          |--2.23%--0xffffffff81017732
+                          |          
+                           --0.73%--0xffffffff80258e42
+                                     0xffffffff80314714
+
+     5.41%     0.00%  tuned_perf_fp64  [unknown]                    [.] 0xffffffff802ded72
+            |
+            ---0xffffffff802ded72
+               |          
+               |--2.45%--0xffffffff80258e48
+               |          |          
+               |           --2.00%--0xffffffff802c5534
+               |                     |          
+               |                      --1.83%--0xffffffff802c0ee6
+               |                                0xffffffff81017732
+               |          
+               |--2.23%--0xffffffff81017732
+               |          
+                --0.73%--0xffffffff80258e42
+                          0xffffffff80314714
+
+     5.20%     0.00%  tuned_perf_fp64  [unknown]                    [.] 0xffffffff802c7cf2
+            |
+            ---0xffffffff802c7cf2
+               |          
+               |--2.58%--0xffffffff802c6228
+               |          |          
+               |           --2.22%--0xffffffff81017732
+               |          
+                --2.00%--0xffffffff802c74cc
+                          |          
+                           --0.55%--0xffffffff8100adc8
+
+     3.22%     0.00%  tuned_perf_fp64  [unknown]                    [.] 0xffffffff8029f890
+            |
+            ---0xffffffff8029f890
+               0xffffffff8025a166
+               |          
+                --3.13%--0xffffffff80259122
+                          0xffffffff8025903e
+                          |          
+                          |--2.62%--0xffffffff81017732
+                          |          
+                           --0.52%--0xffffffff80258f8a
+                                     0xffffffff80258dc0
+
+     3.22%     0.00%  tuned_perf_fp64  [unknown]                    [.] 0xffffffff8025a166
+            |
+            ---0xffffffff8025a166
+               |          
+                --3.13%--0xffffffff80259122
+                          0xffffffff8025903e
+                          |          
+                          |--2.62%--0xffffffff81017732
+                          |          
+                           --0.52%--0xffffffff80258f8a
+                                     0xffffffff80258dc0
+
+     3.13%     0.09%  tuned_perf_fp64  [unknown]                    [.] 0xffffffff80294abe
+            |          
+             --3.04%--0xffffffff80294abe
+                       |          
+                       |--1.59%--0xffffffff80314382
+                       |          
+                        --1.19%--0xffffffff80314374
+
+     3.13%     0.00%  tuned_perf_fp64  [unknown]                    [.] 0xffffffff80259122
+            |
+            ---0xffffffff80259122
+               0xffffffff8025903e
+               |          
+               |--2.62%--0xffffffff81017732
+               |          
+                --0.52%--0xffffffff80258f8a
+                          0xffffffff80258dc0
+
+     3.13%     0.00%  tuned_perf_fp64  [unknown]                    [.] 0xffffffff8025903e
+            |
+            ---0xffffffff8025903e
+               |          
+               |--2.62%--0xffffffff81017732
+               |          
+                --0.52%--0xffffffff80258f8a
+                          0xffffffff80258dc0
+
+     2.58%     0.00%  tuned_perf_fp64  [unknown]                    [.] 0xffffffff802c6228
+            |
+            ---0xffffffff802c6228
+               |          
+                --2.22%--0xffffffff81017732
+
+     2.54%     0.00%  tuned_perf_fp64  [unknown]                    [.] 0xffffffff80258e48
+            |
+            ---0xffffffff80258e48
+               |          
+                --2.09%--0xffffffff802c5534
+                          |          
+                           --1.91%--0xffffffff802c0ee6
+                                     0xffffffff81017732
+
+     2.09%     0.00%  tuned_perf_fp64  [unknown]                    [.] 0xffffffff802c5534
+            |
+            ---0xffffffff802c5534
+               |          
+                --1.91%--0xffffffff802c0ee6
+                          0xffffffff81017732
+
+     2.00%     0.00%  tuned_perf_fp64  [unknown]                    [.] 0xffffffff802c74cc
+            |
+            ---0xffffffff802c74cc
+               |          
+                --0.55%--0xffffffff8100adc8
+
+     1.91%     0.00%  tuned_perf_fp64  [unknown]                    [.] 0xffffffff802c0ee6
+            |
+            ---0xffffffff802c0ee6
+               0xffffffff81017732
+
+     1.71%     0.09%  tuned_perf_fp64  [unknown]                    [.] 0xffffffff8029f886
+            |          
+             --1.61%--0xffffffff8029f886
+                       |          
+                        --1.26%--0xffffffff802ae17c
+                                  0xffffffff802ace96
+                                  |          
+                                   --0.99%--0xffffffff8030ef84
+
+     1.59%     0.00%  tuned_perf_fp64  [unknown]                    [.] 0xffffffff80314382
+            |
+            ---0xffffffff80314382
+
+     1.54%     1.54%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff80296d8a
+            |
+            ---_start
+               __libc_start_main
+               0x3f7f849f62
+               0x3f7f8a56aa
+               __munmap
+               0xffffffff81018ef8
+               0xffffffff8100c81e
+               0xffffffff802a4b1e
+               0xffffffff802bd86a
+               0xffffffff802bbf38
+               0xffffffff802bbe78
+               0xffffffff802bae90
+               0xffffffff802b9d32
+               0xffffffff80297914
+               0xffffffff80297840
+               0xffffffff80296d8a
+
+     1.52%     0.00%  tuned_perf_fp64  [unknown]                    [.] 0xffffffff8029f21a
+            |
+            ---0xffffffff8029f21a
+
+     1.36%     0.00%  tuned_perf_fp64  [unknown]                    [.] 0xffffffff8030ef84
+            |
+            ---0xffffffff8030ef84
+
+     1.26%     1.26%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff800383aa
+            |
+            ---_start
+               __libc_start_main
+               |          
+                --1.08%--main
+                          main
+                          0xffffffff81018ef8
+                          0xffffffff8100c916
+                          0xffffffff800383aa
+
+     1.26%     0.00%  tuned_perf_fp64  [unknown]                    [.] 0xffffffff802ae17c
+            |
+            ---0xffffffff802ae17c
+               0xffffffff802ace96
+               |          
+                --0.99%--0xffffffff8030ef84
+
+     1.26%     0.00%  tuned_perf_fp64  [unknown]                    [.] 0xffffffff802ace96
+            |
+            ---0xffffffff802ace96
+               |          
+                --0.99%--0xffffffff8030ef84
+
+     1.24%     0.00%  tuned_perf_fp64  [unknown]                    [.] 0xffffffff800383fa
+            |
+            ---0xffffffff800383fa
+               |          
+                --0.80%--0xffffffff80292496
+
+     1.19%     0.00%  tuned_perf_fp64  [unknown]                    [.] 0xffffffff80314374
+            |
+            ---0xffffffff80314374
+
+     1.09%     0.00%  tuned_perf_fp64  [unknown]                    [.] 0xffffffff80296e1a
+            |
+            ---0xffffffff80296e1a
+               |          
+                --0.82%--0xffffffff802ae952
+
+     0.82%     0.00%  tuned_perf_fp64  [unknown]                    [.] 0xffffffff802ae952
+            |
+            ---0xffffffff802ae952
+
+     0.80%     0.00%  tuned_perf_fp64  [unknown]                    [.] 0xffffffff80292496
+            |
+            ---0xffffffff80292496
+
+     0.73%     0.00%  tuned_perf_fp64  [unknown]                    [.] 0xffffffff80258e42
+            |
+            ---0xffffffff80258e42
+               0xffffffff80314714
+
+     0.73%     0.00%  tuned_perf_fp64  [unknown]                    [.] 0xffffffff80314714
+            |
+            ---0xffffffff80314714
+
+     0.62%     0.62%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff800f5f5e
+            |
+            ---_start
+               __libc_start_main
+
+     0.55%     0.55%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff8100adc8
+            |
+            ---_start
+               __libc_start_main
+
+     0.53%     0.00%  tuned_perf_fp64  [unknown]                    [.] 0xffffffff802c7d84
+            |
+            ---0xffffffff802c7d84
+
+     0.52%     0.52%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff80258dc0
+            |
+            ---_start
+               __libc_start_main
+
+     0.52%     0.00%  tuned_perf_fp64  [unknown]                    [.] 0xffffffff80258f8a
+            |
+            ---0xffffffff80258f8a
+               0xffffffff80258dc0
+
+     0.46%     0.46%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff800fb9fc
+     0.45%     0.45%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff8030ecfe
+     0.45%     0.00%  tuned_perf_fp64  [unknown]                    [.] 0xffffffff802ac336
+     0.45%     0.00%  tuned_perf_fp64  [unknown]                    [.] 0xffffffff81017872
+     0.44%     0.44%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff80312e6c
+     0.39%     0.39%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff8030eacc
+     0.39%     0.39%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff8100adbc
+     0.36%     0.36%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff800d5396
+     0.36%     0.36%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff8029fb9a
+     0.36%     0.36%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff8068f7dc
+     0.36%     0.36%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff8100b44e
+     0.35%     0.35%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff802972a8
+     0.28%     0.28%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff80310d5c
+     0.27%     0.27%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff8030ed24
+     0.27%     0.27%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff8031256c
+     0.27%     0.00%  tuned_perf_fp64  [unknown]                    [.] 0xffffffff8029ef66
+     0.27%     0.00%  tuned_perf_fp64  [unknown]                    [.] 0xffffffff8029fbc2
+     0.27%     0.27%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff8100ad62
+     0.27%     0.27%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff8100b53c
+     0.27%     0.27%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff8100b53e
+     0.27%     0.27%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff8030ed28
+     0.27%     0.00%  tuned_perf_fp64  [unknown]                    [.] 0xffffffff802c61d8
+     0.27%     0.00%  tuned_perf_fp64  [unknown]                    [.] 0xffffffff810172ae
+     0.26%     0.00%  tuned_perf_fp64  [unknown]                    [.] 0xffffffff80312e14
+     0.19%     0.00%  tuned_perf_fp64  [unknown]                    [.] 0xffffffff80296d6c
+     0.19%     0.19%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff80296ddc
+     0.19%     0.19%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff8030ef54
+     0.18%     0.18%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff810179da
+     0.18%     0.18%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff80fefd5a
+     0.18%     0.18%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff80293cca
+     0.18%     0.18%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff802924d6
+     0.18%     0.18%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff8029f19e
+     0.18%     0.18%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff80310fee
+     0.18%     0.18%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff80fefbb8
+     0.18%     0.18%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff800a1e14
+     0.18%     0.18%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff80312e70
+     0.18%     0.18%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff80038774
+     0.18%     0.18%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff800d5356
+     0.18%     0.18%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff802ded28
+     0.18%     0.18%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff802ae16e
+     0.18%     0.18%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff80fefd58
+     0.18%     0.18%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff803143d6
+     0.18%     0.18%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff8100adce
+     0.18%     0.00%  tuned_perf_fp64  [unknown]                    [.] 0xffffffff8030edb0
+     0.18%     0.00%  tuned_perf_fp64  [unknown]                    [.] 0xffffffff802ac2d0
+     0.18%     0.18%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff8100ad8a
+     0.18%     0.18%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff8030eb5a
+     0.18%     0.18%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff802ae936
+     0.18%     0.18%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff80310d58
+     0.17%     0.00%  tuned_perf_fp64  [unknown]                    [.] 0xffffffff802ded86
+     0.17%     0.17%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff80312638
+     0.11%     0.11%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff80294b08
+     0.10%     0.10%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff8030c074
+     0.10%     0.00%  tuned_perf_fp64  [unknown]                    [.] 0xffffffff8101906a
+     0.10%     0.00%  tuned_perf_fp64  [unknown]                    [.] 0xffffffff8100bd90
+     0.10%     0.00%  tuned_perf_fp64  [unknown]                    [.] 0xffffffff80073abc
+     0.10%     0.00%  tuned_perf_fp64  [unknown]                    [.] 0xffffffff8007386e
+     0.10%     0.00%  tuned_perf_fp64  [unknown]                    [.] 0xffffffff800734e2
+     0.10%     0.00%  tuned_perf_fp64  [unknown]                    [.] 0xffffffff800fd1e8
+     0.10%     0.00%  tuned_perf_fp64  [unknown]                    [.] 0xffffffff800fcb90
+     0.10%     0.00%  tuned_perf_fp64  [unknown]                    [.] 0xffffffff802a5f14
+     0.10%     0.00%  tuned_perf_fp64  [unknown]                    [.] 0xffffffff802c1f2a
+     0.10%     0.00%  tuned_perf_fp64  [unknown]                    [.] 0xffffffff802c1f18
+     0.10%     0.00%  tuned_perf_fp64  [unknown]                    [.] 0xffffffff802c17e8
+     0.10%     0.00%  tuned_perf_fp64  [unknown]                    [.] 0xffffffff80313494
+     0.10%     0.00%  tuned_perf_fp64  [unknown]                    [.] 0xffffffff803107e6
+     0.10%     0.00%  tuned_perf_fp64  [unknown]                    [.] 0xffffffff8030e462
+     0.10%     0.00%  tuned_perf_fp64  [unknown]                    [.] 0xffffffff8030e1de
+     0.10%     0.00%  tuned_perf_fp64  [unknown]                    [.] 0xffffffff8030c27a
+     0.10%     0.00%  tuned_perf_fp64  [unknown]                    [.] 0xffffffff8030c0ee
+     0.10%     0.10%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff8029655c
+     0.10%     0.10%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff8030ee34
+     0.10%     0.10%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff80296e52
+     0.10%     0.10%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff80296cf6
+     0.09%     0.09%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff80310d2c
+     0.09%     0.09%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff802ac2f2
+     0.09%     0.09%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff802c7c00
+     0.09%     0.09%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff8030ef64
+     0.09%     0.09%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff802c549c
+     0.09%     0.09%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff800a1ee8
+     0.09%     0.09%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff80296518
+     0.09%     0.09%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff802c8e90
+     0.09%     0.09%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff802c0d62
+     0.09%     0.09%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff8030ef70
+     0.09%     0.09%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff80312e1c
+     0.09%     0.09%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff810179d0
+     0.09%     0.09%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff8030edc4
+     0.09%     0.09%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff802c5ffc
+     0.09%     0.09%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff800a1ee4
+     0.09%     0.09%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff802ac20c
+     0.09%     0.09%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff802c420c
+     0.09%     0.09%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff80fefbc4
+     0.09%     0.09%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff800a1e12
+     0.09%     0.09%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff802c4208
+     0.09%     0.09%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff80fefc0a
+     0.09%     0.09%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff802ae180
+     0.09%     0.09%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff802c42d6
+     0.09%     0.09%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff800f5f72
+     0.09%     0.09%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff8029e560
+     0.09%     0.09%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff800f5f62
+     0.09%     0.09%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff8100ad76
+     0.09%     0.09%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff8029ef2e
+     0.09%     0.09%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff802c6008
+     0.09%     0.09%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff802ae158
+     0.09%     0.09%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff8003877a
+     0.09%     0.09%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff802c4284
+     0.09%     0.09%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff8029e6c8
+     0.09%     0.09%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff800a1e1e
+     0.09%     0.09%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff8014a8e2
+     0.09%     0.09%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff8029f82c
+     0.09%     0.09%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff810179a4
+     0.09%     0.09%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff80293cce
+     0.09%     0.09%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff80294ac2
+     0.09%     0.09%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff80314364
+     0.09%     0.09%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff80311162
+     0.09%     0.09%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff81017874
+     0.09%     0.09%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff800a1f1a
+     0.09%     0.09%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff8003974e
+     0.09%     0.09%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff8029e5f0
+     0.09%     0.09%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff810179a8
+     0.09%     0.09%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff8030eafc
+     0.09%     0.09%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff810179bc
+     0.09%     0.09%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff8100ad84
+     0.09%     0.09%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff8029fb00
+     0.09%     0.09%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff810179c4
+     0.09%     0.09%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff8029f1a2
+     0.09%     0.09%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff802ac0d4
+     0.09%     0.09%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff8003970e
+     0.09%     0.09%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff800d53dc
+     0.09%     0.09%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff8101785a
+     0.09%     0.09%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff8029fa76
+     0.09%     0.09%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff802beb98
+     0.09%     0.09%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff8100ad4e
+     0.09%     0.09%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff80312e20
+     0.09%     0.09%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff810179ec
+     0.09%     0.09%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff800383b2
+     0.09%     0.09%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff800f5f60
+     0.09%     0.09%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff802ae20e
+     0.09%     0.09%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff8029f882
+     0.09%     0.09%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff80fefc38
+     0.09%     0.09%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff802ac0c4
+     0.09%     0.09%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff8029e4a4
+     0.09%     0.09%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff800a1e1a
+     0.09%     0.09%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff8068f7e0
+     0.09%     0.09%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff81017296
+     0.09%     0.09%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff802a60ee
+     0.09%     0.09%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff802c57ac
+     0.09%     0.09%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff802c52fa
+     0.09%     0.09%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff80292438
+     0.09%     0.09%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff802ae93e
+     0.09%     0.09%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff80275a62
+     0.09%     0.09%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff80310cd4
+     0.09%     0.09%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff8014a8d6
+     0.09%     0.09%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff8030ef36
+     0.09%     0.09%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff802c0e50
+     0.09%     0.09%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff802c53c8
+     0.09%     0.09%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff8030eb5e
+     0.09%     0.09%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff802590f2
+     0.09%     0.09%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff80296dec
+     0.09%     0.09%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff803143da
+     0.09%     0.09%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff8030eb0a
+     0.09%     0.09%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff8029f1ee
+     0.09%     0.09%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff8100ad54
+     0.09%     0.09%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff800d52d6
+     0.09%     0.09%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff80312e02
+     0.09%     0.09%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff802c0e16
+     0.09%     0.09%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff80312644
+     0.08%     0.08%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff8030eace
+     0.08%     0.08%  tuned_perf_fp64  [unknown]                    [k] 0xffffffff80292510
+     0.04%     0.04%  tuned_perf_fp64  ld-linux-riscv64-lp64d.so.1  [.] 0x0000000000005d3a
+     0.04%     0.00%  tuned_perf_fp64  ld-linux-riscv64-lp64d.so.1  [.] 0x0000003f7f9e20bc
+     0.04%     0.00%  tuned_perf_fp64  ld-linux-riscv64-lp64d.so.1  [.] 0x0000003f7f9e2b32
+     0.04%     0.00%  tuned_perf_fp64  ld-linux-riscv64-lp64d.so.1  [.] 0x0000003f7f9e1ca4
+     0.04%     0.00%  tuned_perf_fp64  ld-linux-riscv64-lp64d.so.1  [.] 0x0000003f7f9e4142
+     0.04%     0.00%  tuned_perf_fp64  ld-linux-riscv64-lp64d.so.1  [.] 0x0000003f7f9d2518
+     0.04%     0.00%  tuned_perf_fp64  ld-linux-riscv64-lp64d.so.1  [.] _dl_catch_exception
+     0.04%     0.00%  tuned_perf_fp64  ld-linux-riscv64-lp64d.so.1  [.] 0x0000003f7f9d2166
+     0.04%     0.00%  tuned_perf_fp64  ld-linux-riscv64-lp64d.so.1  [.] 0x0000003f7f9d5bb0
+     0.04%     0.00%  tuned_perf_fp64  ld-linux-riscv64-lp64d.so.1  [.] 0x0000003f7f9d5d3a
+     0.02%     0.00%  taskset          [unknown]                    [k] 0xffffffff81018ef8
+     0.02%     0.02%  taskset          [unknown]                    [k] 0xffffffff800d5388
+     0.02%     0.00%  taskset          ld-linux-riscv64-lp64d.so.1  [.] 0x0000003f916a90bc
+     0.02%     0.00%  taskset          ld-linux-riscv64-lp64d.so.1  [.] 0x0000003f916a9b32
+     0.02%     0.00%  taskset          ld-linux-riscv64-lp64d.so.1  [.] 0x0000003f916a5192
+     0.02%     0.00%  taskset          ld-linux-riscv64-lp64d.so.1  [.] 0x0000003f916aea48
+     0.02%     0.00%  taskset          [unknown]                    [.] 0xffffffff8100c916
+     0.02%     0.00%  taskset          [unknown]                    [.] 0xffffffff80038430
+     0.02%     0.00%  taskset          [unknown]                    [.] 0xffffffff8029fae0
+     0.02%     0.00%  taskset          [unknown]                    [.] 0xffffffff8029f21a
+     0.02%     0.00%  taskset          [unknown]                    [.] 0xffffffff802ac336
+     0.00%     0.00%  taskset          [unknown]                    [k] 0xffffffff8100c81e
+     0.00%     0.00%  taskset          [unknown]                    [k] 0xffffffff8032fe64
+     0.00%     0.00%  taskset          taskset                      [.] 0x0000002adf830974
+     0.00%     0.00%  taskset          libc.so.6                    [.] __libc_start_main
+     0.00%     0.00%  taskset          libc.so.6                    [.] 0x0000003f91510f62
+     0.00%     0.00%  taskset          [unknown]                    [k] 0xffffffff803449fc
+     0.00%     0.00%  taskset          taskset                      [.] 0x0000002adf83089e
+     0.00%     0.00%  taskset          libc.so.6                    [.] 0x0000003f915901f6
+     0.00%     0.00%  taskset          libc.so.6                    [.] execve
+     0.00%     0.00%  taskset          [unknown]                    [.] 0xffffffff8032ee78
+     0.00%     0.00%  taskset          [unknown]                    [.] 0xffffffff8032e116
+     0.00%     0.00%  taskset          [unknown]                    [.] 0xffffffff8032df3a
+     0.00%     0.00%  taskset          [unknown]                    [.] 0xffffffff803398b4
+     0.00%     0.00%  taskset          [unknown]                    [.] 0xffffffff80338af0
+     0.00%     0.00%  taskset          [unknown]                    [.] 0xffffffff80337674
+     0.00%     0.00%  taskset          [unknown]                    [.] 0xffffffff803373d0
+     0.00%     0.00%  taskset          [unknown]                    [k] 0xffffffff8023b462
+     0.00%     0.00%  taskset          [unknown]                    [k] 0x0000003fb131f074
+     0.00%     0.00%  taskset          [unknown]                    [k] 0xffffffff8032ef4c
+     0.00%     0.00%  taskset          [unknown]                    [k] 0xffffffff8032d8b2
+     0.00%     0.00%  taskset          [unknown]                    [k] 0xffffffff803a501a
+     0.00%     0.00%  taskset          [unknown]                    [k] 0xffffffff8032fc3c
+     0.00%     0.00%  taskset          [unknown]                    [k] 0xffffffff8032f006
+     0.00%     0.00%  taskset          [unknown]                    [k] 0xffffffff80239110
+     0.00%     0.00%  taskset          [unknown]                    [k] 0xffffffff80229af8
+     0.00%     0.00%  taskset          [unknown]                    [k] 0xffffffff8022948c
+     0.00%     0.00%  taskset          [unknown]                    [k] 0xffffffff8022d77a
+     0.00%     0.00%  taskset          [unknown]                    [k] 0xffffffff800a459c
+     0.00%     0.00%  taskset          taskset                      [.] 0x0000002adf83086e
+     0.00%     0.00%  taskset          taskset                      [.] 0x0000002adf830ba8
+     0.00%     0.00%  taskset          libc.so.6                    [.] sched_setaffinity
+     0.00%     0.00%  taskset          [unknown]                    [.] 0xffffffff800c4d8a
+     0.00%     0.00%  taskset          [unknown]                    [.] 0xffffffff800c4c88
+     0.00%     0.00%  taskset          [unknown]                    [.] 0xffffffff800c4b02
+     0.00%     0.00%  taskset          [unknown]                    [.] 0xffffffff800ab1a6
+     0.00%     0.00%  taskset          [unknown]                    [.] 0xffffffff800ab0de
+     0.00%     0.00%  taskset          [unknown]                    [.] 0xffffffff800aacaa
+     0.00%     0.00%  taskset          [unknown]                    [.] 0xffffffff81010b10
+     0.00%     0.00%  taskset          [unknown]                    [.] 0xffffffff8100fdc6
+     0.00%     0.00%  taskset          [unknown]                    [.] 0xffffffff8100fcac
+     0.00%     0.00%  taskset          [unknown]                    [.] 0xffffffff8100f240
+     0.00%     0.00%  perf-exec        [unknown]                    [k] 0xffffffff80238d64
+     0.00%     0.00%  perf-exec        [unknown]                    [k] 0x0000003fb131f074
+     0.00%     0.00%  perf-exec        [unknown]                    [k] 0xffffffff81018ef8
+     0.00%     0.00%  perf-exec        [unknown]                    [k] 0xffffffff8100c81e
+     0.00%     0.00%  perf-exec        [unknown]                    [k] 0xffffffff8032fe64
+     0.00%     0.00%  perf-exec        [unknown]                    [k] 0xffffffff8032ef4c
+     0.00%     0.00%  perf-exec        [unknown]                    [k] 0xffffffff8032d8b2
+     0.00%     0.00%  perf-exec        [unknown]                    [k] 0xffffffff803a501a
+     0.00%     0.00%  perf-exec        [unknown]                    [k] 0xffffffff8032f7e2
+
+
+#
+# (Cannot load tips.txt file, please install perf!)
+#

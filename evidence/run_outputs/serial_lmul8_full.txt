@@ -1,0 +1,15 @@
+-------------------------------------------------------------
+STREAM (dynamic, tuned/extracted kernels)
+-------------------------------------------------------------
+This system uses 8 bytes per array element.
+Array size = 25000000 (elements), Offset = 0 (elements)
+Each kernel will be executed 20 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           10279.1     0.042448     0.038914     0.054861
+Scale:          10089.1     0.041117     0.039647     0.051154
+Add:             8147.4     0.074530     0.073643     0.079087
+Triad:           8189.1     0.074454     0.073268     0.078847
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-13 on all three arrays
+-------------------------------------------------------------

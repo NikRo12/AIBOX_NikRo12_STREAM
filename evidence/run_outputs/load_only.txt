@@ -1,0 +1,12 @@
+-------------------------------------------------------------
+STREAM (dynamic, tuned/extracted kernels)
+-------------------------------------------------------------
+This system uses 8 bytes per array element.
+Array size = 25000000 (elements), Offset = 0 (elements)
+Each kernel will be executed 20 times.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+LoadOnly:         6549.2     0.033797     0.030538     0.042861
+-------------------------------------------------------------
+Validation skipped (diagnostic load-only kernel)
+-------------------------------------------------------------

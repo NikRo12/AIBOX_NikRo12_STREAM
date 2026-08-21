@@ -1,0 +1,26 @@
+
+/home/student/stream_bench/perf_evidence/binaries/tuned_lmul2_fp64:     file format elf64-littleriscv
+
+
+Disassembly of section .plt:
+
+Disassembly of section .text:
+
+000000000000167e <kernel_scale>:
+    167e:	1141                	addi	sp,sp,-16
+    1680:	e022                	sd	s0,0(sp)
+    1682:	e406                	sd	ra,8(sp)
+    1684:	0800                	addi	s0,sp,16
+    1686:	02c05063          	blez	a2,16a6 <kernel_scale+0x28>
+    168a:	0d9677d7          	vsetvli	a5,a2,e64,m2,ta,ma
+    168e:	0205f107          	vle64.v	v2,(a1)
+    1692:	8e1d                	sub	a2,a2,a5
+    1694:	20b7e5b3          	sh3add	a1,a5,a1
+    1698:	92255157          	vfmul.vf	v2,v2,fa0
+    169c:	02057127          	vse64.v	v2,(a0)
+    16a0:	20a7e533          	sh3add	a0,a5,a0
+    16a4:	f27d                	bnez	a2,168a <kernel_scale+0xc>
+    16a6:	60a2                	ld	ra,8(sp)
+    16a8:	6402                	ld	s0,0(sp)
+    16aa:	0141                	addi	sp,sp,16
+    16ac:	8082                	ret
