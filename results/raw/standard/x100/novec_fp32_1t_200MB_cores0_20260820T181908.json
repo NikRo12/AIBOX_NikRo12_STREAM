@@ -1,0 +1,73 @@
+{
+  "run_id": "novec_fp32_1t_200MB_cores0_20260820T181908",
+  "machine": "aibox_k3",
+  "benchmark": "stream_dynamic",
+  "experiment_type": "standard",
+  "variant": "novec",
+  "data_type": "fp32",
+  "cpu_set": "0",
+  "cluster": "x100",
+  "threads": 1,
+  "repeats": 5,
+  "warmup_runs": 1,
+  "array_size_elements": 52428800,
+  "working_set_mb_per_array": 200,
+  "timestamp": "20260820T181908",
+  "any_failed_validation": false,
+  "compiler": "gcc (Bianbu 15.2.0-16ubuntu1bb2) 15.2.0",
+  "compiler_flags": "-O3 -march=rv64gcv_zvfh_zba_zbb_zbc_zbs -mabi=lp64d -fno-tree-vectorize -DSTREAM_TYPE=float",
+  "memory_frequency_hz": null,
+  "aggregate": {
+    "Copy": {
+      "median_mb_s": 13027.0,
+      "min_mb_s": 12756.0,
+      "max_mb_s": 13090.8,
+      "stdev_mb_s": 134.36215240907654,
+      "n": 5,
+      "theoretical_peak_mb_s": 51200.0,
+      "efficiency_pct": 25.443359375000004
+    },
+    "Scale": {
+      "median_mb_s": 5828.7,
+      "min_mb_s": 5828.3,
+      "max_mb_s": 5829.9,
+      "stdev_mb_s": 0.6870225614925585,
+      "n": 5,
+      "theoretical_peak_mb_s": 51200.0,
+      "efficiency_pct": 11.3841796875
+    },
+    "Add": {
+      "median_mb_s": 8224.9,
+      "min_mb_s": 8172.5,
+      "max_mb_s": 8496.0,
+      "stdev_mb_s": 155.5742684379391,
+      "n": 5,
+      "theoretical_peak_mb_s": 51200.0,
+      "efficiency_pct": 16.0642578125
+    },
+    "Triad": {
+      "median_mb_s": 8347.2,
+      "min_mb_s": 8150.0,
+      "max_mb_s": 8386.9,
+      "stdev_mb_s": 97.47714091006166,
+      "n": 5,
+      "theoretical_peak_mb_s": 51200.0,
+      "efficiency_pct": 16.303125
+    }
+  },
+  "cpu_freq_before_hz": {
+    "0": 2200000
+  },
+  "cpu_freq_after_hz": {
+    "0": 2200000
+  },
+  "temp_before_c": {
+    "thermal_top": 55.0,
+    "thermal_vpu": 52.0,
+    "thermal_gpu": 56.0,
+    "thermal_cluster0": 57.0,
+    "thermal_cluster1": 54.0,
+    "thermal_cluster2": 55.0,
+    "thermal_cluster3": 53.0
+  }
+}
