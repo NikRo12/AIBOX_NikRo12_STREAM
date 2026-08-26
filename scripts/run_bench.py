@@ -295,10 +295,16 @@ def cmd_standard(args):
     hi = [result["aggregate"][fn]["max_mb_s"] - result["aggregate"][fn]["median_mb_s"] for fn in names]
     ax.bar(names, medians, color=[COLORS[f] for f in names], yerr=[lo, hi], capsize=5)
     ax.set_ylabel("Bandwidth, MB/s (median, усы = min..max)")
+
+    # --- теоретический предел (добавлено) ---
+    ax.axhline(THEORETICAL_PEAK_MB_S, color="black", linestyle="--", alpha=0.6,
+               label=f"Теор. пик памяти ({THEORETICAL_PEAK_MB_S / 1000:.1f} GB/s)")
+
     ax.set_title(f"{args.variant} / {args.dtype} / {args.threads}t / cores {args.cpuset} "
                  f"({cluster})\nWS={args.ws_mb}MB per array, n={args.repeats}")
     ax.set_ylim(0, args.y_max_mb_s)
     ax.grid(True, axis="y", alpha=0.3)
+    ax.legend()
     fig.tight_layout()
     plot_path = plot_dir / f"{run_id}.png"
     fig.savefig(plot_path, dpi=150)
@@ -402,6 +408,11 @@ def cmd_cache_sweep(args):
                  f"(AIBOX-K3, {cluster}, cores {args.cpuset}, {len(points)} точек)")
     ax.set_ylim(0, args.y_max_mb_s)
     ax.grid(True, which="both", alpha=0.3)
+
+    # --- теоретический предел (добавлено) ---
+    ax.axhline(THEORETICAL_PEAK_MB_S, color="black", linestyle="--", alpha=0.6,
+               label=f"Теор. пик памяти ({THEORETICAL_PEAK_MB_S / 1000:.1f} GB/s)")
+
     ax.legend()
 
     if cluster in CACHE_BOUNDARIES_KB:

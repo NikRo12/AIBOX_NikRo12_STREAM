@@ -1,0 +1,273 @@
+{
+  "run_id": "scaling_omp_fp64_x100_200MB_20260824T172656",
+  "machine": "aibox_k3",
+  "benchmark": "stream_dynamic",
+  "experiment_type": "scaling",
+  "variant": "omp",
+  "data_type": "fp64",
+  "target_cluster": "x100",
+  "working_set_mb_per_array": 200,
+  "array_size_elements": 26214400,
+  "repeats": 5,
+  "warmup_runs": 1,
+  "timestamp": "20260824T172656",
+  "compiler": "gcc (Bianbu 15.2.0-16ubuntu1bb2) 15.2.0",
+  "compiler_flags": "-O3 -march=rv64gcv_zvfh_zba_zbb_zbc_zbs -mabi=lp64d -fopenmp -DSTREAM_TYPE=double",
+  "memory_frequency_hz": null,
+  "points": [
+    {
+      "threads": 1,
+      "cpuset": "0",
+      "cores": [
+        0
+      ],
+      "aggregate": {
+        "Copy": {
+          "median_mb_s": 12520.2,
+          "min_mb_s": 12443.5,
+          "max_mb_s": 12773.5,
+          "stdev_mb_s": 132.13897986589714,
+          "n": 5,
+          "theoretical_peak_mb_s": 51200.0,
+          "efficiency_pct": 24.453515625
+        },
+        "Scale": {
+          "median_mb_s": 11496.6,
+          "min_mb_s": 11461.8,
+          "max_mb_s": 11503.5,
+          "stdev_mb_s": 16.89106272559571,
+          "n": 5,
+          "theoretical_peak_mb_s": 51200.0,
+          "efficiency_pct": 22.454296875
+        },
+        "Add": {
+          "median_mb_s": 10097.3,
+          "min_mb_s": 10056.0,
+          "max_mb_s": 10352.2,
+          "stdev_mb_s": 119.9325518781289,
+          "n": 5,
+          "theoretical_peak_mb_s": 51200.0,
+          "efficiency_pct": 19.7212890625
+        },
+        "Triad": {
+          "median_mb_s": 10165.1,
+          "min_mb_s": 10101.9,
+          "max_mb_s": 10422.5,
+          "stdev_mb_s": 132.44269704290986,
+          "n": 5,
+          "theoretical_peak_mb_s": 51200.0,
+          "efficiency_pct": 19.8537109375
+        }
+      },
+      "validates_all": true,
+      "cpu_freq_before_hz": {
+        "0": 2200000
+      },
+      "temp_before_c": {
+        "thermal_top": 54.0,
+        "thermal_vpu": 52.0,
+        "thermal_gpu": 55.0,
+        "thermal_cluster0": 56.0,
+        "thermal_cluster1": 54.0,
+        "thermal_cluster2": 55.0,
+        "thermal_cluster3": 52.0
+      }
+    },
+    {
+      "threads": 2,
+      "cpuset": "0-1",
+      "cores": [
+        0,
+        1
+      ],
+      "aggregate": {
+        "Copy": {
+          "median_mb_s": 13090.5,
+          "min_mb_s": 13071.2,
+          "max_mb_s": 13308.9,
+          "stdev_mb_s": 100.2903435032504,
+          "n": 5,
+          "theoretical_peak_mb_s": 51200.0,
+          "efficiency_pct": 25.5673828125
+        },
+        "Scale": {
+          "median_mb_s": 13335.1,
+          "min_mb_s": 13271.4,
+          "max_mb_s": 13401.2,
+          "stdev_mb_s": 50.08345036037371,
+          "n": 5,
+          "theoretical_peak_mb_s": 51200.0,
+          "efficiency_pct": 26.0451171875
+        },
+        "Add": {
+          "median_mb_s": 12159.5,
+          "min_mb_s": 12137.0,
+          "max_mb_s": 12197.5,
+          "stdev_mb_s": 25.59263565950191,
+          "n": 5,
+          "theoretical_peak_mb_s": 51200.0,
+          "efficiency_pct": 23.7490234375
+        },
+        "Triad": {
+          "median_mb_s": 12179.3,
+          "min_mb_s": 12153.7,
+          "max_mb_s": 12233.3,
+          "stdev_mb_s": 33.649190183420096,
+          "n": 5,
+          "theoretical_peak_mb_s": 51200.0,
+          "efficiency_pct": 23.7876953125
+        }
+      },
+      "validates_all": true,
+      "cpu_freq_before_hz": {
+        "0": 2200000,
+        "1": 2200000
+      },
+      "temp_before_c": {
+        "thermal_top": 55.0,
+        "thermal_vpu": 52.0,
+        "thermal_gpu": 56.0,
+        "thermal_cluster0": 58.0,
+        "thermal_cluster1": 54.0,
+        "thermal_cluster2": 55.0,
+        "thermal_cluster3": 53.0
+      }
+    },
+    {
+      "threads": 4,
+      "cpuset": "0-3",
+      "cores": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "aggregate": {
+        "Copy": {
+          "median_mb_s": 14347.9,
+          "min_mb_s": 14332.7,
+          "max_mb_s": 14369.5,
+          "stdev_mb_s": 14.805404418657348,
+          "n": 5,
+          "theoretical_peak_mb_s": 51200.0,
+          "efficiency_pct": 28.023242187499996
+        },
+        "Scale": {
+          "median_mb_s": 14361.7,
+          "min_mb_s": 14337.0,
+          "max_mb_s": 14371.4,
+          "stdev_mb_s": 14.574189514343605,
+          "n": 5,
+          "theoretical_peak_mb_s": 51200.0,
+          "efficiency_pct": 28.050195312500005
+        },
+        "Add": {
+          "median_mb_s": 13708.4,
+          "min_mb_s": 13570.3,
+          "max_mb_s": 13761.5,
+          "stdev_mb_s": 74.83443725986092,
+          "n": 5,
+          "theoretical_peak_mb_s": 51200.0,
+          "efficiency_pct": 26.77421875
+        },
+        "Triad": {
+          "median_mb_s": 13724.5,
+          "min_mb_s": 13628.5,
+          "max_mb_s": 13854.2,
+          "stdev_mb_s": 83.72868684029416,
+          "n": 5,
+          "theoretical_peak_mb_s": 51200.0,
+          "efficiency_pct": 26.8056640625
+        }
+      },
+      "validates_all": true,
+      "cpu_freq_before_hz": {
+        "0": 2200000,
+        "1": 2200000,
+        "2": 2200000,
+        "3": 2200000
+      },
+      "temp_before_c": {
+        "thermal_top": 55.0,
+        "thermal_vpu": 53.0,
+        "thermal_gpu": 57.0,
+        "thermal_cluster0": 58.0,
+        "thermal_cluster1": 55.0,
+        "thermal_cluster2": 56.0,
+        "thermal_cluster3": 54.0
+      }
+    },
+    {
+      "threads": 8,
+      "cpuset": "0-7",
+      "cores": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "aggregate": {
+        "Copy": {
+          "median_mb_s": 16869.0,
+          "min_mb_s": 16798.1,
+          "max_mb_s": 17125.8,
+          "stdev_mb_s": 139.7210614044997,
+          "n": 5,
+          "theoretical_peak_mb_s": 51200.0,
+          "efficiency_pct": 32.947265625
+        },
+        "Scale": {
+          "median_mb_s": 17056.3,
+          "min_mb_s": 16575.8,
+          "max_mb_s": 17168.8,
+          "stdev_mb_s": 301.0453487433416,
+          "n": 5,
+          "theoretical_peak_mb_s": 51200.0,
+          "efficiency_pct": 33.3130859375
+        },
+        "Add": {
+          "median_mb_s": 16719.3,
+          "min_mb_s": 16480.1,
+          "max_mb_s": 17239.7,
+          "stdev_mb_s": 294.88030283489644,
+          "n": 5,
+          "theoretical_peak_mb_s": 51200.0,
+          "efficiency_pct": 32.6548828125
+        },
+        "Triad": {
+          "median_mb_s": 16773.2,
+          "min_mb_s": 16593.1,
+          "max_mb_s": 17197.8,
+          "stdev_mb_s": 229.10483844737968,
+          "n": 5,
+          "theoretical_peak_mb_s": 51200.0,
+          "efficiency_pct": 32.76015625
+        }
+      },
+      "validates_all": true,
+      "cpu_freq_before_hz": {
+        "0": 2200000,
+        "1": 2200000,
+        "2": 2200000,
+        "3": 2200000,
+        "4": 2200000,
+        "5": 2200000,
+        "6": 2200000,
+        "7": 2200000
+      },
+      "temp_before_c": {
+        "thermal_top": 56.0,
+        "thermal_vpu": 54.0,
+        "thermal_gpu": 57.0,
+        "thermal_cluster0": 59.0,
+        "thermal_cluster1": 55.0,
+        "thermal_cluster2": 57.0,
+        "thermal_cluster3": 54.0
+      }
+    }
+  ]
+}
