@@ -112,6 +112,14 @@ def run_once(binary, cpuset_str, threads, array_elements, ntimes):
     env["STREAM_NTIMES"] = str(ntimes)
     if threads > 1:
         env["OMP_NUM_THREADS"] = str(threads)
+        # Привязка OpenMP к ядрам (как в bash-скрипте)
+        env["OMP_PROC_BIND"] = "true"
+        env["OMP_PLACES"] = "cores"
+        # Дополнительно для лучшей производительности:
+        env["OMP_SCHEDULE"] = "static"  # статическое распределение итераций
+    else:
+        env["OMP_NUM_THREADS"] = "1"
+        env["OMP_PROG_BIND"] = "false"
     proc = subprocess.run(cmd, capture_output=True, text=True, env=env)
     return proc.stdout, proc.stderr
 

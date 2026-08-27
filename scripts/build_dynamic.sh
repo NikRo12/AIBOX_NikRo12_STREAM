@@ -17,7 +17,7 @@ MARCH="rv64gcv_zvfh_zba_zbb_zbc_zbs"
 ABI="lp64d"
 
 declare -A VARIANT_FLAGS=(
-    [novec]="-fno-tree-vectorize"
+    [novec]="-fno-tree-vectorize -fno-tree-slp-vectorize"
     [opt_serial]=""
     [omp]="-fopenmp"
 )
