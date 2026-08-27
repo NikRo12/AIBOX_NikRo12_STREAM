@@ -41,6 +41,11 @@ DTYPE_BYTES = {"fp64": 8, "fp32": 4, "fp16": 2}
 THEORETICAL_PEAK_MB_S = 51200.0
 MEMORY_FREQUENCY_HZ = None
 
+# Константы из bash-скрипта для расчета NTIMES
+TARGET_DATA_PER_RUN = 1024 * 1024 * 1024  # 1 GB
+NTIMES_MIN = 5
+NTIMES_MAX = 50000
+
 
 def parse_cpuset(cpuset_str):
     cores = []
@@ -134,6 +139,53 @@ def format_label(ws_bytes):
     if ws_bytes >= 1024 ** 2:
         return f"{ws_bytes / 1024**2:.2f}M"
     return f"{ws_bytes / 1024:.0f}K"
+
+
+def calculate_ntimes(working_set_bytes):
+    """
+    Расчет NTIMES по той же логике, что и в bash-скрипте:
+    ntimes = int(target_bytes / working_set_bytes)
+    с ограничениями [5, 50000]
+    """
+    ntimes = int(TARGET_DATA_PER_RUN / working_set_bytes)
+    if ntimes < NTIMES_MIN:
+        ntimes = NTIMES_MIN
+    if ntimes > NTIMES_MAX:
+        ntimes = NTIMES_MAX
+    return ntimes
+
+
+def generate_ws_list(ws_min_kb, ws_max_kb, ppo):
+    """
+    Генерация точек измерений по той же логике, что и в bash-скрипте:
+    n = int(log2(ws_max / ws_min) * ppo) + 1
+    kb = int(ws_min * (2 ^ (i / ppo)) + 0.5)  # с математическим округлением
+    """
+    if ws_min_kb <= 0 or ws_max_kb <= ws_min_kb or ppo <= 0:
+        return []
+    
+    # Вычисляем количество точек
+    n = int(math.log2(ws_max_kb / ws_min_kb) * ppo) + 1
+    
+    ws_list = []
+    seen = set()
+    
+    for i in range(n + 1):
+        # Вычисляем размер в КБ с математическим округлением (как в Python)
+        kb = int(ws_min_kb * (2 ** (i / ppo)) + 0.5)
+        
+        # Проверяем границы
+        if kb > ws_max_kb:
+            continue
+        if kb < ws_min_kb:
+            continue
+        
+        # Защита от дубликатов
+        if kb not in seen:
+            seen.add(kb)
+            ws_list.append(kb)
+    
+    return sorted(ws_list)
 
 
 def measure_point(binary, cpuset, threads, cores, array_elements, ntimes, repeats, warmup):
@@ -255,9 +307,8 @@ def cmd_cache_sweep(args):
     binary = get_binary(args.variant, args.dtype)
     bpe = DTYPE_BYTES[args.dtype]
 
-    n = int(math.log2(args.ws_max_kb / args.ws_min_kb) * args.ppo) + 1
-    ws_list_kb = sorted(set(int(round(args.ws_min_kb * (2 ** (i / args.ppo)))) for i in range(n + 1)))
-    ws_list_kb = [kb for kb in ws_list_kb if args.ws_min_kb <= kb <= args.ws_max_kb]
+    # Генерируем точки измерений по той же логике, что и в bash-скрипте
+    ws_list_kb = generate_ws_list(args.ws_min_kb, args.ws_max_kb, args.ppo)
 
     print(f"=== cache_sweep: {args.variant}/{args.dtype} cores={args.cpuset} ({cluster}) "
           f"— {len(ws_list_kb)} точек, {args.ws_min_kb}KB..{args.ws_max_kb}KB ===")
@@ -279,15 +330,16 @@ def cmd_cache_sweep(args):
     for idx, kb in enumerate(ws_list_kb, 1):
         ws_bytes = kb * 1024
         array_elements = max(1, ws_bytes // (3 * bpe))
-        ntimes_point = int(args.ntimes * args.ntimes_ref_kb / kb)
-        ntimes_point = max(args.ntimes_min, min(ntimes_point, args.ntimes_max))
+        
+        # Расчет NTIMES по той же логике, что и в bash-скрипте
+        ntimes_point = calculate_ntimes(ws_bytes)
 
         result = measure_point(binary, args.cpuset, args.threads, cores,
                                 array_elements, ntimes_point, args.repeats, args.warmup)
         all_logs.extend(result["logs"])
 
         triad = result["aggregate"]["Triad"]["median_mb_s"] if result["aggregate"]["Triad"] else None
-        print(f"  [{idx}/{len(ws_list_kb)}] WS={kb:>8d}KB ntimes={ntimes_point:>4d} Triad={triad} MB/s")
+        print(f"  [{idx}/{len(ws_list_kb)}] WS={kb:>8d}KB ntimes={ntimes_point:>5d} Triad={triad} MB/s")
 
         record["points"].append({
             "x": kb, "threads": args.threads, "cpuset": args.cpuset,
@@ -307,13 +359,9 @@ def main():
     ap.add_argument("--threads", type=int, default=1)
     ap.add_argument("--repeats", type=int, default=5)
     ap.add_argument("--warmup", type=int, default=1)
-    ap.add_argument("--ntimes", type=int, default=20)
-    ap.add_argument("--ws-min-kb", type=int, default=8)
+    ap.add_argument("--ws-min-kb", type=int, default=64)
     ap.add_argument("--ws-max-kb", type=int, default=2 * 1024 * 1024)
     ap.add_argument("--ppo", type=int, default=6)
-    ap.add_argument("--ntimes-ref-kb", type=int, default=256)
-    ap.add_argument("--ntimes-min", type=int, default=5)
-    ap.add_argument("--ntimes-max", type=int, default=300)
     args = ap.parse_args()
     cmd_cache_sweep(args)
 
