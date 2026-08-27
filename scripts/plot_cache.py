@@ -8,7 +8,8 @@ import matplotlib.ticker as ticker
 
 # === НАСТРОЙКИ ===
 # Теоретическая максимальная пропускная способность памяти (в GB/s)
-THEORETICAL_MAX_BW_GBPS = 33.8
+THEORETICAL_MAX_BW_GBPS = 33.8      # LPDDR4X-4266 (или ваша текущая)
+THEORETICAL_MAX_BW_GBPS_2 = 51.2    # LPDDR5-6400 (дополнительная линия)
 # =================
 
 # Проверяем аргумент
@@ -143,18 +144,32 @@ for x, name in caches:
     )
 
 # ==========================================
-# ЛИНИЯ МАКСИМАЛЬНОЙ ТЕОРЕТИЧЕСКОЙ СКОРОСТИ
+# ЛИНИИ МАКСИМАЛЬНОЙ ТЕОРЕТИЧЕСКОЙ СКОРОСТИ
 # ==========================================
 # Переводим GB/s в MB/s (для RAM обычно используют метрические множители 1000)
-max_bw_mbps = THEORETICAL_MAX_BW_GBPS * 1000 
+max_bw_mbps = THEORETICAL_MAX_BW_GBPS * 1000
+max_bw_mbps_2 = THEORETICAL_MAX_BW_GBPS_2 * 1000
 
+# Первая линия (LPDDR4X-4266)
 ax.axhline(y=max_bw_mbps, color="red", linestyle="-.", linewidth=2, alpha=0.7)
-# Подпись над линией (привязываем к правому краю графика)
 ax.text(
     x=ax.get_xlim()[1], 
-    y=max_bw_mbps + (ax.get_ylim()[1] * 0.02), # Чуть-чуть выше линии
-    s=f"Theoretical RAM Max: {THEORETICAL_MAX_BW_GBPS} GB/s", 
+    y=max_bw_mbps + (ax.get_ylim()[1] * 0.02),
+    s=f"Theoretical RAM Max: {THEORETICAL_MAX_BW_GBPS} GB/s (LPDDR4X)", 
     color="red", 
+    va="bottom", 
+    ha="right", 
+    fontsize=11, 
+    fontweight="bold"
+)
+
+# Вторая линия (LPDDR5-6400)
+ax.axhline(y=max_bw_mbps_2, color="blue", linestyle="-.", linewidth=2, alpha=0.7)
+ax.text(
+    x=ax.get_xlim()[1], 
+    y=max_bw_mbps_2 + (ax.get_ylim()[1] * 0.02),
+    s=f"Theoretical RAM Max: {THEORETICAL_MAX_BW_GBPS_2} GB/s (LPDDR5)", 
+    color="blue", 
     va="bottom", 
     ha="right", 
     fontsize=11, 
